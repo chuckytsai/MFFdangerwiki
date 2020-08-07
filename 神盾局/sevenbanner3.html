@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./sevenbanner3.css">
+    <!--title -->
+    <title>神 盾 局</title>
+    <link rel="icon" href="../img/logo121.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ===========導覽列========== -->
+    <div class="navbar-toggler">
+        <a class="newsText0"></a>
+        <!-- ==========改版資訊 & 遊戲內容========== -->
+        <div class="menu">
+            <!-- =====改版資訊 ======-->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown">
+                    <h5 class="navText1">改 版 資 訊</h5>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.最新改版消息 -->
+                    <li role="presentation">
+                        <a href="../news-banner1.html">
+                            <h3 class="navText2">最 新 改 版 消 息</h3>
+                        </a>
+                    </li>
+                    <!-- 2.最新速報 -->
+                    <li role="presentation">
+                        <a href="../news-banner2.html">
+                            <h3 class="navText2">最 新 速 報</h3>
+                        </a>
+                    </li>
+                    <!-- 3.活動 -->
+                    <li role="presentation">
+                        <a href="../news-banner3.html">
+                            <h3 class="navText2">活 動</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =====遊戲內容 ===== -->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown">
+                    <h1 class="navText1">遊 戲 內 容</h1>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.各英雄資料庫 -->
+                    <li role="presentation">
+                        <a href="../各英雄資料庫/sevenbanner1.html ">
+                            <h3 class="navText2">角 色</h3>
+                        </a>
+                    </li>
+                    <!-- 2.挑戰 -->
+                    <li role="presentation">
+                        <a href="../挑戰/sevenbanner2.html">
+                            <h3 class="navText2">挑 戰</h3>
+                        </a>
+                    </li>
+                    <!-- 3.神盾局 -->
+                    <li role="presentation">
+                        <a href="../神盾局/sevenbanner3.html ">
+                            <h3 class="navText2">神 盾 局</h3>
+                        </a>
+                    </li>
+                    <!-- 4.任務 -->
+                    <li role="presentation">
+                        <a href="../任務/sevenbanner4.html ">
+                            <h3 class="navText2">任 務</h3>
+                        </a>
+                    </li>
+                    <!-- 5.PVP模式-->
+                    <li role="presentation">
+                        <a href="../PVP模式/sevenbanner5.html">
+                            <h3 class="navText2">PVP 模 式</h3>
+                        </a>
+                    </li>
+                    <!-- 6.PVP模式-->
+                    <li role="presentation">
+                        <a href="../道具/sevenbanner6.html">
+                            <h3 class="navText2">道 具</h3>
+                        </a>
+                    </li>
+                    <!-- 7.組隊模式 -->
+                    <li role="presentation">
+                        <a href="../組隊模式/sevenbanner7.html">
+                            <h3 class="navText2">組 隊 模 式</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+        <div class="menu-trigger">
+            <button onclick="show();">改版資訊<br> 遊戲內容</button>
+            <div class="menu">
+                <!-- =====改版資訊===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown">
+                        <h1 class="navText1">改 版 資 訊</h1>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.最新改版消息 -->
+                        <li role="presentation">
+                            <a href="../news-banner1.html">
+                                <h3 class="navText2">最 新 改 版 消 息</h3>
+                            </a>
+                        </li>
+                        <!-- 2.最新速報 -->
+                        <li role="presentation">
+                            <a href="../news-banner2.html">
+                                <h3 class="navText2">最 新 速 報</h3>
+                            </a>
+                        </li>
+                        <!-- 3.活動 -->
+                        <li role="presentation">
+                            <a href="../news-banner3.html">
+                                <h3 class="navText2">活 動</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =====遊戲內容 ===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown">
+                        <h1 class="navText1">遊 戲 內 容</h1>
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.各英雄資料庫 -->
+                        <li role="presentation">
+                            <a href="../各英雄資料庫/sevenbanner1.html ">
+                                <h3 class="navText2">角 色</h3>
+                            </a>
+                        </li>
+                        <!-- 2.挑戰 -->
+                        <li role="presentation">
+                            <a href="../挑戰/sevenbanner2.html">
+                                <h3 class="navText2">挑 戰</h3>
+                            </a>
+                        </li>
+                        <!-- 3.神盾局 -->
+                        <li role="presentation">
+                            <a href="../神盾局/sevenbanner3.html ">
+                                <h3 class="navText2">神 盾 局</h3>
+                            </a>
+                        </li>
+                        <!-- 4.任務 -->
+                        <li role="presentation">
+                            <a href="../任務/sevenbanner4.html ">
+                                <h3 class="navText2">任 務</h3>
+                            </a>
+                        </li>
+                        <!-- 5.PVP模式-->
+                        <li role="presentation">
+                            <a href="../PVP模式/sevenbanner5.html">
+                                <h3 class="navText2">PVP 模 式</h3>
+                            </a>
+                        </li>
+                        <!-- 6.PVP模式-->
+                        <li role="presentation">
+                            <a href="../道具/sevenbanner6.html">
+                                <h3 class="navText2">道 具</h3>
+                            </a>
+                        </li>
+                        <!-- 7.組隊模式 -->
+                        <li role="presentation">
+                            <a href="../組隊模式/sevenbanner7.html">
+                                <h3 class="navText2">組 隊 模 式</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
+    <a href="../index.html"><img class="index-bamnner" src="../img/首頁LOGO.jpg" height="68%" width="100%"></a>
+    <!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+
+
+    <!-- 選擇英雄類別的JS設定 -->
+    <script>
+        function change(index) {
+            let achievement = document.getElementById("achievement");
+            let store = document.getElementById("store");
+            let generate = document.getElementById("generate");
+
+
+
+            if (index == 0) {
+                achievement.style.display = "block";
+                store.style.display = "none";
+                generate.style.display = "none";
+
+
+            } else if (index == 1) {
+                achievement.style.display = "none";
+                store.style.display = "block";
+                generate.style.display = "none";
+
+
+            } else if (index == 2) {
+                achievement.style.display = "none";
+                store.style.display = "none";
+                generate.style.display = "block";
+            } else {
+                achievement.style.display = "none";
+                store.style.display = "none";
+                generate.style.display = "none";
+            }
+
+        }
+    </script>
+
+    <!-- ====================神盾局==================== -->
+    <br>
+    <br>
+
+    <!-- =====選擇類別的Button===== -->
+    <div class="buttonDiv">
+        <button class="typeButton" onclick="change(0)">成 就 問 題</button>
+        <button class="typeButton" onclick="change(1)">神 盾 局 商 店</button>
+        <button class="typeButton" onclick="change(2)">神 盾 局 生 成</button>
+    </div>
+
+    <br>
+    <br>
+
+    <!--==========================1.手機模式===========================  -->
+    <div class="buttonDivs">
+        <div>
+            <button id="heroDrop" data-toggle="dropdown">神盾局與成就
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+
+                <li style="overflow-x:hidden; overflow-y: auto; height: 80px;">
+                    <div class="typeButtons" onclick="change(0)">成 就 問 題</div>
+                    <div class="typeButtons" onclick="change(1)">神 盾 局 商 店</div>
+                    <div class="typeButtons" onclick="change(2)">神 盾 局 生 成</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- 成就問題 -->
+    <span id="achievement" class="achievement">
+        <h1 class="newsTip1">成 就 問 題</h1>
+        哪一位擁有不死身的加拿大角色被稱為出一張嘴的傭兵? 死侍
+        </br>
+        東尼史塔克在空軍的好友是? 詹姆斯羅德斯
+        </br>
+        連接世界樹與九大界的通道是? 彩虹橋
+        </br>
+        減少所受物理傷害的技能效果是? 彈性化
+        </br>
+        奧丁的座騎的名字是? 斯雷普尼爾
+        </br>
+        下列哪一項不是蜘蛛人的能力? 與蜘蛛溝通
+        </br>
+        和索爾沒有關聯的武器是? 安加盧姆斯之斧
+        </br>
+        以故事進行,逐一探索特定角色旅程的遊戲模式是? 史詩任務
+        </br>
+        黑寡婦是在甚麼機關受訓的? 紅房子
+        </br>
+        下列哪一位不是暗黑號令的成員? 超巨星
+        </br>
+        擁有超人體能又是瓦干達國王的是? 黑豹
+        </br>
+        以合作方式即時對抗強大頭目的遊戲模式是? 巨大頭目討伐
+        </br>
+        每日在特定時間開啟,讓所有特工以相同條件的英雄戰鬥的遊戲模式是? 世界活動
+        </br>
+        可解除敵人攻擊鎖定及防止受到傷害的技能效果是? 無視鎖定
+        </br>
+        下列角色當中誰沒有以美國隊長的名義活動過? 帝查拉
+        </br>
+        以章節進行,根據順序進行可獲得獎勵的模式是? 英雄任務
+        </br>
+        下列哪一個不是無限寶石? 永恆寶石
+        </br>
+        讓班納變化為浩克的物質是? 伽瑪輻射
+        </br>
+        下列哪一項不是蟻人的能力? 操作溫度
+        </br>
+        金鋼狼骨骼中的金屬是? 亞德曼金屬使敵人攻擊力減少的技能效果是? 斷裂
+        </br>
+        下列哪一個暱稱不是指鷹眼? 魔眼
+        </br>
+        金鋼狼的快速回復能力是? 治癒因子
+        </br>
+        移除敵人所有增益並降低防禦力的技能效果是? 無力化
+        </br>
+        鋼鐵人的本名是? 東尼史塔克
+        </br>
+        美國隊長的盾牌是以什麼打造的? 汎合金
+        </br>
+        洛基的出生地是? 約頓海姆
+        </br>
+        角色升階T-3不需要的材料是? 類型強化劑
+        </br></br>
+    </span>
+
+    <!-- 神盾局商店 -->
+    <button id="store" class="store">
+        <h1 class="newsTip1">神 盾 局 商 店</h1>
+        <<div class="heroIcon" ID="equipmentbox">
+            <h1 class="herom-text" style="font-family:fantasy;">裝備升級箱</h1>
+            </div>
+
+            <div class="heroIcon" ID="dimensionalFragments">
+                <h1 class="herom-text" style="font-family:fantasy;">次元破片</h1>
+            </div>
+    </button>
+
+    <!-- 神盾局生成 -->
+    <button id="generate" class="generate">
+
+        <h1 class="newsTip2">神 盾 局 生 成</h1>
+        <div class="heroIcon" ID="skinUp1">
+            <h1 class="herom-text" style="font-family:fantasy;">一級制服經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="skinUp2">
+            <h1 class="herom-text" style="font-family:fantasy;">二級制服經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="skinUp3">
+            <h1 class="herom-text" style="font-family:fantasy;">三級制服經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="skinUp4">
+            <h1 class="herom-text" style="font-family:fantasy;">終級制服經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="up1">
+            <h1 class="herom-text" style="font-family:fantasy;">一級經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="up2">
+            <h1 class="herom-text" style="font-family:fantasy;">二級經驗值晶片</h1>
+        </div>
+
+        <div class="heroIcon" ID="up3">
+            <h1 class="herom-text" style="font-family:fantasy;">三級經驗值晶片</h1>
+        </div>
+    </button>
+
+
+    </br>
+    </br>
+    </br>
+    </section>
+
+    <!-- 頁尾 -->
+    <section>
+        <div>
+        </div>
+    </section>
+
+    <!-- 兩邊預設Banner -->
+    <!-- <h6>預設banner左邊</h6> -->
+    <!-- <h6>預設banner右邊</h6> -->
+</body>
+
+</html>

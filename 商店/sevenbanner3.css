@@ -1,0 +1,277 @@
+*{
+box-sizing: border-box;
+}
+.budy{
+margin: 0px;
+}
+/*=====Links文章去除連結底線=====*/
+a,a:link,a:visited{color:rgba(243, 230, 231, 0);text-decoration: none}
+a:hover{color:none;text-decoration: none;}
+
+/* 按鈕去掉藍色邊框 */
+input,button,a {
+outline:0 none !important;
+}
+
+
+/* ==========網頁背景圖案========== */
+html {
+height: 100%;
+}
+
+body {
+background-image: url(../img/網頁背景圖.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;  
+}
+
+/* ===========導覽列=========== */
+/* 首頁標題大字 */
+.newsText0{
+width:70%;
+font-size:45px;  
+}
+
+/* =====導覽列格式===== */
+.navbar-toggler{
+width: 100%;
+height: 65px;
+background-color:rgba(139, 131, 123, 0.6);
+display: flex;
+z-index: 999;
+position:fixed; /*固定位置定位*/
+top:0%; /*距離上方的位置*/
+right:0%; /*距離左方的位置*/
+margin-top:0; /*上方邊界*/
+margin-right:0; /*左方邊界*/
+}
+
+.menu-trigger{
+display: none; /*原是隱藏 */
+}
+.title{
+width:30% ;
+}
+.menu{margin-right: 10%;
+height:27px;
+width:28%;
+display: flex;
+justify-content:flex-end;
+} 
+
+/* 改版資訊&遊戲內容按鈕格式 */
+#dropdownMenu1{background-color: rgb(222, 222, 233) ;
+border: double 2px rgb(246, 134, 134);
+border-radius:10% ;
+margin:3px;
+}
+
+/* 螢幕尺寸低於500px的設定 */
+@media(max-width:500px){
+#dropdownMenu1{background-color: rgb(222, 222, 233) ;
+border: double 2px rgb(246, 134, 134);
+border-radius:10% ;
+margin:3px;
+width: 60px;
+}
+}
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+.navText1{
+color: rgb(149, 62, 22);
+height:40px;
+font-size:20px;
+text-shadow: 0.01em 0.01em rgba(44, 49, 99, 0.6);
+display:block;
+}
+/* 螢幕尺寸低於500px的設定 */
+@media(max-width:500px){
+.navText1{
+margin-left: 30%;
+color: rgb(149, 62, 22);
+font-size:6px;
+text-shadow: 0.01em 0.01em rgba(44, 49, 99, 0.6);
+display:block;
+}
+}
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+.navText2{
+color: rgb(211, 94, 65);
+font-size:20px;
+text-align: center;
+display:block;
+background-color: rgba(235, 225, 219, 0.5);
+}
+
+/* 螢幕尺寸低於500px的設定 */
+@media(max-width:500px){
+.navText2{
+color: rgb(211, 94, 65);
+font-size:10px;
+text-align: center;
+display:block;
+background-color: rgba(235, 225, 219, 0.5);
+}
+}
+
+.navText2:hover{
+color: rgb(92, 65, 211);
+font-size:21px;
+text-align: center;
+background-color: rgb(248, 124, 36,0.5);
+}
+
+/* ==========挑戰模式========== */
+
+/*任務DIV */
+.missionDiv{
+display:flex;
+position: relative;
+justify-content:center;
+padding: 5%;
+}
+
+
+/* =====任務關卡DIV 原始模式===== */
+#checkpointmission{ 
+justify-content:center;
+display: flex;
+}
+
+/* 螢幕尺寸低於500px的設定 */
+@media(max-width:500px){
+#checkpointmission{
+display: none;
+}
+}
+/* =====任務關卡DIV 手機模式===== */
+#checkpointmissions{ 
+display: none;
+}
+
+/* 螢幕尺寸低於500px的設定 */
+@media(max-width:500px){
+#checkpointmissions{
+display:block;
+}
+}
+
+/* 模式選擇邊框 */
+.modeFrome{
+border: double 2px blue;
+}
+
+/* 預設 */
+#mode1{
+margin:0px 15%;
+}
+
+/* 時間線 */
+#mode2{
+position:relative;
+display: flex;
+margin-top: 1%;
+margin:0px auto; 
+margin-bottom: 1%;
+text-align: center;
+width: 90%;
+height: 200px;
+}
+
+#mode2s{
+display: none;
+justify-content:center;
+z-index: 999;
+}
+
+/* 危險室 */
+#mode3{
+position:relative;
+display: flex;
+margin:0px auto; 
+margin-bottom: 1%;
+text-align: center;
+width: 90%;
+height: 200px;
+}
+
+
+
+/* 聯盟戰爭 */
+#mode4{
+position:relative;
+display: flex;
+margin:0px auto; 
+margin-bottom: 1%;
+text-align: center;
+width: 90%;
+height: 200px;
+}
+
+
+/* 聯盟錦標賽 */
+#mode5{
+position:relative;
+display: flex;
+margin:0px auto; 
+margin-bottom: 1%;
+text-align: center;
+width: 90%;
+height: 200px;
+}
+
+/* 占領戰 */
+#mode6{
+position:relative;
+display: flex;
+margin-top: 1%;
+margin:0px auto; 
+margin-bottom: 1%;
+text-align: center;
+width: 90%;
+height: 200px;
+}
+
+/* 挑戰關卡清單背景DIV */
+.everyPlot{
+color: rgb(15, 15, 87);
+font-weight: bolder;
+font-size: 40px;
+position:relative;
+margin-top: 1%;
+margin:0px auto; 
+margin-bottom: 1%;
+border:6px solid rgba(160, 153, 223, 0.815);
+background-color: rgb(208, 206, 233,0.8);
+border-radius: 2%;
+text-align: center;
+
+}
+/* 挑戰關卡清單格式 */
+#plot{
+display: flex;
+margin:0px auto;
+background-color: rgb(126, 126, 194,0.9);
+width: 90%;
+margin-left:5%;
+background-size: cover;
+border: 6px solid rgba(221, 148, 88, 0.5);
+font-size: 18px;
+color: rgb(46, 36, 36);
+}
+
+/* 關卡獎勵格式 */
+#plotGearing{
+text-align: center;
+margin: 20px 10px 10px 10px;
+clear: both;
+font-size:9px;
+width: 100%;
+height: 100%;
+color: rgb(97, 43, 7);
+margin-left: 3%;
+text-align:left;
+}

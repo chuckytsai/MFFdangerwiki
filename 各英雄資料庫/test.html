@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- JQ -->
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<title>交叉搜尋</title>
+</head>
+<style>
+.heroIcon{
+height: 110px;
+width: 100px;
+float: left; 
+margin: 1%;
+display: block;
+background-size: cover;
+border: 8px solid rgba(228, 228, 156, 0.849);
+border-style:double;
+border-radius: 20px;
+}
+</style>
+
+
+<body>
+
+  
+<!-- <input style="width: 100px;">
+<p></p> -->
+
+
+<span>
+<label for="gender"></label>
+<select name="gender" id="gender">
+<option value>性別</option>
+<option value="1" data-name="men">男</option>
+<option value="2" data-name="women">女</option>
+<option value="3" data-name="no">中性</option>
+</select>
+<label for="type"></label>
+<select name="type" id="type">
+<option value>屬性</option>
+<option value="1" data-name="combat">近戰</option>
+<option value="2" data-name="blast">爆破</option>
+<option value="3" data-name="speed">速度</option>
+<option value="4" data-name="universal">宇宙</option>
+</select>
+<label for="race"></label>
+<select name="race" id="race">
+<option value>種族</option>
+<option value="1" data-name="humen">人類</option>
+<option value="2" data-name="xmen">X基因</option>
+<option value="3" data-name="et">外星人</option>
+<option value="4" data-name="inhumans">異人族</option>
+<option value="5" data-name="biological">生物</option>
+</select>
+<label for="camp"></label>
+<select name="camp" id="camp">
+<option value>陣營</option>
+<option value="1" data-name="hero">英雄</option>
+<option value="2" data-name="villain">反派</option>
+<option value="4" data-name="neutral">中立</option>
+</select>
+<label for="ability"></label>
+<select name="ability" id="ability">
+<option value>能力</option>
+<option value="1" data-name="mechanical">機械</option>
+<option value="2" data-name="arms">武器專家</option>
+<option value="3" data-name="leader">領導力</option>
+<option value="4" data-name="phoenix">鳳凰之力</option>
+<option value="5" data-name="spider">蜘蛛感應</option>
+<option value="6" data-name="gamma">伽碼射線</option>
+<option value="7" data-name="fire">火焰</option>
+<option value="8" data-name="six6">邪惡6人組</option>
+<option value="9" data-name="f4">驚奇4超人</option>
+</select>
+  </span>
+
+<a class="heroIcon" src="./img/英雄ICON/近戰英雄-美國隊長/復仇者聯盟.jpg" alt=""></a>
+
+
+  <script>
+    // $("input").on({
+    //     "click":function(){$("p").text("單行文字方塊被按一下");},
+    //     "change":function(){$("p").text("單行文字方塊被變更內容");}
+    // });
+
+
+$('a.heroIcon').hide();
+
+$('a').filter(filterCondition).show();
+
+    
+// // 取出所有選項的值
+var gender =$('select#gendes').value;
+var type =$('select#type').value;
+var race =$('select#race').value;
+var camp =$('select#camp').value;
+var ability =$('select#ability').value;
+
+var filterCondition='';
+if(gender.length > 0){
+  filterCondition +='.'+ gender;
+}
+
+if(type.length > 0){
+  filterCondition +='.'+ type;
+}
+
+if(race.length > 0){
+  filterCondition +='.'+ race;
+}
+
+if(camp.length > 0){
+  filterCondition +='.'+ camp;
+}
+
+if(ability.length > 0){
+  filterCondition +='.'+ ability;
+}
+
+
+
+
+
+// var filterCondition='';
+// if(gender.length >0){
+//   filterCondition +='men'+ gender;
+//   filterCondition +='women'+ gender;
+//   filterCondition +='no'+ gender;
+// }
+
+// if(type.length >0){
+//   filterCondition +='combat'+ type;
+//   filterCondition +='blast'+ type;
+//   filterCondition +='speed'+ type;
+//   filterCondition +='universal'+ type;
+// }
+
+// if(race.length >0){
+//   filterCondition +='humen'+ race;
+//   filterCondition +='xmen'+ race;
+//   filterCondition +='et'+ race;
+//   filterCondition +='inhumans'+ race;
+//   filterCondition +='biological'+ race;
+// }
+
+// if(camp.length >0){
+//   filterCondition +='hero'+ camp;
+//   filterCondition +='villain'+ camp;
+//   filterCondition +='neutral'+ camp;
+// }
+
+// if(ability.length >0){
+//   filterCondition +='mechanical'+ ability;
+//   filterCondition +='arms'+ ability;
+//   filterCondition +='leader'+ ability;
+//   filterCondition +='phoenix'+ ability;
+//   filterCondition +='spider'+ ability;
+//   filterCondition +='gamma'+ ability;
+//   filterCondition +='fire'+ ability;
+//   filterCondition +='six6'+ ability;
+//   filterCondition +='f4'+ ability;
+// }
+
+</script>
+</body>
+</html>

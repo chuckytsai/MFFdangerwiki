@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./css/news-banner.css">
+    <!--title -->
+    <title>最 新 速 報</title>
+    <link rel="icon" href="./img/logo121.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- ===========導覽列========== -->
+    <div class="navbar-toggler">
+        <a class="newsText0"></a>>
+        <!-- ==========改版資訊 & 遊戲內容========== -->
+        <div class="menu">
+            <!-- =====改版資訊 ======-->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.最新改版消息 -->
+                    <li role="presentation">
+                        <a href="./news-banner1.html">
+                            <h3 class="navText2">最 新 改 版 消 息</h3>
+                        </a>
+                    </li>
+                    <!-- 2.最新速報 -->
+                    <li role="presentation">
+                        <a href="./news-banner2.html">
+                            <h3 class="navText2">最 新 速 報</h3>
+                        </a>
+                    </li>
+                    <!-- 3.活動 -->
+                    <li role="presentation">
+                        <a href="./news-banner3.html">
+                            <h3 class="navText2">活 動</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =====遊戲內容 ===== -->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.各英雄資料庫 -->
+                    <li role="presentation">
+                        <a href="./各英雄資料庫/sevenbanner1.html ">
+                            <h3 class="navText2">角 色</h3>
+                        </a>
+                    </li>
+                    <!-- 2.挑戰 -->
+                    <li role="presentation">
+                        <a href="./挑戰/sevenbanner2.html">
+                            <h3 class="navText2">挑 戰</h3>
+                        </a>
+                    </li>
+                    <!-- 3.神盾局 -->
+                    <li role="presentation">
+                        <a href="./神盾局/sevenbanner3.html ">
+                            <h3 class="navText2">神 盾 局</h3>
+                        </a>
+                    </li>
+                    <!-- 4.任務 -->
+                    <li role="presentation">
+                        <a href="./任務/sevenbanner4.html ">
+                            <h3 class="navText2">任 務</h3>
+                        </a>
+                    </li>
+                    <!-- 5.PVP模式-->
+                    <li role="presentation">
+                        <a href="./PVP模式/sevenbanner5.html">
+                            <h3 class="navText2">PVP 模 式</h3>
+                        </a>
+                    </li>
+                    <!-- 6.PVP模式-->
+                    <li role="presentation">
+                        <a href="./道具/sevenbanner6.html">
+                            <h3 class="navText2">道 具</h3>
+                        </a>
+                    </li>
+                    <!-- 7.組隊模式 -->
+                    <li role="presentation">
+                        <a href="./組隊模式/sevenbanner7.html">
+                            <h3 class="navText2">組 隊 模 式</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+        <div class="menu-trigger">
+            <button onclick="show();">改版資訊<br> 遊戲內容</button>
+            <div class="menu">
+                <!-- =====改版資訊===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.最新改版消息 -->
+                        <li role="presentation">
+                            <a href="./news-banner1.html">
+                                <h3 class="navText2">最 新 改 版 消 息</h3>
+                            </a>
+                        </li>
+                        <!-- 2.最新速報 -->
+                        <li role="presentation">
+                            <a href="./news-banner2.html">
+                                <h3 class="navText2">最 新 速 報</h3>
+                            </a>
+                        </li>
+                        <!-- 3.活動 -->
+                        <li role="presentation">
+                            <a href="./news-banner3.html">
+                                <h3 class="navText2">活 動</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =====遊戲內容 ===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.各英雄資料庫 -->
+                        <li role="presentation">
+                            <a href="./各英雄資料庫/sevenbanner1.html ">
+                                <h3 class="navText2">角 色</h3>
+                            </a>
+                        </li>
+                        <!-- 2.挑戰 -->
+                        <li role="presentation">
+                            <a href="./挑戰/sevenbanner2.html">
+                                <h3 class="navText2">挑 戰</h3>
+                            </a>
+                        </li>
+                        <!-- 3.神盾局 -->
+                        <li role="presentation">
+                            <a href="./神盾局/sevenbanner3.html ">
+                                <h3 class="navText2">神 盾 局</h3>
+                            </a>
+                        </li>
+                        <!-- 4.任務 -->
+                        <li role="presentation">
+                            <a href="./任務/sevenbanner4.html ">
+                                <h3 class="navText2">任 務</h3>
+                            </a>
+                        </li>
+                        <!-- 5.PVP模式-->
+                        <li role="presentation">
+                            <a href="./PVP模式/sevenbanner5.html">
+                                <h3 class="navText2">PVP 模 式</h3>
+                            </a>
+                        </li>
+                        <!-- 6.PVP模式-->
+                        <li role="presentation">
+                            <a href="./道具/sevenbanner6.html">
+                                <h3 class="navText2">道 具</h3>
+                            </a>
+                        </li>
+                        <!-- 7.組隊模式 -->
+                        <li role="presentation">
+                            <a href="./組隊模式/sevenbanner7.html">
+                                <h3 class="navText2">組 隊 模 式</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =====(未 來 之 戰 危 機 百 科)大圖片 -->
+    <a href="./index.html"><img class="index-bamnner" src="img/index.jpg" height="68%" width="100%"></a>
+
+    <!-- 暫時空白 -->
+    <BR>
+
+    <!-- ===============更新主畫面公開(文字.圖片.影片)=============== -->
+    <section>
+        <div class="news-title">
+            <div>11月更新主畫面公開</div>
+        </div>
+        <div class="newsContent">
+            <article>
+                <h1 class="news0">為大家介紹最後裝飾11月速報消息的特別主畫面圖片~</h1>
+                <br>
+                <h1 class="news0">請確認在下一次更新之前位於《MARVEL：未來之戰》主畫面的11月的英雄們！
+                    <br>
+                    <br>
+                    <img class="pic" src="./img/更新速報/201911/11月更新主畫面/201911-1.jpg" alt="">
+                    <br>
+                    <br> 即將可以在《MARVEL：未來之戰》見到只要有錢， 任何委託都能達成的死侍與傭兵們的能力~ 如果好奇透過11月速報消息介紹的英雄們， 還有在速報中還未公開的多樣的改善事項， 請等待CM宇宙奇點的
+
+                    <11月更新內容介紹>~ 謝謝大家。
+
+                </h1>
+            </article>
+        </div>
+    </section>
+    <br>
+
+    <!-- 更新速報5 -->
+    <section>
+        <div class="news-title">
+            <div>11月更新速報 5</div>
+        </div>
+        <div class="newsContent">
+            <h1 class="news0">從上次去請求委託的傭兵團隊那裡得到了緊急支援請求！
+                <br>
+                <br> 委託給他們的是關於一個威脅人物的調查。
+                <br>
+                <br> 但是，好像在調查過程中出了問題。主畫面圖片~
+            </h1>
+            <br>
+            <br>
+            <h1 class="newsTip3">■ 危險的調查對象 </h1>
+            <iframe class="pic" width="560" height="315" src="https://www.youtube.com/embed/lr_6YgNdJbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <h1 class="news0">
+                與傭兵團中的一位一起進入的房間裡突然出現的影子！
+                <br>
+                <br> 我們會盡力調查關於這位危險人物的情報。
+            </h1>
+        </div>
+    </section>
+
+    <!-- 更新速報4 -->
+    <section>
+        <br>
+        <div class="news-title">
+            <div>11月更新速報 4</div>
+        </div>
+        <div class="newsContent">
+            <h1 class="news0">聽說最近有位實力超強的小丑正在活動中！
+                <br> 奇點也出於好奇心去看了演出。
+                <br>
+                <br>
+                <br> 果然名不虛傳，好像欣賞到了令人驚艷的舞台。
+                <br> 特別令人印象深刻的是最後的繪畫魔術，正因為太神奇，所以向各位特工們也介紹一下。
+            </h1>
+            <br>
+            <br>
+            <h1 class="newsTip3">■ 小丑展示的繪畫魔術是？ </h1>
+            <iframe class="pic" width="560" height="315" src="https://www.youtube.com/embed/gFYxh7ljQ_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <h1 class="news0">
+                畫在素描本上的人物表情太生動了~
+                <br> 真想知道這個魔術到底是什麼樣的戲法，畫出來的人物究竟是誰？
+                <br>
+                <br>
+                <br> 下次的速報也會帶著有趣的內容回來的！
+            </h1>
+        </div>
+    </section>
+    <br>
+    <!-- 更新速報3 -->
+    <section>
+        <div class="news-title">
+            <div>11月更新速報 3</div>
+        </div>
+        <div class="newsContent">
+            <h1 class="news0">得知無論是什麼委託，都可以接受并解決的有實力的傭兵集團的消息！
+                <br>
+                <br>
+                <br> 最近本部內部也有很多處理起來棘手的事情，令人苦惱，
+                <br> 好像應該可以從他們那裡得到幫助~
+                <br>
+                <br>
+                <br> 可是，這傳說中的傭兵集團的隊長...好像哪裡面熟？
+            </h1>
+            <br>
+            <br>
+            <h1 class="newsTip3">■ 傭兵集團的真實身份是？ </h1>
+            <img class="pic" src=".//img/更新速報/201911/更新速報/更新速報三.jpg" alt="">
+            <h1 class="news0">訪問事務所後，雖然沒看到任何人，
+                <br> 但是看到了放著的武器，好像就在附近~
+                <br>
+                <br>
+                <br> 在等待的期間，各位特工們也來推理一下這個傭兵集團的身份吧！ 請將認為是正確答案的人物的名字輸入至以下[輸入答案]部分！
+
+            </h1>
+            <h1 class="newsTip4">http://mar.by/v2/[輸入答案]</h1>
+            <h1 class="news0">EX) 如果認為LunaSnow是正確答案，那麼請在網址欄輸入
+                <h1 class="newsTip4">http://mar.by/v2/LunaSnow</h1>
+            </h1>
+            <br>
+            <h1 class="newsTip2">提示：傭兵集團的隊長可能各位特工們都比較了解，但應該是180度大轉變的樣子！</h1>
+            <br>
+            <h1 class="news0">為了尋找給特工們傳達的消息，
+                <br> 奇點在此退場。
+            </h1>
+        </div>
+    </section>
+
+    <!-- 更新速報2 -->
+    <section>
+        <br>
+        <div class="news-title">
+            <div>11月更新速報 2</div>
+        </div>
+        <div class="newsContent">
+            <h1 class="news0">奇點得到了在非洲剛果幽深的森林地區，
+                <br> 疑似野生動物的生命體攜帶槍支飛奔的情報。
+                <br>
+                <br> 想要揭開一個非常有趣的消息的真相，肯定會需要奇點的能力吧？
+            </h1>
+            <br>
+            <br>
+            <h1 class="newsTip3">■ 持有槍支的智慧型野生動物？ </h1>
+            <img class="pic" src=".//img/更新速報/201911/更新速報/更新速報二.jpg" alt="">
+            <h1 class="news0">案發現場只剩下槍和香蕉皮。
+                <br> 到底能否確認這奇怪的動物的身份呢？
+                <br>
+                <br>
+                <br> 那麼為了追蹤兇手，奇點就在此告辭。
+                <br> 下一次的消息也請大家多多期待~
+            </h1>
+        </div>
+    </section>
+    <br>
+
+    <!-- 更新速報1 -->
+    <section>
+        <div class="news-title">
+            <div>11月更新速報 1</div>
+        </div>
+        <div class="newsContent">
+            <h1 class="news0">掌握到一個犯罪集團存放武器的倉庫的位置後，
+                <br> 奇點親自開始了潛入任務。
+                <br>
+                <br>
+                <br> 可是在調查之前，倉庫突然發生了大爆炸。
+                <br> 因保管中的武器全部被摧毀，才可以阻止了犯罪組織的惡毒計劃。
+                <br>
+                <br>
+                <br> 幸運的是，收到了疑似引發爆炸的人物的照片，
+                <br> 請各位特工們也一起確認！
+            </h1>
+            <br>
+            <br>
+            <h1 class="newsTip3">■ 引起爆炸的人物是？ </h1>
+            <img class="pic" src=".//img/更新速報/201911/更新速報/更新速報一.jpg" alt="">
+            <h1 class="news0">很可惜，因煙霧看不清臉。
+                <br> 究竟能不能找到引起這場爆炸的人物呢？
+                <br>
+                <br>
+                <br> 之後還會繼續公開了解11月的更新的速報消息~
+                <br> 下一次的消息，也請大家多多期待。
+            </h1>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+}
+
+.budy {
+    margin: 0px;
+}
+
+
+/*=====Links文章去除連結底線=====*/
+
+a,
+a:link,
+a:visited {
+    color: rgba(243, 230, 231, 0.8);
+    text-decoration: none
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+/* ===========導覽列=========== */
+
+
+/* NAV左邊首頁樣型 */
+
+.newsText0 {
+    width: 70%;
+    font-size: 45px;
+}
+
+
+/* =====導覽列格式===== */
+
+.navbar-toggler {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    z-index: 999;
+    padding-right: -80%;
+    position: fixed;
+    /*固定位置定位*/
+    top: 0%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 0;
+    /*左方邊界*/
+}
+
+.menu-trigger {
+    display: none;
+    /*原是隱藏 */
+}
+
+.title {
+    width: 30%;
+}
+
+.menu {
+    margin-right: 10%;
+    height: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: right;
+}
+
+
+/* 改版資訊&遊戲內容按鈕格式 */
+
+#dropdownMenu1 {
+    background-color: rgb(222, 222, 233);
+    border-radius: 10%;
+    margin-top: -10%;
+    margin-right: 0px;
+    margin-left: 33%;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #dropdownMenu1 {
+        background-color: rgb(222, 222, 233);
+        height: 50px;
+        width: 55px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+
+
+/* 選單UI的格式 */
+
+.dropdown-menu.show {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(212, 212, 230, 0);
+    border: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navText1 {
+    color: rgb(103, 104, 117);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText1 {
+        color: rgb(103, 104, 117);
+        font-size: 15px;
+        text-align: left;
+        text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+        display: flex;
+        width: 50px;
+    }
+}
+
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+
+.navText2 {
+    color: rgb(226, 236, 238);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 4%;
+    width: 90%;
+    display: block;
+    border: inset 0.2px rgb(28, 120, 143);
+    margin: 0px;
+    background-color: rgba(83, 83, 92, 0.9);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText2 {
+        color: rgb(226, 236, 238);
+        margin-left: 37%;
+        width: 60%;
+        font-size: 12px;
+        text-align: left;
+        border: inset 0.2px rgb(28, 120, 143);
+        background-color: rgba(83, 83, 92, 0.9);
+    }
+}
+
+.navText2:hover {
+    color: rgb(189, 175, 185);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(92, 53, 25, 0.7);
+}
+
+
+/* ==========網頁背景圖案========== */
+
+html {
+    height: 100%;
+}
+
+
+/* 網頁背景 */
+
+body {
+    background-image: url(../img/宇宙.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ===========文字格式=========== */
+
+
+/* 普通黑字 */
+
+.news0 {
+    font-size: 17px;
+    color: #000;
+}
+
+
+/* 紅色警告 */
+
+.newsTip1 {
+    font-size: 18px;
+    color: red;
+    text-shadow: 0.1em 0.1em rgb(243, 156, 75);
+}
+
+
+/* 紅色粗體 */
+
+.newsTip2 {
+    font-size: 18px;
+    color: red;
+    font-weight: bolder;
+}
+
+
+/* 橘色大字 */
+
+.newsTip3 {
+    font-size: 25px;
+    text-shadow: 0.1em 0.1em rgb(215, 253, 76);
+    color: rgb(221, 99, 18);
+    font-weight: bolder;
+}
+
+
+/* 藍色大字 */
+
+.newsTip4 {
+    font-size: 20px;
+    color: rgb(84, 17, 243);
+    text-shadow: 0.1em 0.1em rgb(166, 179, 223);
+    font-weight: bolder;
+}
+
+
+/* ==========最新改版消息CSS========== */
+
+
+/* 改版消息DIV中圖片位置 */
+
+.pic {
+    width: 50%;
+    position: relative;
+    margin-left: 5%;
+}
+
+
+/* 改版訊息標題 */
+
+.news-title {
+    font-size: 70px;
+    color: rgb(202, 78, 20);
+    text-align: center;
+    text-shadow: 0em 0.1em rgb(221, 196, 196, 0.8);
+    background-color: rgba(252, 209, 116, 0.8);
+    border: 3px solid rgba(146, 21, 17, 0.979);
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .news-title {
+        font-size: 35px;
+        color: rgb(202, 78, 20);
+        text-align: center;
+        background-color: rgba(252, 209, 116, 0.8);
+        border: 3px solid rgba(146, 21, 17, 0.979);
+        font-weight: bolder;
+        opacity: 0.8;
+    }
+}
+
+
+/* 201911月的消息 */
+
+.news201911 {
+    font-size: 14px;
+    color: rgb(44, 39, 35);
+    text-align: left;
+    text-shadow: rgb(245, 117, 117);
+    border: 2px solid rgba(150, 73, 70, 0.979);
+    background-color: rgba(248, 238, 246, 0.7);
+}
+
+
+/* ===========更新速報========== */
+
+
+/* 更新速報折疊 */
+
+.newsContent {
+    font-size: 14px;
+    color: rgb(44, 39, 35);
+    text-align: left;
+    text-shadow: rgb(245, 117, 117);
+    border: 2px solid rgba(150, 73, 70, 0.979);
+    background-color: rgba(248, 238, 246, 0.7);
+}

@@ -1,0 +1,818 @@
+* {
+    box-sizing: border-box;
+}
+
+.budy {
+    margin: 0px;
+}
+
+
+/*=====Links文章去除連結底線=====*/
+
+a,
+a:link,
+a:visited {
+    color: rgba(243, 230, 231, 0.8);
+    text-decoration: none
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+/* ===========導覽列=========== */
+
+
+/* NAV左邊首頁樣型 */
+
+.newsText0 {
+    width: 70%;
+    font-size: 45px;
+}
+
+
+/* =====導覽列格式===== */
+
+.navbar-toggler {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    z-index: 999;
+    padding-right: -80%;
+    position: fixed;
+    /*固定位置定位*/
+    top: 0%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 0;
+    /*左方邊界*/
+}
+
+.menu-trigger {
+    display: none;
+    /*原是隱藏 */
+}
+
+.title {
+    width: 30%;
+}
+
+.menu {
+    margin-right: 10%;
+    height: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: right;
+}
+
+
+/* 改版資訊&遊戲內容按鈕格式 */
+
+#dropdownMenu1 {
+    background-color: rgb(222, 222, 233);
+    border-radius: 10%;
+    margin-top: -10%;
+    margin-right: 0px;
+    margin-left: 33%;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #dropdownMenu1 {
+        background-color: rgb(222, 222, 233);
+        height: 50px;
+        width: 55px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+
+
+/* 選單UI的格式 */
+
+.dropdown-menu.show {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(212, 212, 230, 0);
+    border: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navText1 {
+    color: rgb(103, 104, 117);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText1 {
+        color: rgb(103, 104, 117);
+        font-size: 15px;
+        text-align: left;
+        text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+        display: flex;
+        width: 50px;
+    }
+}
+
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+
+.navText2 {
+    color: rgb(226, 236, 238);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 4%;
+    width: 90%;
+    display: block;
+    border: inset 0.2px rgb(28, 120, 143);
+    margin: 0px;
+    background-color: rgba(83, 83, 92, 0.9);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText2 {
+        color: rgb(226, 236, 238);
+        margin-left: 37%;
+        width: 60%;
+        font-size: 12px;
+        text-align: left;
+        border: inset 0.2px rgb(28, 120, 143);
+        background-color: rgba(83, 83, 92, 0.9);
+    }
+}
+
+.navText2:hover {
+    color: rgb(189, 175, 185);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(92, 53, 25, 0.7);
+}
+
+
+/* ==========網頁背景圖案========== */
+
+html {
+    height: 100%;
+}
+
+
+/* 網頁背景 */
+
+body {
+    background-image: url(../img/宇宙.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ======英雄介紹格式====== */
+
+
+/* 介紹表格位置 */
+
+.introduction {
+    margin-top: 35px;
+    margin-left: 20%;
+}
+
+
+/* 介紹內容文字格式 */
+
+#introductionTr {
+    font-size: 12px;
+    height: 5%;
+    width: 70%;
+    text-align: left;
+    color: rgb(221, 231, 183);
+    background-color: rgba(78, 63, 17, 0.8);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #introductionTr {
+        font-size: 12px;
+        margin-left: -12%;
+        height: 5%;
+        width: 100%;
+        text-align: left;
+        color: rgb(221, 231, 183);
+        background-color: rgba(78, 63, 17, 0.5);
+    }
+}
+
+
+/* ==========取得方式========== */
+
+
+/* 生體取得的標題格式 */
+
+#getBanner {
+    width: 90%;
+    margin: 10px auto;
+    background-size: cover;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(36, 32, 26);
+    text-shadow: 0.05em 0.05em rgb(220, 226, 238);
+}
+
+
+/* 生體取得的標題格式螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #getBanner {
+        height: 50px;
+        width: 100%;
+        margin: 0.5%;
+        margin-top: 1px;
+        background-size: cover;
+        border: 8px solid rgba(64, 26, 233, 0.849);
+        background-color: rgb(208, 206, 233, 0.6);
+        text-align: left;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: bolder;
+        color: blanchedalmond;
+        text-shadow: 0.05em 0.01em rgb(236, 238, 241);
+    }
+}
+
+
+/* 取得方式表格整體外框格式 */
+
+.hero {
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(155, 115, 29, 0.9);
+}
+
+
+/* 取得方式表格整體外框螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .hero {
+        display: none;
+    }
+}
+
+
+/* 生體取得方式-手機模式原為隱藏 */
+
+.hero-toggler {
+    display: none;
+}
+
+
+/* 生體取得方式-手機模式 */
+
+@media(max-width:500px) {
+    .hero-toggler {
+        margin-top: 10px;
+        margin: 0px auto;
+        padding: 10px;
+        width: 100%;
+        font-size: 2px;
+        position: relative;
+        color: rgb(40, 68, 52);
+        background-color: rgba(238, 176, 134, 0.5);
+        display: block;
+    }
+}
+
+
+/* =========英雄制服========== */
+
+
+/* =============制服選擇的按鈕原始格式===== */
+
+.skinMenu {
+    margin-left: 7.5%;
+    width: 200px;
+    font-weight: bolder;
+    color: rgb(184, 97, 97);
+    background-color: rgb(220, 226, 238);
+}
+
+
+/* 制服選擇的按鈕螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .skinMenu {
+        display: none;
+    }
+}
+
+
+/* =============制服介紹的Banner手機模式=========== */
+
+.skinMenus {
+    display: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .skinMenus {
+        display: block;
+        width: 200px;
+        font-size: 8px;
+        margin-left: 10%;
+        font-weight: bolder;
+        color: rgb(184, 97, 97);
+        background-color: rgb(220, 226, 238);
+    }
+}
+
+
+/*制服選擇卷軸原始格式  */
+
+#skinRell {
+    width: 185px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 30;
+    position: absolute;
+    margin-left: 8%;
+    display: none;
+}
+
+
+/* 制服選擇卷軸手機格式 */
+
+#skinRells {
+    display: none;
+}
+
+
+/* 制服選擇卷軸手機格式螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #skinRells {
+        width: 150px;
+        height: 80px;
+        overflow: auto;
+        display: none;
+        z-index: 30;
+        position: absolute;
+        margin-left: 11%;
+    }
+}
+
+
+/* =============制服選擇單格式============= */
+
+.skinSpan {
+    width: 180px;
+    height: 35px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(241, 233, 199);
+    background-color: rgba(146, 155, 238, 0.9);
+    border-top: 1px solid rgba(68, 13, 56, 0.849);
+}
+
+.skinSpan:hover {
+    cursor: pointer;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(204, 66, 107);
+    background-color: rgba(51, 187, 146, 0.9);
+    border-top: 3px solid rgba(68, 13, 56, 0.849);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .skinSpan {
+        display: none;
+    }
+}
+
+
+/* =============制服選擇單手機格式================= */
+
+.skinSpans {
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .skinSpans {
+        cursor: pointer;
+        font-size: 7px;
+        color: rgb(241, 233, 199);
+        background-color: rgba(146, 155, 238, 0.9);
+        border-top: 1px solid rgba(29, 8, 24, 0.849);
+    }
+}
+
+@media(max-width:800px) {
+    .skinSpans:hover {
+        width: 180px;
+        height: 20px;
+        font-size: 7px;
+        text-align: left;
+        font-weight: normal;
+        color: rgb(241, 233, 199);
+        background-color: rgba(51, 187, 146, 0.9);
+        border-top: 3px solid rgba(68, 13, 56, 0.849);
+    }
+}
+
+
+/* 制服名稱文字 */
+
+.skinName {
+    color: rgb(161, 161, 219);
+}
+
+
+/* 各制服 */
+
+#skin {
+    height: 80%;
+    width: 85%;
+    margin-top: 10px;
+    margin: 0px auto;
+    padding: 30px;
+    background: rgba(136, 163, 236, 0.7);
+    border: 6px solid rgb(221, 210, 201);
+    text-align: left;
+    font-size: 14px;
+    color: rgb(8, 12, 32);
+    text-shadow: 0.04em 0.04em rgb(124, 123, 119);
+    font-weight: bolder;
+}
+
+
+/* 螢幕尺寸低於1300px的設定 */
+
+@media(max-width:1300px) {
+    #skin {
+        height: 100%;
+        width: 90%;
+        margin: 30px auto;
+        padding: 30px;
+        background: rgba(136, 163, 236, 0.7);
+        border: 6px solid rgb(221, 210, 201);
+        text-align: left;
+        font-size: 6px;
+        color: rgb(9, 2, 24);
+        font-weight: bolder;
+    }
+}
+
+
+/* ======根據螢幕大小顯示制服內容效果===== */
+
+
+/* 第1件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin1 {
+        margin: 0px auto;
+        display: none;
+    }
+}
+
+
+/* 第1件手機內容在電腦螢幕上為隱藏*/
+
+#skin1s {
+    display: none;
+}
+
+
+/* 第1件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin1s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第2件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin2 {
+        display: none;
+    }
+}
+
+
+/* 第2件手機內容在電腦螢幕上為隱藏*/
+
+#skin2s {
+    display: none;
+}
+
+
+/* 第2件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin2s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第3件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin3 {
+        display: none;
+    }
+}
+
+
+/* 第3件手機內容在電腦螢幕上為隱藏*/
+
+#skin3s {
+    display: none;
+}
+
+
+/* 第3件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin3s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第4件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin4 {
+        display: none;
+    }
+}
+
+
+/* 第4件手機內容在電腦螢幕上為隱藏*/
+
+#skin4s {
+    display: none;
+}
+
+
+/* 第4件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin4s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第5件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin5 {
+        display: none;
+    }
+}
+
+
+/* 第5件手機內容在電腦螢幕上為隱藏*/
+
+#skin5s {
+    display: none;
+}
+
+
+/* 第5件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin5s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第6件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin6 {
+        display: none;
+    }
+}
+
+
+/* 第6件手機內容在電腦螢幕上為隱藏*/
+
+#skin6s {
+    display: none;
+}
+
+
+/* 第6件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin6s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第7件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin7 {
+        display: none;
+    }
+}
+
+
+/* 第7件手機內容在電腦螢幕上為隱藏*/
+
+#skin7s {
+    display: none;
+}
+
+
+/* 第7件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin7s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第8件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin8 {
+        display: none;
+    }
+}
+
+
+/* 第8件手機內容在電腦螢幕上為隱藏*/
+
+#skin8s {
+    display: none;
+}
+
+
+/* 第8件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin8s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第9件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin9 {
+        display: none;
+    }
+}
+
+
+/* 第9件手機內容在電腦螢幕上為隱藏*/
+
+#skin9s {
+    display: none;
+}
+
+
+/* 第9件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin9s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 第10件原始內容在手機模式為隱藏 */
+
+@media(max-width:1300px) {
+    #skin10s {
+        display: none;
+    }
+}
+
+
+/* 第10件手機內容在電腦螢幕上為隱藏*/
+
+#skin10s {
+    display: none;
+}
+
+
+/* 第10件手機內容顯示內容*/
+
+@media(max-width:1300px) {
+    #skin10s {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+/* 技能內容與滾輪格式 */
+
+#skipText {
+    color: rgb(11, 6, 61);
+    padding-left: 5px;
+    width: 200px;
+    height: 110px;
+    font-size: 13px;
+    font-weight: bolder;
+    overflow: auto;
+    text-align: left;
+    border: double 2px rgb(235, 231, 213);
+}
+
+
+/* 技能內容與滾輪手機格式 */
+
+@media(max-width:800px) {
+    #skipTexts {
+        color: rgb(11, 6, 61);
+        padding-left: 5px;
+        width: 100%;
+        height: 70px;
+        font-size: 10px;
+        overflow: auto;
+        text-align: left;
+        border: double 2px rgb(235, 231, 213);
+    }
+}
+
+
+/* 技能內容文字圖案 */
+
+#t1 {
+    font-size: 15px;
+    color: rgb(143, 10, 10);
+    font-weight: bolder;
+}
+
+#t2 {
+    font-size: 10px;
+    font-weight: bolder;
+    color: rgb(15, 63, 3);
+}

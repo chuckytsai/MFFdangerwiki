@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+}
+
+.budy {
+    margin: 0px;
+}
+
+
+/*=====Links文章去除連結底線=====*/
+
+a,
+a:link,
+a:visited {
+    color: rgba(243, 230, 231, 0.8);
+    text-decoration: none
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+/* ===========導覽列=========== */
+
+
+/* NAV左邊首頁樣型 */
+
+.newsText0 {
+    width: 70%;
+    font-size: 45px;
+}
+
+
+/* =====導覽列格式===== */
+
+.navbar-toggler {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    z-index: 999;
+    padding-right: -80%;
+    position: fixed;
+    /*固定位置定位*/
+    top: 0%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 0;
+    /*左方邊界*/
+}
+
+.menu-trigger {
+    display: none;
+    /*原是隱藏 */
+    text-align: left;
+}
+
+.title {
+    width: 30%;
+}
+
+.menu {
+    margin-right: 10%;
+    height: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: right;
+}
+
+
+/* 改版資訊&遊戲內容按鈕格式 */
+
+#dropdownMenu1 {
+    background-color: rgb(222, 222, 233);
+    border-radius: 10%;
+    margin-top: -10%;
+    margin-right: 0px;
+    margin-left: 33%;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #dropdownMenu1 {
+        background-color: rgb(222, 222, 233);
+        height: 50px;
+        width: 55px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+
+
+/* 選單UI的格式 */
+
+.dropdown-menu.show {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(212, 212, 230, 0);
+    border: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navText1 {
+    color: rgb(103, 104, 117);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText1 {
+        color: rgb(103, 104, 117);
+        font-size: 15px;
+        text-align: left;
+        text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+        display: flex;
+        width: 50px;
+    }
+}
+
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+
+.navText2 {
+    color: rgb(226, 236, 238);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 4%;
+    width: 90%;
+    display: block;
+    border: inset 0.2px rgb(28, 120, 143);
+    margin: 0px;
+    background-color: rgba(83, 83, 92, 0.9);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText2 {
+        color: rgb(226, 236, 238);
+        margin-left: 37%;
+        width: 60%;
+        font-size: 12px;
+        text-align: left;
+        border: inset 0.2px rgb(28, 120, 143);
+        background-color: rgba(83, 83, 92, 0.9);
+    }
+}
+
+.navText2:hover {
+    color: rgb(189, 175, 185);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(92, 53, 25, 0.7);
+}
+
+
+/* ==========網頁背景圖案========== */
+
+html {
+    height: 100%;
+}
+
+
+/* 網頁背景 */
+
+body {
+    background-image: url(../img/宇宙.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ================首頁================ */
+
+
+/* 主頁主Banner樣式 */
+
+.index-banner {
+    position: relative;
+    margin: 0px auto;
+}
+
+
+/* 首頁主Banner字型圖案 */
+
+.big-banner-text {
+    font-size: 50px;
+    color: rgb(243, 239, 239);
+    position: absolute;
+    top: 50%;
+    bottom: 0%;
+    left: 2%;
+    text-shadow: 0.1em 0.1em black;
+}
+
+
+/* ==========更新訊息Banner大小位置樣式========== */
+
+
+/* (最新改版.最新速報.活動)的DIV格式 */
+
+.news-banner {
+    position: relative;
+    display: flex;
+    padding-block-start: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+
+/* ===========三個DIV規格&Hover效果=========== */
+
+
+/* 最新改版消息 */
+
+#news-banner1 {
+    margin: 10px;
+    background-image: url(../img/快銀1.jpg);
+    height: 150px;
+    width: 380px;
+    opacity: 0.8;
+    float: left;
+    margin: 2%;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #news-banner1 {
+        background-image: url(../img/快銀s.jpg);
+        height: 120px;
+    }
+}
+
+
+/* 最新改版消息的Hover效果 */
+
+#news-banner1:hover {
+    height: 152px;
+    opacity: 0.9;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* 最新速報 */
+
+#news-banner2 {
+    margin: 10px;
+    background-image: url(../img/2.1.jpg);
+    height: 150px;
+    width: 380px;
+    opacity: 0.8;
+    float: left;
+    margin: 2%;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #news-banner2 {
+        background-image: url(../img/2s.jpg);
+        height: 120px;
+    }
+}
+
+
+/* 最新速報的Hover效果 */
+
+#news-banner2:hover {
+    height: 152px;
+    opacity: 0.9;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* 活動 */
+
+#news-banner3 {
+    margin: 10px;
+    background-image: url(../img/冰月花雪.jpg);
+    height: 150px;
+    width: 380px;
+    opacity: 0.8;
+    float: left;
+    margin: 2%;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #news-banner3 {
+        background-image: url(../img/冰月花雪s.jpg);
+        height: 120px;
+    }
+}
+
+
+/* 活動的Hover效果 */
+
+#news-banner3:hover {
+    height: 152px;
+    opacity: 0.9;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+/* ===========更新Banner字型========== */
+
+
+/*更新訊息Banner上圖片的文字 */
+
+.text-banner {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 241, 241);
+    text-shadow: 0.05em 0.05em rgb(0, 0, 0);
+    position: relative;
+    top: 70%;
+    margin-left: 70px;
+    z-index: 999;
+    right: 20px;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .text-banner {
+        font-size: 17px;
+        position: relative;
+        top: 30%;
+        margin-left: 50px;
+        z-index: 999;
+        right: 20px;
+    }
+}
+
+
+/* ===========固定7Banner圖形========== */
+
+
+/* A組(上面三個) DIV */
+
+#sevenbannerA {
+    margin-left: 40px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+@media(max-width:800px) {
+    #sevenbannerA {
+        margin-left: 10px;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        margin-bottom: 5%;
+    }
+}
+
+
+/* B組(下面每兩個) DIV */
+
+#sevenbannerB {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+/* 7個Banner格式 */
+
+#sevenbannerimg {
+    background-color: black;
+    height: 165px;
+    width: 380px;
+    opacity: 0.85;
+    margin-right: 5%;
+    border: 3px solid #DDB724;
+    background-size: cover;
+    border-top-left-radius: 50px;
+}
+
+@media(max-width:800px) {
+    #sevenbannerimg {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+/* ===========固定7Banner字型 ==========*/
+
+
+/* A組的文字DIV */
+
+.sevenbanner-text {
+    font-family: '微軟正黑體', 'arial black', sans-serif;
+    color: #DDB724;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .sevenbanner-text {
+        font-family: '微軟正黑體', 'arial black', sans-serif;
+        color: #DDB724;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 25px;
+        border-radius: 10px;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
+    }
+}
+
+
+/* 意見調查 */
+
+#postmen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+/* 意見調查信箱的圖案格式 */
+
+#postmenPic {
+    color: #DDB724;
+    height: 165px;
+    width: 380px;
+    opacity: 0.85;
+    float: left;
+    margin-right: 5%;
+    border: 3px solid #DDB724;
+    background-size: cover;
+    border-top-left-radius: 50px;
+}
+
+@media(max-width:800px) {
+    #postmenPic {
+        height: 100px;
+        width: 200px;
+    }
+}

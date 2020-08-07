@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="eh">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 連結Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- 連結Style.css -->
+<link rel="stylesheet" href="./sevenbanner3.css">
+<!--title -->
+<title>商 店</title>
+<link rel="icon" href="../img/logo121.ico" type="image/x-icon">
+</head>
+
+
+<body>
+<!-- ===========導覽列========== -->
+<div class="navbar-toggler">
+<a class="newsText0" href="../index.html" >首 頁</a>
+<!-- ==========改版資訊 & 遊戲內容========== -->
+<div class="menu">
+<!-- =====改版資訊 ======-->
+<div class="dropdown">
+<button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+<!-- 1.最新改版消息 -->
+<li role="presentation">
+<a href="../news-banner1.html"><h3 class="navText2">最 新 改 版 消 息</h3></a>
+</li>
+<!-- 2.最新速報 -->
+<li role="presentation">
+<a href="../news-banner2.html"><h3 class="navText2">最 新 速 報</h3></a>
+</li>
+<!-- 3.活動 -->
+<li role="presentation">
+<a href="../news-banner3.html"><h3 class="navText2">活 動</h3></a>
+</li>
+</ul></div>
+
+<!-- =====遊戲內容 ===== -->
+<div class="dropdown">
+<button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+<!-- 1.各英雄資料庫 -->
+<li role="presentation">
+<a href="../各英雄資料庫/sevenbanner1.html "><h3 class="navText2">角 色</h3></a>
+</li>
+<!-- 2.挑戰 -->
+<li role="presentation">
+<a href="../挑戰/sevenbanner2.html"><h3 class="navText2">挑 戰</h3></a>  
+</li>
+<!-- 3.商店 -->
+<li role="presentation">
+<a href="../商店/sevenbanner3.html "><h3 class="navText2">商 店</h3></a>   
+</li>
+<!-- 4.任務 -->
+<li role="presentation">
+<a href="../任務/sevenbanner4.html "><h3 class="navText2">任 務</h3></a> 
+</li>
+<!-- 5.PVP模式-->
+<li role="presentation">
+<a href="../PVP模式/sevenbanner5.html"><h3 class="navText2">PVP 模 式</h3></a>
+</li>
+<!-- 6.PVP模式-->
+<li role="presentation">
+<a href="../道具/sevenbanner6.html"><h3 class="navText2">道 具</h3></a>
+</li>
+<!-- 7.組隊模式 -->
+<li role="presentation">
+<a href="../組隊模式/sevenbanner7.html"><h3 class="navText2">組 隊 模 式</h3></a>  
+</li>   
+</ul></div>
+</div>
+
+
+<!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+<div class="menu-trigger"> 
+<button onclick="show();">改版資訊<br> 遊戲內容</button>
+<div class="menu">
+<!-- =====改版資訊===== -->
+<div class="dropdown">
+<button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+ 
+<!-- 1.最新改版消息 -->
+<li role="presentation">
+<a href="../news-banner1.html"><h3 class="navText2">最 新 改 版 消 息</h3></a>
+</li>
+<!-- 2.最新速報 -->
+<li role="presentation">
+<a href="../news-banner2.html"><h3 class="navText2">最 新 速 報</h3></a>
+</li>
+<!-- 3.活動 -->
+<li role="presentation">
+<a href="../news-banner3.html"><h3 class="navText2">活 動</h3></a>
+</li>
+</ul></div>
+
+<!-- =====遊戲內容 ===== -->
+<div class="dropdown">
+<button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+<!-- 1.各英雄資料庫 -->
+<li role="presentation">
+<a href="../各英雄資料庫/sevenbanner1.html "><h3 class="navText2">角 色</h3></a>
+</li>
+<!-- 2.挑戰 -->
+<li role="presentation">
+<a href="../挑戰/sevenbanner2.html"><h3 class="navText2">挑 戰</h3></a>  
+</li>
+<!-- 3.商店 -->
+<li role="presentation">
+<a href="../商店/sevenbanner3.html "><h3 class="navText2">商 店</h3></a>   
+</li>
+<!-- 4.任務 -->
+<li role="presentation">
+<a href="../任務/sevenbanner4.html "><h3 class="navText2">任 務</h3></a> 
+</li>
+<!-- 5.PVP模式-->
+<li role="presentation">
+<a href="../PVP模式/sevenbanner5.html"><h3 class="navText2">PVP 模 式</h3></a>
+</li>
+<!-- 6.PVP模式-->
+<li role="presentation">
+<a href="../道具/sevenbanner6.html"><h3 class="navText2">道 具</h3></a>
+</li>
+<!-- 7.組隊模式 -->
+<li role="presentation">
+<a href="../組隊模式/sevenbanner7.html"><h3 class="navText2">組 隊 模 式</h3></a>  
+</li> 
+</ul>
+</div>
+ </div>
+  </div>  
+</div>
+
+<!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
+<img class="index-bamnner" src="../img/首頁LOGO.jpg" height="68%" width="100%">
+<!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+
+
+<!-- 點選挑戰模式顯示方式的定義&JS -->
+<script>
+// 滑鼠移動到選單目錄按鈕出現清單效果
+function overs(){
+  shadowAll.style.display='block';
+    }
+
+function outs(){
+  shadowAll.style.display='none';
+    } 
+
+// 點擊清單中選擇挑戰模式顯示效果
+function mode(index){
+let mode1=document.getElementById("mode1");
+let mode2=document.getElementById("mode2");
+let mode3=document.getElementById("mode3");
+let mode4=document.getElementById("mode4");
+let mode5=document.getElementById("mode5");
+let mode1s=document.getElementById("mode1s");
+let mode2s=document.getElementById("mode2s");
+let mode3s=document.getElementById("mode3s");
+let mode4s=document.getElementById("mode4s");
+let mode5s=document.getElementById("mode5s");
+
+// 全部未點
+if(index==0){
+mode1.style.display="block";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 組隊遊戲
+else if(index==1){
+mode1.style.display="none";
+mode2.style.display="block";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 世界頭目侵略
+else if(index==2){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="block";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 巨大頭目討伐
+else if(index==3){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="block";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 世界活動
+else if(index==4){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="block";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 全部未點(手機模式)
+else if(index==5){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="block";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+
+// 組隊遊戲(手機模式)
+else if(index==6){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode6.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="block";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 世界頭目侵略(手機模式)
+else if(index==7){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="block";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+
+// 巨大頭目討伐(手機模式)
+else if(index==8){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="block";
+mode5s.style.display="none";
+}
+
+// 世界活動(手機模式)
+else if(index==9){
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="block";
+}
+
+
+else{
+mode1.style.display="none";
+mode2.style.display="none";
+mode3.style.display="none";
+mode4.style.display="none";
+mode5.style.display="none";
+mode1s.style.display="none";
+mode2s.style.display="none";
+mode3s.style.display="none";
+mode4s.style.display="none";
+mode5s.style.display="none";
+}
+}
+</script>
+
+<!-- =====================任務各模式========================== -->
+<section>
+<!--挑戰模式按鈕選擇  -->
+<div class="missionDiv">
+<!-- 各關卡排列DIV 原始尺寸-->
+<div id="checkpointmission"> 
+<button class="mode1" style="border:none; background-color: transparent;" onclick="mode(1)"><img width="90%" src="img/時間線.jpg"></button>
+<button class="mode2" style="border:none; background-color: transparent;" onclick="mode(2)"><img width="90%" src="img/危險室.jpg"></button>
+<button class="mode3" style="border:none; background-color: transparent;" onclick="mode(3)"><img width="90%" src="img/聯盟戰爭.jpg"></button>
+<button class="mode4" style="border:none; background-color: transparent;" onclick="mode(4)"><img width="90%" src="img/聯盟錦標賽.jpg"></button>
+ </div>
+<!-- 各關卡排列DIV 手機模式-->
+<div id="checkpointmissions"> 
+<button class="mode1s" style="border:none; background-color: transparent;" onclick="mode(6)"><img width="95%" src="./img/時間線.jpg"></button>
+<button class="mode2s" style="border:none; background-color: transparent;" onclick="mode(7)"><img width="95%" src="./img/危險室.jpg"></button>
+ </div>
+<div id="checkpointmissions"> 
+<button class="mode3s" style="border:none; background-color: transparent;" onclick="mode(8)"><img width="95%" src="./img/聯盟戰爭.jpg"></button>
+<button class="mode4s" style="border:none; background-color: transparent;" onclick="mode(9)"><img width="95%" src="./img/聯盟錦標賽.jpg"></button>
+ </div>
+  </div>
+
+<!--進入頁面預設空白  -->
+<div>
+<div id="mode1">
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  </div>
+<div id="mode1s">
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </div>
+
+<!--組隊任務  -->
+<div>
+<div id="mode2" style="display: none;">
+  <div id="plot">
+<table id="plotGearing" border="5">
+<tr><td></td><td> <h6>組隊任務</h6></td></tr>
+<tr><td style="width: 40%;"> <h6>10層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-反浩克裝甲/復仇者聯盟-奧創紀元.jpg" height="70px" alt=""> 反浩克裝甲</td></tr>
+<tr><td> <h6>20層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-上氣/現代.jpg" height="70px" alt=""> 上氣</td></tr>
+<tr><td> <h6>30層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-酷寒戰士/美國隊長-酷寒戰士.jpg" height="70px" alt=""> 酷寒戰士</td></tr>
+<tr><td> <h6>40層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰反派-犀牛人/經典.jpg" height="70px" alt=""> 犀牛人</td></tr>
+<tr><td> <h6>50層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/爆破英雄-戰爭機器/現代.jpg" height="70px" alt=""> 戰爭機器</td></tr>
+<tr><td> <h6>60層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-羅南/星際異攻隊.jpg" height="70px" alt=""> 羅南</td></tr>
+<tr><td> <h6>70層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-蜘蛛人/經典.jpg" height="70px" alt=""> 蜘蛛人</td></tr>
+<tr><td> <h6>80層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟.jpg" height="70px" alt=""> 黑寡婦</td></tr>
+<tr><td> <h6>90層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-洛基/復仇者聯盟.jpg" height="70px" alt=""> 洛基</td></tr>
+</table>
+</div>
+  </div>
+<div id="mode2s" style="display: none;" >
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </div>
+
+<!--世界頭目侵略  -->
+<div>
+<div id="mode3" style="display: none;">
+ <div id="plot">
+<table id="plotGearing" border="5">
+<tr><td></td><td> <h6>世界頭目侵略</h6></td></tr>
+<tr><td style="width: 40%;"> <h6>10層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-反浩克裝甲/復仇者聯盟-奧創紀元.jpg" height="70px" alt=""> 反浩克裝甲</td></tr>
+<tr><td> <h6>20層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-上氣/現代.jpg" height="70px" alt=""> 上氣</td></tr>
+<tr><td> <h6>30層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-酷寒戰士/美國隊長-酷寒戰士.jpg" height="70px" alt=""> 酷寒戰士</td></tr>
+<tr><td> <h6>40層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰反派-犀牛人/經典.jpg" height="70px" alt=""> 犀牛人</td></tr>
+<tr><td> <h6>50層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/爆破英雄-戰爭機器/現代.jpg" height="70px" alt=""> 戰爭機器</td></tr>
+<tr><td> <h6>60層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-羅南/星際異攻隊.jpg" height="70px" alt=""> 羅南</td></tr>
+<tr><td> <h6>70層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-蜘蛛人/經典.jpg" height="70px" alt=""> 蜘蛛人</td></tr>
+<tr><td> <h6>80層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟.jpg" height="70px" alt=""> 黑寡婦</td></tr>
+<tr><td> <h6>90層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-洛基/復仇者聯盟.jpg" height="70px" alt=""> 洛基</td></tr>
+</table>
+</div>
+  </div>
+<div id="mode3s" style="display: none;" >
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </div>
+
+<!--巨大頭目討伐  -->
+<div>
+<div id="mode4" style="display: none;">
+<div id="plot">
+<table id="plotGearing" border="5">
+<tr><td></td><td> <h6>巨大頭目討伐</h6></td></tr>
+<tr><td style="width: 40%;"> <h6>10層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-反浩克裝甲/復仇者聯盟-奧創紀元.jpg" height="70px" alt=""> 反浩克裝甲</td></tr>
+<tr><td> <h6>20層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-上氣/現代.jpg" height="70px" alt=""> 上氣</td></tr>
+<tr><td> <h6>30層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-酷寒戰士/美國隊長-酷寒戰士.jpg" height="70px" alt=""> 酷寒戰士</td></tr>
+<tr><td> <h6>40層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰反派-犀牛人/經典.jpg" height="70px" alt=""> 犀牛人</td></tr>
+<tr><td> <h6>50層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/爆破英雄-戰爭機器/現代.jpg" height="70px" alt=""> 戰爭機器</td></tr>
+<tr><td> <h6>60層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-羅南/星際異攻隊.jpg" height="70px" alt=""> 羅南</td></tr>
+<tr><td> <h6>70層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-蜘蛛人/經典.jpg" height="70px" alt=""> 蜘蛛人</td></tr>
+<tr><td> <h6>80層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟.jpg" height="70px" alt=""> 黑寡婦</td></tr>
+<tr><td> <h6>90層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-洛基/復仇者聯盟.jpg" height="70px" alt=""> 洛基</td></tr>
+</table>
+</div>
+  </div>
+<div id="mode4s" style="display: none;" >
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </div>
+
+<!--世界活動  -->
+<div>
+<div id="mode5" style="display: none;">
+  <div id="plot">
+<table id="plotGearing" border="5">
+<tr><td></td><td> <h6>世界活動</h6></td></tr>
+<tr><td style="width: 40%;"> <h6>10層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-反浩克裝甲/復仇者聯盟-奧創紀元.jpg" height="70px" alt=""> 反浩克裝甲</td></tr>
+<tr><td> <h6>20層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-上氣/現代.jpg" height="70px" alt=""> 上氣</td></tr>
+<tr><td> <h6>30層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-酷寒戰士/美國隊長-酷寒戰士.jpg" height="70px" alt=""> 酷寒戰士</td></tr>
+<tr><td> <h6>40層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/近戰反派-犀牛人/經典.jpg" height="70px" alt=""> 犀牛人</td></tr>
+<tr><td> <h6>50層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/爆破英雄-戰爭機器/現代.jpg" height="70px" alt=""> 戰爭機器</td></tr>
+<tr><td> <h6>60層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-羅南/星際異攻隊.jpg" height="70px" alt=""> 羅南</td></tr>
+<tr><td> <h6>70層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-蜘蛛人/經典.jpg" height="70px" alt=""> 蜘蛛人</td></tr>
+<tr><td> <h6>80層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟.jpg" height="70px" alt=""> 黑寡婦</td></tr>
+<tr><td> <h6>90層:</h6></td><td> <img src="../各英雄資料庫/img/英雄ICON/宇宙反派-洛基/復仇者聯盟.jpg" height="70px" alt=""> 洛基</td></tr>
+</table>
+</div>
+  </div>
+<div id="mode5s" style="display: none;" >
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+</div>
+  </div>
+
+
+</section>
+
+<!-- 頁尾 -->
+<section>
+<div>
+</div>
+  </section>
+
+<!-- 兩邊預設Banner -->
+<!-- <h6>預設banner左邊</h6> -->
+<!-- <h6>預設banner右邊</h6> -->
+</body>
+
+</html>

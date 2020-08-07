@@ -1,0 +1,563 @@
+* {
+    box-sizing: border-box;
+}
+
+.budy {
+    margin: 0px;
+}
+
+
+/*=====Links文章去除連結底線=====*/
+
+a,
+a:link,
+a:visited {
+    color: rgba(243, 230, 231, 0.8);
+    text-decoration: none
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+/* 按鈕去掉藍色邊框 */
+
+input,
+button,
+a {
+    outline: 0 none !important;
+}
+
+
+/* ===========導覽列=========== */
+
+
+/* NAV左邊首頁樣型 */
+
+.newsText0 {
+    width: 70%;
+    font-size: 45px;
+}
+
+
+/* =====導覽列格式===== */
+
+.navbar-toggler {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    z-index: 999;
+    padding-right: -80%;
+    position: fixed;
+    /*固定位置定位*/
+    top: 0%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 0;
+    /*左方邊界*/
+}
+
+.menu-trigger {
+    display: none;
+    /*原是隱藏 */
+}
+
+.title {
+    width: 30%;
+}
+
+.menu {
+    margin-right: 10%;
+    height: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: right;
+}
+
+
+/* 改版資訊&遊戲內容按鈕格式 */
+
+#dropdownMenu1 {
+    background-color: rgb(222, 222, 233);
+    border-radius: 10%;
+    margin-top: -10%;
+    margin-right: 0px;
+    margin-left: 33%;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #dropdownMenu1 {
+        background-color: rgb(222, 222, 233);
+        height: 50px;
+        width: 55px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+
+
+/* 選單UI的格式 */
+
+.dropdown-menu.show {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(212, 212, 230, 0);
+    border: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navText1 {
+    color: rgb(103, 104, 117);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText1 {
+        color: rgb(103, 104, 117);
+        font-size: 15px;
+        text-align: left;
+        text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+        display: flex;
+        width: 50px;
+    }
+}
+
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+
+.navText2 {
+    color: rgb(226, 236, 238);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 4%;
+    width: 90%;
+    display: block;
+    border: inset 0.2px rgb(28, 120, 143);
+    margin: 0px;
+    background-color: rgba(83, 83, 92, 0.9);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText2 {
+        color: rgb(226, 236, 238);
+        margin-left: 37%;
+        width: 60%;
+        font-size: 12px;
+        text-align: left;
+        border: inset 0.2px rgb(28, 120, 143);
+        background-color: rgba(83, 83, 92, 0.9);
+    }
+}
+
+.navText2:hover {
+    color: rgb(189, 175, 185);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(92, 53, 25, 0.7);
+}
+
+
+/* ==========網頁背景圖案========== */
+
+html {
+    height: 100%;
+}
+
+
+/* 網頁背景 */
+
+body {
+    background-image: url(../img/宇宙.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ===========文字格式=========== */
+
+
+/* 普通黑字 */
+
+.news0 {
+    font-size: 14px;
+    text-align-last: center;
+    color: #000;
+}
+
+
+/* 白色紅底大字 */
+
+.newsTip1 {
+    font-size: 35px;
+    color: rgb(241, 231, 231);
+    text-shadow: 0em 0.05em rgb(236, 11, 11);
+    font-weight: bolder;
+}
+
+
+/* 白色藍色大字 */
+
+.newsTip2 {
+    font-size: 35px;
+    color: rgb(237, 234, 245);
+    text-shadow: 0em 0.05em rgb(16, 31, 70);
+    font-weight: bolder;
+}
+
+
+/* 白色綠底大字 */
+
+.newsTip3 {
+    font-size: 35px;
+    color: rgb(225, 236, 229);
+    text-shadow: 0em 0.05em rgb(83, 204, 53);
+    font-weight: bolder;
+}
+
+
+/* 白色紫底大字 */
+
+.newsTip4 {
+    font-size: 35px;
+    color: rgb(238, 231, 237);
+    text-shadow: 0.1em 0.1em rgb(78, 9, 67);
+    font-weight: bolder;
+}
+
+
+/* 標題文字DIV */
+
+#titleText {
+    height: 200px;
+    width: 1300px;
+    margin: 0.5%;
+    margin-left: 15%;
+    background: url("../img/1.3.jpg");
+    background-size: cover;
+    border: 8px solid rgba(139, 125, 112, 0.849);
+    text-align: center;
+    font-size: 80px;
+    color: blanchedalmond;
+    text-shadow: 0.1em 0.1em rgba(66, 73, 87);
+}
+
+
+/*英雄類型選單DIV */
+
+.hero {
+    color: blanchedalmond;
+    font-size: 40px;
+    text-shadow: 0em 0.1em rgb(231, 97, 25, 0.6);
+    display: block;
+    margin-right: 50px;
+    position: relative;
+    padding: 5%;
+}
+
+
+/* 類型選擇按鈕外框格式 */
+
+.buttonDiv {
+    display: flex;
+    position: relative;
+    margin: 0px auto;
+    padding-left: 5%;
+    margin-bottom: -3.5%;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .buttonDiv {
+        display: none;
+    }
+}
+
+
+/* 類型選擇按鈕外框手機格式 */
+
+.buttonDivs {
+    display: none;
+}
+
+
+/* 類型選擇按鈕外框格式 */
+
+@media(max-width:500px) {
+    .buttonDivs {
+        display: block;
+    }
+}
+
+#heroDrop {
+    color: rgb(225, 225, 245);
+    background-color: rgba(37, 206, 183, 0.9);
+    display: flex;
+    margin: 0px auto;
+    position: fixed;
+    /*固定位置定位*/
+    top: 9%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 62.5%;
+    /*左方邊界*/
+    z-index: 999;
+}
+
+
+/* 類型選擇按鈕格式 */
+
+.typeButton {
+    width: 100px;
+    height: 50px;
+    color: rgb(220, 201, 238);
+    font-size: 14px;
+    text-shadow: 0.05em 0.05em black;
+    font-weight: bold;
+    background-color: rgba(25, 103, 134, 0.9);
+    border: 3px solid rgb(223, 188, 136);
+    border-radius: 10%;
+    border-top-left-radius: 40%;
+    z-index: 500;
+}
+
+
+/* 類型選擇按鈕手機格式 */
+
+.typeButtons {
+    color: rgb(223, 60, 60);
+    background-color: rgba(225, 241, 166, 0.8);
+    border: inset 1px rgb(170, 148, 148);
+}
+
+
+/* ==========選項清單格式========== */
+
+
+/* 成就 */
+
+.achievement {
+    padding-left: 3%;
+    color: rgb(159, 223, 223);
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 1%;
+    border: 15px rgba(250, 234, 234, 0.5);
+    border-style: double;
+    background-color: rgba(117, 66, 66, 0.7);
+    border-radius: 8%;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .achievement {
+        padding-left: 10%;
+        width: 100%;
+        position: relative;
+        display: block;
+        border: 15px rgba(250, 234, 234, 0.5);
+        border-style: double;
+        background-color: rgba(216, 72, 72, 0.7);
+        border-radius: 8%;
+    }
+}
+
+
+/* 次元商店 */
+
+.store {
+    padding-left: 3%;
+    color: rgb(159, 223, 223);
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 1%;
+    border: 15px rgba(250, 234, 234, 0.5);
+    border-style: double;
+    background-color: rgba(55, 92, 214, 0.9);
+    border-radius: 8%;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .store {
+        padding-left: 10%;
+        width: 100%;
+        position: relative;
+        display: block;
+        border: 15px rgba(250, 234, 234, 0.5);
+        border-style: double;
+        background-color: rgba(216, 72, 72, 0.7);
+        border-radius: 8%;
+    }
+}
+
+
+/* 生成 */
+
+.generate {
+    padding-left: 3%;
+    color: rgb(159, 223, 223);
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 1%;
+    border: 15px rgba(250, 234, 234, 0.5);
+    border-style: double;
+    background-color: rgba(55, 92, 214, 0.9);
+    border-radius: 8%;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .generate {
+        padding-left: 10%;
+        width: 100%;
+        position: relative;
+        display: block;
+        border: 15px rgba(250, 234, 234, 0.5);
+        border-style: double;
+        background-color: rgba(32, 79, 235, 0.8);
+        border-radius: 8%;
+    }
+}
+
+
+/* 各道具ICON上的文字 */
+
+.herom-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(8, 28, 116, 0.8);
+    background-color: rgba(217, 229, 240, 0.8);
+    position: relative;
+    z-index: 100;
+    top: 80%;
+    text-align: center;
+}
+
+
+/* =====道具ICON上邊框的格式 =====*/
+
+.heroIcon {
+    height: 110px;
+    width: 100px;
+    float: left;
+    margin: 1%;
+    background-size: cover;
+    border: 8px solid rgba(228, 228, 156, 0.849);
+    border-style: double;
+    border-radius: 20px;
+}
+
+
+/* =========道具圖片格式=========== */
+
+
+/* 裝備升級箱 */
+
+#equipmentbox {
+    background: url("../道具/img/裝備升級箱.jpg");
+}
+
+
+/* 次元破片 */
+
+#dimensionalFragments {
+    background: url("../道具/img/次元破片.jpg");
+}
+
+
+/* 一級制服經驗值晶片 */
+
+#skinUp1 {
+    background: url("../道具/img/一級制服經驗值晶片.jpg");
+}
+
+
+/* 二級制服經驗值晶片 */
+
+#skinUp2 {
+    background: url("../道具/img/二級制服經驗值晶片.jpg");
+}
+
+
+/* 三級制服經驗值晶片 */
+
+#skinUp3 {
+    background: url("../道具/img/三級制服經驗值晶片.jpg");
+}
+
+
+/* 終級制服經驗值晶片 */
+
+#skinUp4 {
+    background: url("../道具/img/終極制服經驗值晶片.jpg");
+}
+
+
+/* 一級經驗值晶片 */
+
+#up1 {
+    background: url("../道具/img/一級經驗值晶片.jpg");
+}
+
+
+/* 二級經驗值晶片 */
+
+#up2 {
+    background: url("../道具/img/二級經驗值晶片.jpg");
+}
+
+
+/* 三級經驗值晶片 */
+
+#up3 {
+    background: url("../道具/img/三級經驗值晶片.jpg");
+}

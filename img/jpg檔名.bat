@@ -1,0 +1,1 @@
+raname *.jpg *png

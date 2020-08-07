@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--title -->
+    <title>未 來 之 戰 危 機 百 科</title>
+    <link rel="icon" href="./img/logo121.ico" type="image/x-icon">
+</head>
+<script>
+</script>
+
+<body>
+    <!-- =========================導覽列===================== -->
+    <div class="navbar-toggler">
+        <div class="newsText0"></div>
+        <!-- ==========改版資訊 & 遊戲內容========== -->
+        <div class="menu">
+            <!-- =====改版資訊 ======-->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.最新改版消息 -->
+                    <li role="presentation">
+                        <a href="./news-banner1.html">
+                            <h3 class="navText2">最 新 改 版 消 息</h3>
+                        </a>
+                    </li>
+                    <!-- 2.最新速報 -->
+                    <li role="presentation">
+                        <a href="./news-banner2.html">
+                            <h3 class="navText2">最 新 速 報</h3>
+                        </a>
+                    </li>
+                    <!-- 3.活動 -->
+                    <li role="presentation">
+                        <a href="./news-banner3.html">
+                            <h3 class="navText2">活 動</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =====遊戲內容 ===== -->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.各英雄資料庫 -->
+                    <li role="presentation">
+                        <a href="./各英雄資料庫/sevenbanner1.html ">
+                            <h3 class="navText2">角 色</h3>
+                        </a>
+                    </li>
+                    <!-- 2.挑戰 -->
+                    <li role="presentation">
+                        <a href="./挑戰/sevenbanner2.html">
+                            <h3 class="navText2">挑 戰</h3>
+                        </a>
+                    </li>
+                    <!-- 3.神盾局 -->
+                    <li role="presentation">
+                        <a href="./神盾局/sevenbanner3.html ">
+                            <h3 class="navText2">神 盾 局</h3>
+                        </a>
+                    </li>
+                    <!-- 4.任務 -->
+                    <li role="presentation">
+                        <a href="./任務/sevenbanner4.html ">
+                            <h3 class="navText2">任 務</h3>
+                        </a>
+                    </li>
+                    <!-- 5.PVP模式-->
+                    <li role="presentation">
+                        <a href="./PVP模式/sevenbanner5.html">
+                            <h3 class="navText2">PVP 模 式</h3>
+                        </a>
+                    </li>
+                    <!-- 6.PVP模式-->
+                    <li role="presentation">
+                        <a href="./道具/sevenbanner6.html">
+                            <h3 class="navText2">道 具</h3>
+                        </a>
+                    </li>
+                    <!-- 7.組隊模式 -->
+                    <li role="presentation">
+                        <a href="./組隊模式/sevenbanner7.html">
+                            <h3 class="navText2">組 隊 模 式</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+        <div class="menu-trigger">
+            <button onclick="show();">改版資訊<br> 遊戲內容</button>
+            <div class="menu">
+                <!-- =====改版資訊===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.最新改版消息 -->
+                        <li role="presentation">
+                            <a href="./news-banner1.html">
+                                <h3 class="navText2">最 新 改 版 消 息</h3>
+                            </a>
+                        </li>
+                        <!-- 2.最新速報 -->
+                        <li role="presentation">
+                            <a href="./news-banner2.html">
+                                <h3 class="navText2">最 新 速 報</h3>
+                            </a>
+                        </li>
+                        <!-- 3.活動 -->
+                        <li role="presentation">
+                            <a href="./news-banner3.html">
+                                <h3 class="navText2">活 動</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =====遊戲內容 ===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.各英雄資料庫 -->
+                        <li role="presentation">
+                            <a href="./各英雄資料庫/sevenbanner1.html ">
+                                <h3 class="navText2">角 色</h3>
+                            </a>
+                        </li>
+                        <!-- 2.挑戰 -->
+                        <li role="presentation">
+                            <a href="./挑戰/sevenbanner2.html">
+                                <h3 class="navText2">挑 戰</h3>
+                            </a>
+                        </li>
+                        <!-- 3.神盾局 -->
+                        <li role="presentation">
+                            <a href="./神盾局/sevenbanner3.html ">
+                                <h3 class="navText2">神 盾 局</h3>
+                            </a>
+                        </li>
+                        <!-- 4.任務 -->
+                        <li role="presentation">
+                            <a href="./任務/sevenbanner4.html ">
+                                <h3 class="navText2">任 務</h3>
+                            </a>
+                        </li>
+                        <!-- 5.PVP模式-->
+                        <li role="presentation">
+                            <a href="./PVP模式/sevenbanner5.html">
+                                <h3 class="navText2">PVP 模 式</h3>
+                            </a>
+                        </li>
+                        <!-- 6.PVP模式-->
+                        <li role="presentation">
+                            <a href="./道具/sevenbanner6.html">
+                                <h3 class="navText2">道 具</h3>
+                            </a>
+                        </li>
+                        <!-- 7.組隊模式 -->
+                        <li role="presentation">
+                            <a href="./組隊模式/sevenbanner7.html">
+                                <h3 class="navText2">組 隊 模 式</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===============(未 來 之 戰 危 機 百 科)大圖片======== -->
+    <img class="index-bamnner" src="img/index.jpg" width="100%">
+
+    <!-- =======================大版面======================= -->
+    <!-- 更新訊息Banner -->
+    <section id="newsBannerAB">
+        <div>
+            <div class="news-banner">
+
+                <!--最新改版消息  -->
+                <a ID="news-banner1" href="news-banner1.html" target="_blank" style="text-decoration:none;">
+                    <h1 class=" text-banner">最 新 改 版 消 息</h1>
+                </a>
+
+                <!--最新速報  -->
+                <a ID="news-banner2" href="news-banner2.html" target="_blank" style="text-decoration:none;">
+                    <h1 class="text-banner">最 新 速 報</h1>
+                </a>
+
+                <!--活動  -->
+                <a ID="news-banner3" href="news-banner3.html" target="_blank" style="text-decoration:none;">
+                    <h1 class="text-banner">活 動</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==============上排3個 & 下排4個 的7Banner============ -->
+    <section id="sevenbannerAB">
+
+        <!--=====上面3個banner=====  -->
+        <div id="sevenbannerA">
+            <!-- 1.角色 -->
+            <a id="sevenbannerimg" href="./各英雄資料庫/sevenbanner1.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">角 色</h1>
+            </a>
+            <!-- 2.挑戰 -->
+            <a id="sevenbannerimg" href="./挑戰/sevenbanner2.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">挑 戰</h1>
+            </a>
+            <!-- 3.神盾局 -->
+            <a id="sevenbannerimg" href="./神盾局/sevenbanner3.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">神 盾 局 </h1>
+            </a>
+        </div>
+
+        <!--================上下面各2個banner分上下=============  -->
+        <!-- ===上面2個=== -->
+        <div id="sevenbannerB">
+            <!-- 4.任務 -->
+            <a id="sevenbannerimg" href="./任務/sevenbanner4.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">任 務 </h1>
+            </a>
+            <!-- 5.PVP模式 -->
+            <a id="sevenbannerimg" href="./PVP模式/sevenbanner5.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">PVP 模 式 </h1>
+            </a>
+        </div>
+
+        <!-- ===下面2個=== -->
+        <div id="sevenbannerB">
+            <!-- 6.道具 -->
+            <a id="sevenbannerimg" href="./道具/sevenbanner6.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">道 具 </h1>
+            </a>
+            <!-- 7.組隊模式 -->
+            <a id="sevenbannerimg" href="./組隊模式/sevenbanner7.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">組 隊 模 式 </h1>
+            </a>
+        </div>
+
+        <div id="postmen">
+            <!-- 7.組隊模式 -->
+            <a id="postmenPic" href="./postmen.html" target="_blank" style="text-decoration:none;">
+                <h1 class="sevenbanner-text">來 信 意 見 </h1>
+            </a>
+        </div>
+    </section>
+
+    <!-- 暫時留白-->
+    <div>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <!-- 頁尾 -->
+    <section>
+        <div>
+        </div>
+    </section>
+
+</body>
+
+</html>

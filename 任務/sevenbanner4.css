@@ -1,0 +1,680 @@
+* {
+    box-sizing: border-box;
+}
+
+.budy {
+    margin: 0px;
+}
+
+
+/*=====Links文章去除連結底線=====*/
+
+a,
+a:link,
+a:visited {
+    color: rgba(243, 230, 231, 0);
+    text-decoration: none
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+/* 按鈕去掉藍色邊框 */
+
+input,
+button,
+a {
+    outline: 0 none !important;
+}
+
+
+/* ===========導覽列=========== */
+
+
+/* NAV左邊首頁樣型 */
+
+.newsText0 {
+    width: 70%;
+    font-size: 45px;
+}
+
+
+/* =====導覽列格式===== */
+
+.navbar-toggler {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    z-index: 999;
+    padding-right: -80%;
+    position: fixed;
+    /*固定位置定位*/
+    top: 0%;
+    /*距離上方的位置*/
+    right: 0%;
+    /*距離左方的位置*/
+    margin-top: 0;
+    /*上方邊界*/
+    margin-right: 0;
+    /*左方邊界*/
+}
+
+.menu-trigger {
+    display: none;
+    /*原是隱藏 */
+}
+
+.title {
+    width: 30%;
+}
+
+.menu {
+    margin-right: 10%;
+    height: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: right;
+}
+
+
+/* 改版資訊&遊戲內容按鈕格式 */
+
+#dropdownMenu1 {
+    background-color: rgb(222, 222, 233);
+    border-radius: 10%;
+    margin-top: -10%;
+    margin-right: 0px;
+    margin-left: 33%;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    #dropdownMenu1 {
+        background-color: rgb(222, 222, 233);
+        height: 50px;
+        width: 55px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+/* =====NAV改版資訊 & 遊戲內容 選擇設定===== */
+
+
+/* 選單UI的格式 */
+
+.dropdown-menu.show {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(212, 212, 230, 0);
+    border: none;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .dropdown-menu.show {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navText1 {
+    color: rgb(103, 104, 117);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+    display: block;
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText1 {
+        color: rgb(103, 104, 117);
+        font-size: 15px;
+        text-align: left;
+        text-shadow: 0.1em 0.1em rgba(220, 220, 238);
+        display: flex;
+        width: 50px;
+    }
+}
+
+
+/*NAV改版資訊 & 遊戲內容 子項目設定 */
+
+.navText2 {
+    color: rgb(226, 236, 238);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 4%;
+    width: 90%;
+    display: block;
+    border: inset 0.2px rgb(28, 120, 143);
+    margin: 0px;
+    background-color: rgba(83, 83, 92, 0.9);
+}
+
+
+/* 螢幕尺寸低於800px的設定 */
+
+@media(max-width:800px) {
+    .navText2 {
+        color: rgb(226, 236, 238);
+        margin-left: 37%;
+        width: 60%;
+        font-size: 12px;
+        text-align: left;
+        border: inset 0.2px rgb(28, 120, 143);
+        background-color: rgba(83, 83, 92, 0.9);
+    }
+}
+
+.navText2:hover {
+    color: rgb(189, 175, 185);
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(92, 53, 25, 0.7);
+}
+
+
+/* ==========網頁背景圖案========== */
+
+html {
+    height: 100%;
+}
+
+
+/* 網頁背景 */
+
+body {
+    background-image: url(../img/宇宙.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* ==========挑戰模式========== */
+
+
+/*任務DIV */
+
+.missionDiv {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+/* =====任務關卡DIV 原始模式===== */
+
+#checkpointmission {
+    justify-content: center;
+    display: flex;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    #checkpointmission {
+        display: none;
+    }
+}
+
+
+/* =====任務關卡DIV 手機模式===== */
+
+#checkpointmissions {
+    display: none;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    #checkpointmissions {
+        display: block;
+    }
+}
+
+
+/* 選單內容按鈕格式 */
+
+.listButton {
+    width: 100%;
+    padding-left: 2%;
+    font-size: 15px;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: rgb(234, 237, 240);
+    background-color: rgba(36, 31, 4, 0.11);
+    border-top: double 3px rgb(230, 144, 144, 0.8);
+}
+
+
+/* 模式選擇邊框 */
+
+.modeFrome {
+    border: double 2px blue;
+}
+
+
+/* 預設 */
+
+#mode1 {
+    margin: 0px 15%;
+}
+
+
+/* 劇情模式 */
+
+#mode2 {
+    position: relative;
+    display: flex;
+    margin-top: 1%;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+#mode2s {
+    display: none;
+    justify-content: center;
+    z-index: 999;
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 3%;
+}
+
+
+/* 選單按鈕格式 */
+
+#legendDrop {
+    height: 50%;
+    width: 80%;
+    margin-left: 7%;
+    color: rgb(238, 235, 225);
+    border: dotted 10px rgb(179, 154, 154, 0.3);
+    background-color: rgb(218, 163, 81);
+    border-radius: 25%;
+}
+
+
+/* 次元任務 */
+
+#mode3 {
+    position: relative;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+
+/* 次元任務名稱格式 */
+
+.dimensionName {
+    color: rgb(228, 213, 155, 0.8);
+    background-color: rgb(67, 30, 71);
+    margin-left: 7px;
+    margin-top: -5px;
+    text-align: center;
+    border-top: inset 3px yellow;
+    border-bottom: inset 2px rgb(155, 155, 60);
+    border-radius: 10%;
+}
+
+
+/* 次元任務手機預設隱藏 */
+
+#mode3s {
+    display: none;
+    margin: 0px 15%;
+    margin-bottom: 3%;
+}
+
+
+/* 次元任務階級名稱格式 */
+
+.teamWarName {
+    color: rgba(233, 238, 187, 0.8);
+    background-color: rgb(151, 113, 8);
+    text-align: center;
+    border-top: inset 3px rgb(243, 121, 121);
+    border-bottom: inset 2px rgb(184, 91, 91);
+    border-radius: 10%;
+}
+
+
+/* 次元任務獎勵圖片手機格式 */
+
+.mandalay {
+    width: 25%;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .mandalay {
+        display: none;
+    }
+}
+
+
+/* 史詩任務 */
+
+#mode4 {
+    position: relative;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+
+/* 史詩任務名稱格式 */
+
+.epicName {
+    color: rgb(228, 213, 155, 0.8);
+    background-color: rgb(67, 30, 71);
+    text-align: center;
+    border-top: inset 3px yellow;
+    border-bottom: inset 2px rgb(155, 155, 60);
+    border-radius: 10%;
+}
+
+
+/* 史詩任務故事格式 */
+
+#epic {
+    display: flex;
+    margin: 0px auto;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    background-size: cover;
+    border: 6px solid rgba(221, 148, 88, 0.5);
+    font-size: 18px;
+    color: rgb(46, 36, 36);
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    #epic {
+        display: none;
+    }
+}
+
+
+/* 史詩任務故事手機格式 */
+
+#epics {
+    display: none;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    #epics {
+        display: flex;
+        margin: 0px auto;
+        height: 350px;
+        overflow-x: scroll;
+        width: 90%;
+        margin-left: 5%;
+        background-size: cover;
+        border: 6px solid rgba(221, 148, 88, 0.5);
+        font-size: 18px;
+        color: rgb(46, 36, 36);
+    }
+}
+
+
+/* 史詩任務清單的格式 */
+
+.epicList {
+    width: 15%;
+}
+
+
+/* 史詩任務清單中任務標題格式 */
+
+.epicMission {
+    color: rgb(214, 112, 54);
+    background-color: rgb(202, 177, 177, 0.8);
+    text-shadow: 0.02em 0.01em rgba(175, 130, 130, 0.7);
+}
+
+#mode4s {
+    display: none;
+    margin: 0px 15%;
+    margin-bottom: 3%;
+}
+
+
+/* 英雄任務 */
+
+#mode5 {
+    position: relative;
+    display: flex;
+    padding-top: 0.5%;
+    margin-top: 1%;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 90%;
+    height: 200px;
+}
+
+
+/* 英雄任務名稱格式 */
+
+.heroName {
+    color: rgb(228, 213, 155, 0.8);
+    background-color: rgb(67, 30, 71);
+    text-align: center;
+    border-top: inset 3px yellow;
+    border-bottom: inset 2px rgb(155, 155, 60);
+    border-radius: 10%;
+}
+
+
+/* 英雄任務人物選擇單格式 */
+
+#heroDrop {
+    color: rgb(200, 204, 248);
+    text-align: center;
+    background-color: rgb(79, 79, 136);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-top: inset 5px rgb(167, 156, 230);
+    border-bottom: inset 2px rgb(167, 156, 230);
+    border-radius: 15%;
+}
+
+
+/* 英雄任務選擇按鈕區域格式 */
+
+#heroAll {
+    overflow-x: hidden;
+    height: 120px;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: -3%;
+}
+
+
+/* 英雄任務選擇按鈕格式 */
+
+.heroList {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    padding-left: 5%;
+    background-color: rgb(68, 57, 42);
+    border-top: inset 3px yellow;
+    text-align: left;
+    height: 40px;
+}
+
+
+/* 英雄任務選擇按鈕Hover格式 */
+
+.heroList:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    padding-left: 5%;
+    background-color: rgb(144, 146, 15, 0.8);
+    border-top: inset 3px rgb(85, 12, 23, 0.7);
+    text-align: left;
+    height: 40px;
+}
+
+#mode5s {
+    display: none;
+    margin: 0px 15%;
+    margin-bottom: 3%;
+}
+
+
+/* 挑戰關卡清單背景DIV */
+
+.everyPlot {
+    color: rgb(15, 15, 87);
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    margin-top: 1%;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    border: 6px solid rgba(160, 153, 223, 0.815);
+    background-color: rgb(208, 206, 233, 0.8);
+    border-radius: 2%;
+    text-align: center;
+}
+
+
+/* 挑戰獎勵或關卡資訊清單格式 */
+
+#plot {
+    display: flex;
+    margin: 0px auto;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    background-size: cover;
+    border: 6px solid rgba(221, 148, 88, 0.5);
+    font-size: 18px;
+    color: rgb(46, 36, 36);
+}
+
+
+/* 關卡獎勵格式 */
+
+#plotGearing {
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+    clear: both;
+    font-size: 9px;
+    padding-top: 40px;
+    width: 100%;
+    height: 40%;
+    color: rgb(97, 43, 7);
+    margin-left: 3%;
+    text-align: left;
+}
+
+
+/* 獎勵圖片格式 */
+
+#plotPic {
+    margin-bottom: 0.8%;
+}
+
+
+/*英雄任務每周清單格式 */
+
+.week {
+    overflow-y: hidden;
+    color: rgb(15, 15, 87);
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+    margin-top: 1%;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    border: 6px solid rgba(160, 153, 223, 0.815);
+    background-color: rgb(208, 206, 233, 0.8);
+    border-radius: 2%;
+    text-align: center;
+    width: 1200px;
+}
+
+
+/* 螢幕尺寸低於500px的設定 */
+
+@media(max-width:500px) {
+    .week {
+        overflow-y: hidden;
+        color: rgb(15, 15, 87);
+        font-weight: bolder;
+        font-size: 40px;
+        position: relative;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border: 6px solid rgba(160, 153, 223, 0.815);
+        background-color: rgb(208, 206, 233, 0.8);
+        border-radius: 2%;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+
+/* 每周獎勵內容格式 */
+
+#weekGearing {
+    padding-top: 1px;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    overflow-x: auto;
+    text-align: left;
+}
+
+
+/* 每周獎勵表格樣式 */
+
+#heroBonus {
+    padding-left: 5px;
+    border: inset 3px rgb(158, 114, 114);
+}
