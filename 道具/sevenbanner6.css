@@ -526,131 +526,6 @@ body {
 }
 
 
-/* 速度反派 */
-
-.speed2 {
-    position: relative;
-    display: block;
-    top: 10%;
-    width: 100%;
-    margin-bottom: 1%;
-    justify-content: center;
-    border: 15px solid rgba(250, 234, 234, 0.5);
-    border-style: double;
-    background-color: rgba(32, 70, 48, 0.8);
-    border-radius: 8%;
-}
-
-
-/* 螢幕尺寸低於500px的設定 */
-
-@media(max-width:500px) {
-    .speed2 {
-        padding-left: 10%;
-        width: 100%;
-        position: relative;
-        display: block;
-        border: 15px rgba(250, 234, 234, 0.5);
-        border-style: double;
-        background-color: rgba(32, 70, 48, 0.8);
-        border-radius: 8%;
-    }
-}
-
-
-/* 宇宙英雄 */
-
-.universe1 {
-    position: relative;
-    display: block;
-    margin-bottom: 1%;
-    width: 100%;
-    justify-content: center;
-    border: 15px solid rgba(250, 234, 234, 0.5);
-    border-style: double;
-    background-color: rgba(177, 84, 158, 0.8);
-    border-radius: 8%;
-}
-
-
-/* 螢幕尺寸低於500px的設定 */
-
-@media(max-width:500px) {
-    .universe1 {
-        padding-left: 10%;
-        width: 100%;
-        position: relative;
-        display: block;
-        border: 15px rgba(250, 234, 234, 0.5);
-        border-style: double;
-        background-color: rgba(177, 84, 158, 0.8);
-        border-radius: 8%;
-    }
-}
-
-
-/* 宇宙反派 */
-
-.universe2 {
-    position: relative;
-    display: block;
-    margin-bottom: 1%;
-    width: 100%;
-    justify-content: center;
-    border: 15px solid rgba(250, 234, 234, 0.5);
-    border-style: double;
-    background-color: rgba(177, 84, 158, 0.8);
-    border-radius: 8%;
-}
-
-
-/* 螢幕尺寸低於500px的設定 */
-
-@media(max-width:500px) {
-    .universe2 {
-        padding-left: 10%;
-        width: 100%;
-        position: relative;
-        display: block;
-        border: 15px rgba(250, 234, 234, 0.5);
-        border-style: double;
-        background-color: rgba(177, 84, 158, 0.8);
-        border-radius: 8%;
-    }
-}
-
-
-/* 宇宙中立 */
-
-.universe3 {
-    position: relative;
-    display: block;
-    margin-bottom: 1%;
-    width: 100%;
-    justify-content: center;
-    border: 15px solid rgba(250, 234, 234, 0.5);
-    border-style: double;
-    background-color: rgba(177, 84, 158, 0.8);
-    border-radius: 8%;
-}
-
-
-/* 螢幕尺寸低於500px的設定 */
-
-@media(max-width:500px) {
-    .universe3 {
-        padding-left: 10%;
-        width: 100%;
-        position: relative;
-        display: block;
-        border: 15px rgba(250, 234, 234, 0.5);
-        border-style: double;
-        background-color: rgba(177, 84, 158, 0.8);
-        border-radius: 8%;
-    }
-}
-
-
 /* 各道具ICON上的文字 */
 
 .herom-text {
@@ -762,7 +637,7 @@ body {
 /* 高級T2升階卷卷 */
 
 #advancedT2s {
-    background: url("./img/高級6星進階卷.jpg");
+    background: url("./img/高級T2升階卷.jpg");
 }
 
 
@@ -902,7 +777,7 @@ body {
 /* 製鍊CTP */
 
 #chain {
-    background: url("./img/製鍊CTP.jpg");
+    background: url("./img/製鏈CTP.jpg");
 }
 
 
@@ -1109,16 +984,23 @@ body {
 }
 
 
-/*最高級的黑暗反物質 */
+/* 強化的黑暗反物質 */
 
 #Antimatter4 {
+    background: url("./img/強化的黑暗反物質.jpg");
+}
+
+
+/*最高級的黑暗反物質 */
+
+#Antimatter5 {
     background: url("./img/最高級黑暗反物質.jpg");
 }
 
 
 /* 終極的黑暗反物質 */
 
-#Antimatter5 {
+#Antimatter6 {
     background: url("./img/終極的黑暗反物質.jpg");
 }
 
