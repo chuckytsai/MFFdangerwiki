@@ -202,10 +202,23 @@ body {
 /* ===========文字格式=========== */
 
 
+/* 新聞邊框 */
+
+.news {
+    padding-left: 3%;
+    font-size: 14px;
+    color: rgb(44, 39, 35);
+    text-align: left;
+    text-shadow: rgb(245, 117, 117);
+    border: 2px solid rgba(150, 73, 70, 0.979);
+    background-color: rgba(248, 238, 246, 0.7);
+}
+
+
 /* 普通黑字 */
 
 .news0 {
-    font-size: 17px;
+    font-size: 19px;
     color: #000;
 }
 
@@ -213,7 +226,7 @@ body {
 /* 橘色警告 */
 
 .newsTip1 {
-    font-size: 18px;
+    font-size: 12px;
     color: rgb(177, 113, 17);
     text-shadow: 0.1em 0.1em rgb(243, 156, 75);
 }
@@ -287,18 +300,6 @@ body {
         font-weight: bolder;
         opacity: 0.8;
     }
-}
-
-
-/* 201911月的消息 */
-
-.news201911 {
-    font-size: 14px;
-    color: rgb(44, 39, 35);
-    text-align: left;
-    text-shadow: rgb(245, 117, 117);
-    border: 2px solid rgba(150, 73, 70, 0.979);
-    background-color: rgba(248, 238, 246, 0.7);
 }
 
 
