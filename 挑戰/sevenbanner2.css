@@ -572,6 +572,14 @@ body {
 }
 
 
+/* 樓層圖片的白線格式 */
+
+.carousel-indicators {
+    margin-bottom: -8%;
+    opacity: 0.7;
+}
+
+
 /* 選單內容按鈕格式 */
 
 .listButton {
