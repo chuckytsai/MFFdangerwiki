@@ -420,8 +420,9 @@ body {
 #plot {
     display: flex;
     margin: 0px auto;
-    background-color: rgb(126, 126, 194, 0.9);
+    background-color: rgba(224, 224, 247, 0.9);
     width: 90%;
+    text-align: left;
     margin-left: 5%;
     background-size: cover;
     border: 6px solid rgba(221, 148, 88, 0.5);
@@ -451,7 +452,7 @@ body {
     display: flex;
     margin: 0px auto;
     margin-top: -10%;
-    background-color: rgb(126, 126, 194, 0.9);
+    background-color: rgba(217, 217, 241, 0.9);
     width: 90%;
     margin-left: 5%;
     background-size: cover;

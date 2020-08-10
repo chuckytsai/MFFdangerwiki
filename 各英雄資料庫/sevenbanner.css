@@ -305,6 +305,23 @@ body {
 }
 
 
+/* 類別屬性按鈕 */
+
+.selectButton {
+    width: 80px;
+    font-weight: bolder;
+    color: bisque;
+    background-color: rgb(107, 89, 89);
+}
+
+@media(max-width:500px) {
+    .selectButton {
+        width: 50px;
+        font-size: 10px;
+    }
+}
+
+
 /* ==========腳色WEB========== */
 
 
