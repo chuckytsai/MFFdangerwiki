@@ -224,8 +224,8 @@ body {
 
 .newsTip1 {
     font-size: 35px;
-    color: rgb(241, 231, 231);
-    text-shadow: 0em 0.05em rgb(236, 11, 11);
+    color: rgba(231, 235, 241, 0.315);
+    text-shadow: 0em 0.05em rgb(231, 208, 178);
     font-weight: bolder;
 }
 
@@ -277,12 +277,12 @@ body {
 }
 
 
-/*英雄類型選單DIV */
+/*類型選單DIV */
 
 .hero {
     color: blanchedalmond;
     font-size: 40px;
-    text-shadow: 0em 0.1em rgb(231, 97, 25, 0.6);
+    text-shadow: 0em 0.1em rgba(170, 136, 118, 0.6);
     display: block;
     margin-right: 50px;
     position: relative;
@@ -351,7 +351,7 @@ body {
     height: 50px;
     color: rgb(220, 201, 238);
     font-size: 14px;
-    text-shadow: 0.05em 0.05em black;
+    text-shadow: 0em 0.05em black;
     font-weight: bold;
     background-color: rgba(25, 103, 134, 0.9);
     border: 3px solid rgb(223, 188, 136);
@@ -364,7 +364,7 @@ body {
 /* 類型選擇按鈕手機格式 */
 
 .typeButtons {
-    color: rgb(223, 60, 60);
+    color: rgb(172, 157, 157);
     background-color: rgba(225, 241, 166, 0.8);
     border: inset 1px rgb(170, 148, 148);
 }
@@ -377,14 +377,14 @@ body {
 
 .achievement {
     padding-left: 3%;
-    color: rgb(159, 223, 223);
+    color: rgb(219, 240, 240);
     width: 100%;
     position: relative;
     display: block;
     margin-bottom: 1%;
     border: 15px rgba(250, 234, 234, 0.5);
     border-style: double;
-    background-color: rgba(117, 66, 66, 0.7);
+    background-color: rgba(19, 1, 1, 0.7);
     border-radius: 8%;
 }
 
@@ -409,14 +409,14 @@ body {
 
 .store {
     padding-left: 3%;
-    color: rgb(159, 223, 223);
+    color: rgb(219, 240, 240);
     width: 100%;
     position: relative;
     display: block;
     margin-bottom: 1%;
     border: 15px rgba(250, 234, 234, 0.5);
     border-style: double;
-    background-color: rgba(55, 92, 214, 0.9);
+    background-color: rgba(15, 4, 4, 0.7);
     border-radius: 8%;
 }
 
@@ -441,14 +441,14 @@ body {
 
 .generate {
     padding-left: 3%;
-    color: rgb(159, 223, 223);
+    color: rgb(247, 234, 212);
     width: 100%;
     position: relative;
     display: block;
     margin-bottom: 1%;
     border: 15px rgba(250, 234, 234, 0.5);
     border-style: double;
-    background-color: rgba(55, 92, 214, 0.9);
+    background-color: rgba(19, 1, 1, 0.7);
     border-radius: 8%;
 }
 
