@@ -362,12 +362,13 @@ body {
     font-size: 10px;
     font-weight: bold;
     color: rgba(8, 28, 116, 0.8);
-    background-color: rgba(217, 229, 240, 0.9);
+    background-color: rgba(217, 229, 240, 0.7);
     border-radius: 20%;
     position: relative;
     z-index: 100;
     top: 85%;
     text-align: center;
+    vertical-align: bottom;
 }
 
 
@@ -377,12 +378,13 @@ body {
     font-size: 10px;
     font-weight: bold;
     color: rgba(167, 36, 36, 0.9);
-    background-color: rgba(217, 229, 240, 0.9);
+    background-color: rgba(217, 229, 240, 0.7);
     border-radius: 20%;
     position: relative;
     z-index: 100;
     top: 85%;
     text-align: center;
+    vertical-align: bottom;
 }
 
 

@@ -615,7 +615,7 @@ body {
     margin: 0px auto;
     margin-bottom: 1%;
     border: 6px solid rgba(160, 153, 223, 0.815);
-    background-color: rgb(208, 206, 233, 0.8);
+    background-color: rgba(22, 21, 32, 0.8);
     border-radius: 2%;
     text-align: center;
 }
@@ -631,7 +631,7 @@ body {
     margin-left: 5%;
     background-size: cover;
     font-size: 18px;
-    color: rgb(46, 36, 36);
+    color: rgb(236, 205, 205);
 }
 
 
@@ -645,7 +645,9 @@ body {
     padding-top: 40px;
     width: 80%;
     height: 40%;
-    color: rgb(97, 43, 7);
+    font-weight: 900;
+    color: rgb(241, 240, 239);
+    text-shadow: 0.em 0.8em rgb(27, 2, 2);
     margin-left: 3%;
     text-align: left;
 }

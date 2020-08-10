@@ -311,7 +311,8 @@ body {
     font-size: 9px;
     width: 90%;
     height: 100%;
-    color: rgb(97, 43, 7);
+    color: rgb(238, 231, 226);
+    font-weight: bold;
     text-align: center;
 }
 
@@ -364,7 +365,8 @@ body {
     font-size: 9px;
     width: 100%;
     height: 100%;
-    color: rgb(97, 43, 7);
+    color: rgb(231, 222, 216);
+    text-shadow: 0.em 0.3em rgb(27, 2, 2);
     margin-left: 3%;
     text-align: center;
 }
@@ -398,7 +400,7 @@ body {
     background-size: cover;
     border: 6px solid rgba(221, 148, 88, 0.5);
     font-size: 18px;
-    color: rgb(46, 36, 36);
+    color: rgb(238, 235, 235);
 }
 
 
@@ -408,10 +410,12 @@ body {
     text-align: center;
     margin: 20px 10px 10px 10px;
     clear: both;
-    font-size: 9px;
+    font-size: 10px;
+    font-weight: bolder;
     width: 100%;
     height: 100%;
-    color: rgb(97, 43, 7);
+    color: rgb(231, 224, 220);
+    text-shadow: 0.em 0.3em rgb(27, 2, 2);
     margin-left: 3%;
     text-align: left;
 }
