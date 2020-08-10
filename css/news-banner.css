@@ -210,11 +210,11 @@ body {
 }
 
 
-/* 紅色警告 */
+/* 橘色警告 */
 
 .newsTip1 {
     font-size: 18px;
-    color: red;
+    color: rgb(177, 113, 17);
     text-shadow: 0.1em 0.1em rgb(243, 156, 75);
 }
 
@@ -222,9 +222,10 @@ body {
 /* 紅色粗體 */
 
 .newsTip2 {
-    font-size: 18px;
-    color: red;
+    font-size: 12px;
+    color: rgb(223, 72, 72);
     font-weight: bolder;
+    text-shadow: 0em 0.04em rgb(63, 19, 19);
 }
 
 
@@ -232,8 +233,8 @@ body {
 
 .newsTip3 {
     font-size: 25px;
-    text-shadow: 0.1em 0.1em rgb(215, 253, 76);
-    color: rgb(221, 99, 18);
+    text-shadow: 0em 0.05em rgb(235, 238, 225);
+    color: rgb(99, 43, 5);
     font-weight: bolder;
 }
 
@@ -243,7 +244,7 @@ body {
 .newsTip4 {
     font-size: 20px;
     color: rgb(84, 17, 243);
-    text-shadow: 0.1em 0.1em rgb(166, 179, 223);
+    text-shadow: 0em 0.05em rgb(162, 172, 204);
     font-weight: bolder;
 }
 
