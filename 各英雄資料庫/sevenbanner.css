@@ -389,7 +389,6 @@ body {
 /* =====英雄ICON上邊框的格式 =====*/
 
 .heroIcon {
-    display: none;
     height: 100px;
     width: 95px;
     float: left;
