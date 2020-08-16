@@ -237,10 +237,33 @@ body {
 }
 
 
-/* ==========取得方式========== */
+/* 升級表格顯示方式 */
+
+#up {
+    display: block;
+}
+
+@media(max-width:800px) {
+    #up {
+        display: none;
+    }
+}
 
 
-/* 生體取得的標題格式 */
+/* 升級表格螢幕尺寸低於800px的設定 */
+
+#ups {
+    display: none;
+}
+
+@media(max-width:800px) {
+    #ups {
+        display: block;
+    }
+}
+
+
+/* 表格標題格式 */
 
 #getBanner {
     width: 90%;
@@ -254,7 +277,7 @@ body {
 }
 
 
-/* 生體取得的標題格式螢幕尺寸低於800px的設定 */
+/* 表格標題格式螢幕尺寸低於800px的設定 */
 
 @media(max-width:800px) {
     #getBanner {
@@ -271,49 +294,6 @@ body {
         font-weight: bolder;
         color: blanchedalmond;
         text-shadow: 0.05em 0.01em rgb(236, 238, 241);
-    }
-}
-
-
-/* 取得方式表格整體外框格式 */
-
-.hero {
-    margin: 0px auto;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgba(155, 115, 29, 0.9);
-}
-
-
-/* 取得方式表格整體外框螢幕尺寸低於800px的設定 */
-
-@media(max-width:800px) {
-    .hero {
-        display: none;
-    }
-}
-
-
-/* 生體取得方式-手機模式原為隱藏 */
-
-.hero-toggler {
-    display: none;
-}
-
-
-/* 生體取得方式-手機模式 */
-
-@media(max-width:500px) {
-    .hero-toggler {
-        margin-top: 10px;
-        margin: 0px auto;
-        padding: 10px;
-        width: 100%;
-        font-size: 2px;
-        position: relative;
-        color: rgb(40, 68, 52);
-        background-color: rgba(238, 176, 134, 0.5);
-        display: block;
     }
 }
 
@@ -779,7 +759,7 @@ body {
     padding-left: 5px;
     width: 200px;
     height: 110px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bolder;
     overflow: auto;
     text-align: left;
@@ -806,7 +786,7 @@ body {
 /* 技能內容文字圖案 */
 
 #t1 {
-    font-size: 15px;
+    font-size: 12px;
     color: rgb(143, 10, 10);
     font-weight: bolder;
 }
