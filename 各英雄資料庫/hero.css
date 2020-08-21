@@ -135,6 +135,7 @@ a:hover {
         color: rgb(103, 104, 117);
         font-size: 15px;
         text-align: left;
+        margin-left: -20%;
         text-shadow: 0.1em 0.1em rgba(220, 220, 238);
         display: flex;
         width: 50px;
@@ -163,7 +164,7 @@ a:hover {
 @media(max-width:800px) {
     .navText2 {
         color: rgb(226, 236, 238);
-        margin-left: 37%;
+        margin-left: 3%;
         width: 60%;
         font-size: 12px;
         text-align: left;
