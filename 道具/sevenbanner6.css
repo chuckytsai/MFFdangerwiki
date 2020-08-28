@@ -277,9 +277,9 @@ body {
 }
 
 
-/*英雄類型選單DIV */
+/*道具類型選單DIV */
 
-.hero {
+.props {
     color: blanchedalmond;
     font-size: 40px;
     text-shadow: 0em 0.1em rgb(231, 97, 25, 0.6);
@@ -325,7 +325,7 @@ body {
     }
 }
 
-#heroDrop {
+#propsDrop {
     color: rgb(225, 225, 245);
     background-color: rgba(37, 206, 183, 0.9);
     display: flex;
@@ -528,7 +528,7 @@ body {
 
 /* 各道具ICON上的文字 */
 
-.herom-text {
+.propsm-text {
     font-size: 10px;
     font-weight: bold;
     color: rgba(2, 3, 7, 0.8);
@@ -544,7 +544,7 @@ body {
 
 /* =====道具ICON上邊框的格式 =====*/
 
-.heroIcon {
+.propsIcon {
     height: 110px;
     width: 100px;
     float: left;

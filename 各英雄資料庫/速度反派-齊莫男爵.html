@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./hero.css">
+    <!--title -->
+    <title>速 度 反 派-齊 莫 男 爵</title>
+    <link rel="icon" href="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <!-- ===========導覽列========== -->
+    <div class="navbar-toggler">
+        <a class="newsText0"></a>
+        <!-- ==========改版資訊 & 遊戲內容========== -->
+        <div class="menu">
+            <!-- =====改版資訊 ======-->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.最新改版消息 -->
+                    <li role="presentation">
+                        <a href="../news-banner1.html">
+                            <h3 class="navText2">最 新 改 版 消 息</h3>
+                        </a>
+                    </li>
+                    <!-- 2.最新速報 -->
+                    <li role="presentation">
+                        <a href="../news-banner2.html">
+                            <h3 class="navText2">最 新 速 報</h3>
+                        </a>
+                    </li>
+                    <!-- 3.活動 -->
+                    <li role="presentation">
+                        <a href="../news-banner3.html">
+                            <h3 class="navText2">活 動</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =====遊戲內容 ===== -->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.各英雄資料庫 -->
+                    <li role="presentation">
+                        <a href="../各英雄資料庫/sevenbanner1.html ">
+                            <h3 class="navText2">角 色</h3>
+                        </a>
+                    </li>
+                    <!-- 2.挑戰 -->
+                    <li role="presentation">
+                        <a href="../挑戰/sevenbanner2.html">
+                            <h3 class="navText2">挑 戰</h3>
+                        </a>
+                    </li>
+                    <!-- 3.神盾局 -->
+                    <li role="presentation">
+                        <a href="../神盾局/sevenbanner3.html ">
+                            <h3 class="navText2">神 盾 局</h3>
+                        </a>
+                    </li>
+                    <!-- 4.任務 -->
+                    <li role="presentation">
+                        <a href="../任務/sevenbanner4.html ">
+                            <h3 class="navText2">任 務</h3>
+                        </a>
+                    </li>
+                    <!-- 5.PVP模式-->
+                    <li role="presentation">
+                        <a href="../PVP模式/sevenbanner5.html">
+                            <h3 class="navText2">PVP 模 式</h3>
+                        </a>
+                    </li>
+                    <!-- 6.PVP模式-->
+                    <li role="presentation">
+                        <a href="../道具/sevenbanner6.html">
+                            <h3 class="navText2">道 具</h3>
+                        </a>
+                    </li>
+                    <!-- 7.組隊模式 -->
+                    <li role="presentation">
+                        <a href="../組隊模式/sevenbanner7.html">
+                            <h3 class="navText2">組 隊 模 式</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+        <div class="menu-trigger">
+            <button onclick="show();">改版資訊<br> 遊戲內容</button>
+            <div class="menu">
+                <!-- =====改版資訊===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.最新改版消息 -->
+                        <li role="presentation">
+                            <a href="../news-banner1.html">
+                                <h3 class="navText2">最 新 改 版 消 息</h3>
+                            </a>
+                        </li>
+                        <!-- 2.最新速報 -->
+                        <li role="presentation">
+                            <a href="../news-banner2.html">
+                                <h3 class="navText2">最 新 速 報</h3>
+                            </a>
+                        </li>
+                        <!-- 3.活動 -->
+                        <li role="presentation">
+                            <a href="../news-banner3.html">
+                                <h3 class="navText2">活 動</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =====遊戲內容 ===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.各英雄資料庫 -->
+                        <li role="presentation">
+                            <a href="../各英雄資料庫/sevenbanner1.html ">
+                                <h3 class="navText2">角 色</h3>
+                            </a>
+                        </li>
+                        <!-- 2.挑戰 -->
+                        <li role="presentation">
+                            <a href="../挑戰/sevenbanner2.html">
+                                <h3 class="navText2">挑 戰</h3>
+                            </a>
+                        </li>
+                        <!-- 3.神盾局 -->
+                        <li role="presentation">
+                            <a href="../神盾局/sevenbanner3.html ">
+                                <h3 class="navText2">神 盾 局</h3>
+                            </a>
+                        </li>
+                        <!-- 4.任務 -->
+                        <li role="presentation">
+                            <a href="../任務/sevenbanner4.html ">
+                                <h3 class="navText2">任 務</h3>
+                            </a>
+                        </li>
+                        <!-- 5.PVP模式-->
+                        <li role="presentation">
+                            <a href="./PVP模式/sevenbanner5.html">
+                                <h3 class="navText2">PVP 模 式</h3>
+                            </a>
+                        </li>
+                        <!-- 6.PVP模式-->
+                        <li role="presentation">
+                            <a href="../道具/sevenbanner6.html">
+                                <h3 class="navText2">道 具</h3>
+                            </a>
+                        </li>
+                        <!-- 7.組隊模式 -->
+                        <li role="presentation">
+                            <a href="../組隊模式/sevenbanner7.html">
+                                <h3 class="navText2">組 隊 模 式</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
+    <a href="../index.html"><img class="index-bamnner" src="../img/index.jpg" height="68%" width="100%"></a>
+    <!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+
+    <!-- =====英雄介紹===== -->
+    <section class="introduction">
+        <table ID="introductionTr" border="4">
+            <tr>
+                <td>介 紹:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>實際名稱:</td>
+                <td>赫爾穆特.齊莫</td>
+            </tr>
+            <tr>
+                <td>身高/體重:</td>
+                <td>178cm/83kg</td>
+            </tr>
+            <tr>
+                <td>種族:</td>
+                <td>人類</td>
+            </tr>
+            <tr>
+                <td>能力:</td>
+                <td>靈活/;</br>邪惡/</td>
+            </tr>
+        </table>
+        <table ID="introductionTr" border="4">
+            <td>赫爾穆特.齊莫是齊莫家族的第十三任當家。在父親的耳在父親的耳濡目染之下，擁有了統治世界的欲望。現在他利用自己天才的戰略，與神乎其技的劍技和英雄們抗衡，齊莫男爵與英雄們處處作對， 並將世界破壞殆盡以證明自己強大的能力。
+            </td>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h1 ID="getBanner">齊 莫 男 爵 升 級 資 訊</h1>
+        <hr>
+        <hr>
+    </section>
+
+    <!--===================升級原始內容=================== -->
+    <section>
+        <div id="skin">
+
+            <section>
+                <div id="up">
+
+                    <tr>
+                        <!-- 60等 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">升級到60等</td>
+                            <!-- 2星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至40等 & 2星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x20個 & 智慧之北歐符石x30個</h5>
+                                </div>
+                            </td>
+                            <!-- 3星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至45等 & 3星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x40個 & 智慧之北歐符石x60個</h5>
+                                </div>
+                            </td>
+                            <!-- 4星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至50等 & 4星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x80個 & 智慧之北歐符石x90個</h5>
+                                </div>
+                            </td>
+                            <!-- 5星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至55等 & 5星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x160個 & 智慧之北歐符石x120個</h5>
+                                </div>
+                            </td>
+                            <!-- 6星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至60等 & 6星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x320個 & 智慧之北歐符石x150個</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">升級到70等</td>
+
+                            <!-- 62等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至62等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x276個 or 混沌北歐符石x231個</h5>
+                                    <h5 id="t2">生體361個</h5>
+                                    <h5 id="t2">金幣 500,000</h5>
+                                </div>
+                            </td>
+
+                            <!-- 64等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至64等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x553個 or 混沌北歐符石x461個</h5>
+                                    <h5 id="t2">生體424個</h5>
+                                    <h5 id="t2">金幣 1,000,000</h5>
+                                </div>
+                            </td>
+
+                            <!-- 66等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至66等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x827個 or 混沌北歐符石x690個</h5>
+                                    <h5 id="t2">生體477個</h5>
+                                    <h5 id="t2">金幣 1,500,000</h5>
+                                </div>
+                            </td>
+
+                            <!-- 68等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至68等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x1667個 or 混沌北歐符石x1389個</h5>
+                                    <h5 id="t2">生體537個</h5>
+                                    <h5 id="t2">金幣 3,000,000</h5>
+                                </div>
+                            </td>
+
+                            <!-- 70等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至70等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x2223個 or 混沌北歐符石x1852個</h5>
+                                    <h5 id="t2">生體604個</h5>
+                                    <h5 id="t2">金幣 4,000,000</h5>
+                                </div>
+                            </td>
+                        </table>
+                    </tr>
+                </div>
+            </section>
+
+            <!--===================升級手機模式=================== -->
+            <section>
+                <div id="ups">
+
+                    <!-- 技能說明&圖片 -->
+                    <table class="" border="2" width="100%">
+                        <td scope="col" width="150%" height="50px">升級到60等</td>
+                        <!-- 2星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至40等 & 2星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x20個 & 智慧之北歐符石x30個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 3星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至45等 & 3星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x40個 & 智慧之北歐符石x60個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 4星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至50等 & 4星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x80個 & 智慧之北歐符石x90個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 5星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至55等 & 5星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x160個 & 智慧之北歐符石x120個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 6星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至60等 & 6星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/速度反派-齊莫男爵/現代.jpg" alt="" width="40px">
+                                    <img src="../道具/img/智慧之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x320個 & 智慧之北歐符石x150個</h5>
+                                </div>
+                            </td>
+                            </td>
+                        </tr>
+                        <td scope="col" width="150%" height="100px">升級到70等</td>
+
+                        <!-- 62等 -->
+                        <tr>
+                            <td scope="col">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至62等</h5>
+                                    <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                    <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                    <h5 id="t2">受損的黑暗反物質x276個 or 混沌北歐符石x231個</h5>
+                                    <h5 id="t2">生體361個</h5>
+                                    <h5 id="t2">金幣 500,000</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 64等 -->
+                        <tr>
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">升級至64等</h5>
+                                        <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                        <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                        <h5 id="t2">受損的黑暗反物質x553個 or 混沌北歐符石x461個</h5>
+                                        <h5 id="t2">生體424個</h5>
+                                        <h5 id="t2">金幣 1,000,000</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 66等 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">升級至68等</h5>
+                                        <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                        <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                        <h5 id="t2">受損的黑暗反物質x1667個 or 混沌北歐符石x1389個</h5>
+                                        <h5 id="t2">生體537個</h5>
+                                        <h5 id="t2">金幣 3,000,000</h5>
+                                    </div>
+                                </td>
+
+                                <!-- 68等 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">升級至68等</h5>
+                                            <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                            <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                            <h5 id="t2">受損的黑暗反物質x1667個 or 混沌北歐符石x1389個</h5>
+                                            <h5 id="t2">生體537個</h5>
+                                            <h5 id="t2">金幣 3,000,000</h5>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 70等 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">升級至70等</h5>
+                                            <img src="../道具/img/反物質.jpg" alt="" width="40px">
+                                            <img src="../道具/img/七彩.jpg" alt="" width="40px">
+                                            <h5 id="t2">受損的黑暗反物質x2223個 or 混沌北歐符石x1852個</h5>
+                                            <h5 id="t2">生體604個</h5>
+                                            <h5 id="t2">金幣 4,000,000</h5>
+                                        </div>
+                                    </td>
+
+                                    <!--  T3 -->
+                                    <table class="" border="3" width="100%">
+
+                                        <td scope="col" width="5%" height="80px">T3</td>
+                                        <!-- T3 -->
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">T3</h5>
+                                                目前無開放T3
+                                            </div>
+                                        </td>
+                                </tr>
+                                </table>
+
+                            </tr>
+                </div>
+            </section>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <h1 ID="getBanner">科 克 拉 特 制 服 相 關 資 訊</h1>
+        <hr>
+        <hr>
+    </section>
+
+    <hr>
+
+    <!-- =====制服選擇列表原本模式 ===== -->
+    <!-- <div>
+    <span type="button" class="btn skinMenu" id="skinMenu" data-toggle="dropdown" 
+    onmouseover="over();" onmouseout="out();">制 服 列 表 選 擇 單
+    </span>
+    <span id="skinRell" onmouseover="over();" onmouseout="out();">
+    <div class="skinSpan" onclick="change(0)">現代</div>
+    <div class="skinSpan" onclick="change(1)">地獄廚房的惡魔</div>
+    </span>
+</div> -->
+    <!-- =====制服選擇列表手機模式 ===== -->
+    <!-- <div>
+<span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" 
+    onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
+</span>
+<button id="skinRells" onmouseover="overs();" onmouseout="outs();">
+  <div class="skinSpans" onclick="change(11)">現代</div>
+  <div class="skinSpans" onclick="change(12)">地獄廚房的惡魔</div>
+</button>
+</div> -->
+
+
+    <!-- 點選制服顯示方式的定義&JS -->
+    <script>
+        // 滑鼠移動到選單目錄按鈕出現清單效果
+        function over() {
+            skinRell.style.display = 'block';
+        }
+
+        function out() {
+            skinRell.style.display = 'none';
+        }
+
+        function overs() {
+            skinRells.style.display = 'block';
+        }
+
+        function outs() {
+            skinRells.style.display = 'none';
+        }
+
+        // 點及清單中選擇制服顯示效果
+        function change(index) {
+            let skin1 = document.getElementById("skin1");
+            let skin2 = document.getElementById("skin2");
+            let skin3 = document.getElementById("skin3");
+            let skin4 = document.getElementById("skin4");
+            let skin5 = document.getElementById("skin5");
+            let skin6 = document.getElementById("skin6");
+            let skin7 = document.getElementById("skin7");
+            let skin8 = document.getElementById("skin8");
+            let skin9 = document.getElementById("skin9");
+            let skin10 = document.getElementById("skin10");
+            let skin11 = document.getElementById("skin11");
+            let skin1s = document.getElementById("skin1s");
+            let skin2s = document.getElementById("skin2s");
+            let skin3s = document.getElementById("skin3s");
+            let skin4s = document.getElementById("skin4s");
+            let skin5s = document.getElementById("skin5s");
+            let skin6s = document.getElementById("skin6s");
+            let skin7s = document.getElementById("skin7s");
+            let skin8s = document.getElementById("skin8s");
+            let skin9s = document.getElementById("skin9s");
+            let skin10s = document.getElementById("skin10s")
+            let skin11s = document.getElementById("skin11s");
+
+            if (index == 0) {
+                skin1.style.display = "block";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 1) {
+                skin1.style.display = "none";
+                skin2.style.display = "block";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 2) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "block";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 3) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "block";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 4) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "block";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 5) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "block";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 6) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "block";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin11.style.display = "none";
+                skin10.style.display = "none";
+            } else if (index == 7) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "block";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 8) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "block";
+                skin10.style.display = "none";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 9) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "block";
+                skin11.style.display = "none";
+                skinRell.style.display = 'none';
+            } else if (index == 10) {
+                skin1.style.display = "none";
+                skin2.style.display = "none";
+                skin3.style.display = "none";
+                skin4.style.display = "none";
+                skin5.style.display = "none";
+                skin6.style.display = "none";
+                skin7.style.display = "none";
+                skin8.style.display = "none";
+                skin9.style.display = "none";
+                skin10.style.display = "none";
+                skin11.style.display = "block";
+                skinRell.style.display = 'none';
+            }
+
+            if (index == 11) {
+                skin1s.style.display = "block";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 12) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "block";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 13) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "block";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 14) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "block";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 15) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "block";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 16) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "block";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                s10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 17) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "block";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 18) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "block";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 19) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "block";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 20) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "block";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            } else if (index == 21) {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "block";
+                skinRells.style.display = 'none';
+            } else {
+                skin1s.style.display = "none";
+                skin2s.style.display = "none";
+                skin3s.style.display = "none";
+                skin4s.style.display = "none";
+                skin5s.style.display = "none";
+                skin6s.style.display = "none";
+                skin7s.style.display = "none";
+                skin8s.style.display = "none";
+                skin9s.style.display = "none";
+                skin10s.style.display = "none";
+                skin11s.style.display = "none";
+                skinRells.style.display = 'none';
+            }
+
+        }
+    </script>
+
+
+    <!-- =======================制服內容=========================== -->
+    <section>
+        <div id="skin">
+            <!--======================現代原始內容=================== -->
+            <section>
+                <div id="skin1">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="3" width="100%"><img src="./img/英雄ICON/速度反派-齊莫男爵/現代.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="30%" height="50px" ;>制 服 名 稱:</td>
+                            <td scope="col" height="50px">現 代</td>
+                            <tr></tr>
+                            <td scope="col" height="50px">取 得 方 式:</td>
+                            <td scope="col" height="50px">預 設</td>
+                            <tr></tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">刀刃射擊（主動）（物理）</h5>
+                                    ．物理攻擊力90%物理傷害</br>追加物理傷害142</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能2 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">手榴彈輪舞（主動）(物理）</h5>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外20%灼傷傷害(4秒) </br>
+                                    ．物理攻擊力65%物理傷害</br>追加物理傷害36</br>
+                                    <h5 id="t2">．冷卻時間8秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能3 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">反派刺擊（主動）(物理)</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    ．無法使用技能(2秒) </br>
+                                    ．無力化(從主動增益解除鎖定)(5秒)</br>
+                                    適用對象: 自身</br>
+                                    ．所有攻擊力與防禦力+35%,所有速度+1%,及暴擊率+30%,移除無力化(10秒)</br>
+                                    ．有100%的機率免疫所有傷害(6秒) </br>
+                                    ．物理攻擊力130%物理傷害</br>追加物理傷害142</br>
+                                    <h5 id="t2">．冷卻時間14秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能4 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">雙手槍突擊（主動）（物理）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(1秒) </br>
+                                    ．所有防禦力-30%(最多重疊至30%,無視免疫)(10秒) </br>
+                                    ．麻痺(無視免疫)(1秒) </br>
+                                    ．物理攻擊力55%物理傷害</br>追加物理傷害142</br>
+                                    <h5 id="t2">．冷卻時間17秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能5 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">狂怒斬擊（主動）（物理）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    ．無力化(從主動增益解除鎖定)(10秒)</br>
+                                    ．所有防禦力-30%(最多重疊至30%,無視免疫)(10秒) </br>
+                                    適用對象: 自身</br>
+                                    ．超級護甲,所有防禦+5%(5秒)</br>
+                                    ．物理攻擊力138%物理傷害</br>追加物理傷害142</br>
+                                    <h5 id="t2">．冷卻時間18秒</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <td scope="col" width="184px">
+                                <!-- <div id="skipText">
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                            </td>
+
+                            <!-- T1被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">血刃（被動）（T1）</h5>
+                                    發動條件:攻擊時</br>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外出血傷害20%，移除彈性化效果(3秒) </br>
+                                </div>
+                            </td>
+
+                            <!-- T2被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">扭曲正義（被動）（T2）</h5>
+                                    適用對象: 自身</br>
+                                    ．保證迴避率+20% </br>
+                                    ．增加出血效果的效率+30% </br>
+                                    ．技能的傷害增加30%追加傷害增加35%</br>
+                                    <h5 id="t2">強化血刃技能效果</h5>
+                                </div>
+                            </td>
+
+                            <!-- 隊長技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">征服世界（隊長技）</h5>
+                                    適用對象: 所有反派陣營隊員</br>
+                                    ．所有攻擊力+50%</br>
+                                </div>
+                            </td>
+
+                            <!-- 制服效果 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">制服效果:</h5>
+                                    無</br>
+                                </div>
+                            </td>
+                        </table>
+                        <br>
+                </div>
+            </section>
+
+            <!--=====================現代手機模式=================== -->
+            <section>
+                <div id="skin1s">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="2" width="100%"><img src="./img/英雄ICON/速度反派-齊莫男爵/現代.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="60%" height="50px">制 服 名 稱:</td>
+                            <td scope="col">現 代</td>
+                            <tr></tr>
+                            <td scope="col" height="40px">取得方式:</td>
+                            <td scope="col" height="40px">預 設</td>
+                            <tr></tr>
+                        </table>
+
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="2" width="100%">
+                            <td scope="col" width="150%" height="50px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">刀刃射擊（主動）（物理）</h5>
+                                        ．物理攻擊力90%物理傷害</br>追加物理傷害142</br>
+                                        <h5 id="t2">．冷卻時間7秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能2 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">手榴彈輪舞（主動）(物理）</h5>
+                                        適用對象: 敵人</br>
+                                        ．每1秒造成額外20%灼傷傷害(4秒) </br>
+                                        ．物理攻擊力65%物理傷害</br>追加物理傷害36</br>
+                                        <h5 id="t2">．冷卻時間8秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能3 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">反派刺擊（主動）(物理)</h5>
+                                        適用對象: 敵人</br>
+                                        ．昏迷(2秒) </br>
+                                        ．無法使用技能(2秒) </br>
+                                        ．無力化(從主動增益解除鎖定)(5秒)</br>
+                                        適用對象: 自身</br>
+                                        ．所有攻擊力與防禦力+35%,所有速度+1%,及暴擊率+30%,移除無力化(10秒)</br>
+                                        ．有100%的機率免疫所有傷害(6秒) </br>
+                                        ．物理攻擊力130%物理傷害</br>追加物理傷害142</br>
+                                        <h5 id="t2">．冷卻時間14秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能4 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">雙手槍突擊（主動）（物理）</h5>
+                                        適用對象: 敵人</br>
+                                        ．昏迷(1秒) </br>
+                                        ．所有防禦力-30%(最多重疊至30%,無視免疫)(10秒) </br>
+                                        ．麻痺(無視免疫)(1秒) </br>
+                                        ．物理攻擊力55%物理傷害</br>追加物理傷害142</br>
+                                        <h5 id="t2">．冷卻時間17秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能5 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">狂怒斬擊（主動）（物理）</h5>
+                                        適用對象: 敵人</br>
+                                        ．昏迷(2秒) </br>
+                                        ．無力化(從主動增益解除鎖定)(10秒)</br>
+                                        ．所有防禦力-30%(最多重疊至30%,無視免疫)(10秒) </br>
+                                        適用對象: 自身</br>
+                                        ．超級護甲,所有防禦+5%(5秒)</br>
+                                        ．物理攻擊力138%物理傷害</br>追加物理傷害142</br>
+                                        <h5 id="t2">．冷卻時間18秒</h5>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                            <td scope="col" width="150%" height="100px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <tr>
+                                <td scope="col">
+                                    <!-- <div id="skipTexts" >
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                                </td>
+                            </tr>
+                            <!-- T1被動技能 -->
+                            <tr>
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">血刃（被動）（T1）</h5>
+                                            發動條件:攻擊時</br>
+                                            適用對象: 敵人</br>
+                                            ．每1秒造成額外出血傷害20%，移除彈性化效果(3秒) </br>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- T2被動技能 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">扭曲正義（被動）（T2）</h5>
+                                            適用對象: 自身</br>
+                                            ．保證迴避率+20% </br>
+                                            ．增加出血效果的效率+30% </br>
+                                            ．技能的傷害增加30%追加傷害增加35%</br>
+                                            <h5 id="t2">強化血刃技能效果</h5>
+                                        </div>
+                                    </td>
+
+                                    <!-- 隊長技能 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">征服世界（隊長技）</h5>
+                                                適用對象: 所有反派陣營隊員</br>
+                                                ．所有攻擊力+50%</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 制服效果 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipTexts">
+                                                <h5 id="t1">制服效果:
+                                                    <h5>
+                                                        ．無</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                        </table>
+
+                        </tr>
+                </div>
+            </section>
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <section>
+        <div>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <!-- 兩邊預設Banner -->
+    <!-- <h6>預設banner左邊</h6> -->
+    <!-- <h6>預設banner右邊</h6> -->
+</body>
+
+</html>
