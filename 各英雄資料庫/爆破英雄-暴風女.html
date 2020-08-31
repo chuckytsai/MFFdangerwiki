@@ -12,6 +12,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- 連結Style.css -->
     <link rel="stylesheet" href="./hero.css">
+    <!-- 連結js -->
+    <script src="./skin.js"></script>
     <!--title -->
     <title>爆 破 英 雄-暴 風 女</title>
     <link rel="icon" href="../各英雄資料庫/img/英雄ICON/爆破英雄-暴風女/現代.jpg" type="image/x-icon">
@@ -359,7 +361,13 @@
                                 <td scope="col" width="100%">
                                     <div id="skipText">
                                         <h5 id="t1">T3</h5>
-                                        目前無開放T3
+                                        <img src="../道具/img/爆破.jpg" alt="" width="40px">
+                                        <img src="../道具/img/魔方.jpg" alt="" width="40px">
+                                        <img src="../道具/img/次原精華.jpg" alt="" width="40px">
+                                        <img src="../道具/img/泰坦組合.jpg" alt="" width="40px">
+                                        <h5 id="t2">泰坦的紀錄:爆破x10個 & 宇宙魔方x800個</h5>
+                                        <h5 id="t2">次元精華x1000個 & 泰坦零件組合包x500個</h5>
+                                        <h5 id="t2">金幣 2,500,000</h5>
                                     </div>
                                 </td>
                             </table>
@@ -501,7 +509,13 @@
                                         <td scope="col" width="100%">
                                             <div id="skipText">
                                                 <h5 id="t1">T3</h5>
-                                                目前無開放T3
+                                                <img src="../道具/img/爆破.jpg" alt="" width="40px">
+                                                <img src="../道具/img/魔方.jpg" alt="" width="40px">
+                                                <img src="../道具/img/次原精華.jpg" alt="" width="40px">
+                                                <img src="../道具/img/泰坦組合.jpg" alt="" width="40px">
+                                                <h5 id="t2">泰坦的紀錄:爆破x10個 & 宇宙魔方x800個</h5>
+                                                <h5 id="t2">次元精華x1000個 & 泰坦零件組合包x500個</h5>
+                                                <h5 id="t2">金幣 2,500,000</h5>
                                             </div>
                                         </td>
                                 </tr>
@@ -531,369 +545,19 @@
         <span id="skinRell" onmouseover="over();" onmouseout="out();">
     <div class="skinSpan" onclick="change(0)">現代</div>
     <div class="skinSpan" onclick="change(1)">X戰警紅隊</div>
+    <div class="skinSpan" onclick="change(2)">異人族 VS X戰警</div>
     </span>
     </div>
     <!-- =====制服選擇列表手機模式 ===== -->
-
-    <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
+    <div>
+        <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
 </span>
-    <span id="skinRells" onmouseover="overs();" onmouseout="outs();">
+        <span id="skinRells" onmouseover="overs();" onmouseout="outs();">
     <div class="skinSpans" onclick="change(11)">現代</div>
     <div class="skinSpans" onclick="change(12)">X戰警紅隊</div>
+    <div class="skinSpans" onclick="change(13)">異人族 VS X戰警</div>
   </span>
-
-
-
-
-    <!-- 點選制服顯示方式的定義&JS -->
-    <script>
-        // 滑鼠移動到選單目錄按鈕出現清單效果
-        function over() {
-            skinRell.style.display = 'block';
-        }
-
-        function out() {
-            skinRell.style.display = 'none';
-        }
-
-        function overs() {
-            skinRells.style.display = 'block';
-        }
-
-        function outs() {
-            skinRells.style.display = 'none';
-        }
-
-        // 點及清單中選擇制服顯示效果
-        function change(index) {
-            let skin1 = document.getElementById("skin1");
-            let skin2 = document.getElementById("skin2");
-            let skin3 = document.getElementById("skin3");
-            let skin4 = document.getElementById("skin4");
-            let skin5 = document.getElementById("skin5");
-            let skin6 = document.getElementById("skin6");
-            let skin7 = document.getElementById("skin7");
-            let skin8 = document.getElementById("skin8");
-            let skin9 = document.getElementById("skin9");
-            let skin10 = document.getElementById("skin10");
-            let skin11 = document.getElementById("skin11");
-            let skin1s = document.getElementById("skin1s");
-            let skin2s = document.getElementById("skin2s");
-            let skin3s = document.getElementById("skin3s");
-            let skin4s = document.getElementById("skin4s");
-            let skin5s = document.getElementById("skin5s");
-            let skin6s = document.getElementById("skin6s");
-            let skin7s = document.getElementById("skin7s");
-            let skin8s = document.getElementById("skin8s");
-            let skin9s = document.getElementById("skin9s");
-            let skin10s = document.getElementById("skin10s")
-            let skin11s = document.getElementById("skin11s");
-
-            if (index == 0) {
-                skin1.style.display = "block";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 1) {
-                skin1.style.display = "none";
-                skin2.style.display = "block";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 2) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "block";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 3) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "block";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 4) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "block";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 5) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "block";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 6) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "block";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin11.style.display = "none";
-                skin10.style.display = "none";
-            } else if (index == 7) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "block";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 8) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "block";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 9) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "block";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 10) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "block";
-                skinRell.style.display = 'none';
-            }
-
-            if (index == 11) {
-                skin1s.style.display = "block";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 12) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "block";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 13) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "block";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 14) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "block";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 15) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "block";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 16) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "block";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                s10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 17) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "block";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 18) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "block";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 19) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "block";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 20) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "block";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 21) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "block";
-                skinRells.style.display = 'none';
-            } else {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            }
-
-        }
-    </script>
-
+    </div>
 
     <!-- =======================制服內容=========================== -->
     <section>
@@ -971,21 +635,17 @@
 
                             <!-- T3技能 -->
                             <td scope="col" width="184px">
-                                <!-- <div id="skipText">
-    <h5 id="t1">亡者之王（終極技能）（物理）</h5>
-    適用對象: 敵人</br>
-   ．所有速度-20%(2秒) </br>
-   ．每1秒造成45%額外出血傷害，移除彈性化效果(10秒) </br>
-   ．昏迷(2秒) </br>
-   ．麻痺(5秒) </br>
-    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
-   ．無視防禦15%(5秒)</br> 
-   ．以100%的機率無視對方迴避率(5秒)</br>
-   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(7秒)</br>
-   ．增加所有攻擊與防禦20%,所有速度+20%,及暴擊率5%,移除無力化(15秒)</br>
-   ．物理攻擊力240%物理傷害</br>
-   ．追加物理傷害48</br>
-    </div> -->
+                                <div id="skipText">
+                                    <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    適用對象: 自身</br>
+                                    ．無視防禦40%(11秒)</br>
+                                    ．以40%的機率無視對方迴避率(11秒)</br>
+                                    ．無敵(7秒)</br>
+                                    ．能量攻擊力150%電擊傷害</br>
+                                    ．追加電擊傷害9</br>
+                                </div>
                             </td>
 
                             <!-- T1被動技能 -->
@@ -1112,22 +772,16 @@
                             <!-- T3技能 -->
                             <tr>
                                 <td scope="col">
-                                    <!-- <div id="skipTexts" >
-    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
-    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
-   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
-    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
-   ．無視防禦15%(5秒)</br> 
-   ．以100%的機率無視對方迴避率(3秒)</br>
-   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
-   ．移除所有狀態異常(3秒)</br>
-   ．有100%的機率免疫所有傷害(3秒)</br>
-   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
-   ．累積無關防禦力與迴避率的真實傷害量150%</br>
-   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
-   ．物理攻擊力100%物理傷害</br>
-   ．追加物理傷害36</br>
-    </div> -->
+                                    <div id="skipText">
+                                        <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                        適用對象: 敵人</br>
+                                        ．昏迷(2秒) </br>
+                                        適用對象: 自身</br>
+                                        ．無視防禦40%(11秒)</br>
+                                        ．以40%的機率無視對方迴避率(11秒)</br>
+                                        ．無敵(7秒)</br>
+                                        ．能量攻擊力150%電擊傷害</br>
+                                        ．追加
                                 </td>
                             </tr>
                             <!-- T1被動技能 -->
@@ -1176,7 +830,7 @@
                         </table>
 
                         </tr>
-                </div>
+                        </div>
             </section>
 
             <!--====================X戰警紅隊原始內容=============== -->
@@ -1204,7 +858,7 @@
                                     適用對象: 敵人</br>
                                     ．每1秒造成額外20%衝擊傷害(3秒) </br>
                                     ．昏迷(2秒) </br>
-                                    ．能量攻擊力30%電擊0傷害</br>追加電擊傷害356</br>
+                                    ．能量攻擊力30%電擊傷害</br>追加電擊傷害356</br>
                                     <h5 id="t2">．冷卻時間6秒</h5>
                                 </div>
                             </td>
@@ -1249,7 +903,7 @@
                             <!-- 技能5 -->
                             <td scope="col" width="13%">
                                 <div id="skipText">
-                                    <h5 id="t1">元素女神（主動）(電)</h5>
+                                    <h5 id="t1">元素女神（主動）(能量)</h5>
                                     適用對象: 敵人</br>
                                     ．每1秒造成額外30%凍傷傷害(1秒) </br>
                                     ．每1秒造成額外35%衝擊傷害(4秒) </br>
@@ -1265,21 +919,17 @@
 
                             <!-- T3技能 -->
                             <td scope="col" width="184px">
-                                <!-- <div id="skipText">
-    <h5 id="t1">亡者之王（終極技能）（物理）</h5>
-    適用對象: 敵人</br>
-   ．所有速度-20%(2秒) </br>
-   ．每1秒造成45%額外出血傷害，移除彈性化效果(10秒) </br>
-   ．昏迷(2秒) </br>
-   ．麻痺(5秒) </br>
-    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
-   ．無視防禦15%(5秒)</br> 
-   ．以100%的機率無視對方迴避率(5秒)</br>
-   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(7秒)</br>
-   ．增加所有攻擊與防禦20%,所有速度+20%,及暴擊率5%,移除無力化(15秒)</br>
-   ．物理攻擊力240%物理傷害</br>
-   ．追加物理傷害48</br>
-    </div> -->
+                                <div id="skipText">
+                                    <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    適用對象: 自身</br>
+                                    ．無視防禦40%(11秒)</br>
+                                    ．以40%的機率無視對方迴避率(11秒)</br>
+                                    ．無敵(7秒)</br>
+                                    ．能量攻擊力150%電擊傷害</br>
+                                    ．追加電擊傷害9</br>
+                                </div>
                             </td>
 
                             <!-- T1被動技能 -->
@@ -1367,7 +1017,7 @@
                                     適用對象: 敵人</br>
                                     ．每1秒造成額外20%衝擊傷害(3秒) </br>
                                     ．昏迷(2秒) </br>
-                                    ．能量攻擊力30%電擊0傷害</br>追加電擊傷害356</br>
+                                    ．能量攻擊力30%電擊傷害</br>追加電擊傷害356</br>
                                     <h5 id="t2">．冷卻時間6秒</h5>
                                 </div>
                             </td>
@@ -1420,7 +1070,7 @@
                         <tr>
                             <td scope="col" width="100%">
                                 <div id="skipText">
-                                    <h5 id="t1">元素女神（主動）(電)</h5>
+                                    <h5 id="t1">元素女神（主動）(能量)</h5>
                                     適用對象: 敵人</br>
                                     ．每1秒造成額外30%凍傷傷害(1秒) </br>
                                     ．每1秒造成額外35%衝擊傷害(4秒) </br>
@@ -1437,22 +1087,17 @@
                         <!-- T3技能 -->
                         <tr>
                             <td scope="col">
-                                <!-- <div id="skipTexts" >
-    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
-    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
-   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
-    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
-   ．無視防禦15%(5秒)</br> 
-   ．以100%的機率無視對方迴避率(3秒)</br>
-   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
-   ．移除所有狀態異常(3秒)</br>
-   ．有100%的機率免疫所有傷害(3秒)</br>
-   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
-   ．累積無關防禦力與迴避率的真實傷害量150%</br>
-   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
-   ．物理攻擊力100%物理傷害</br>
-   ．追加物理傷害36</br>
-    </div> -->
+                                <div id="skipText">
+                                    <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    適用對象: 自身</br>
+                                    ．無視防禦40%(11秒)</br>
+                                    ．以40%的機率無視對方迴避率(11秒)</br>
+                                    ．無敵(7秒)</br>
+                                    ．能量攻擊力150%電擊傷害</br>
+                                    ．追加電擊傷害9</br>
+                                </div>
                             </td>
                         </tr>
                         <!-- T1被動技能 -->
@@ -1521,11 +1166,334 @@
                 </div>
             </section>
 
+            <!--====================異人族 VS X戰警原始內容=============== -->
+            <section>
+                <div id="skin3" style="display:none;" width="100%">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="3" width="100%"><img src="./img/英雄ICON/爆破英雄-暴風女/異人族VSX戰警.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="30%" height="50px" ;>制 服 名 稱:</td>
+                            <td scope="col" height="50px">異人族 VS X戰警</td>
+                            <tr></tr>
+                            <td scope="col" height="50px">取 得 方 式:</td>
+                            <td scope="col" height="50px">鑽石 1,750</td>
+                            <tr></tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">閃電一擊（主動）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外20%衝擊傷害(3秒) </br>
+                                    ．昏迷(無視免疫)(3秒) </br>
+                                    ．能量攻擊力25%電擊傷害</br>追加電擊傷害107</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能2 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">冰河尖釘（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外30%凍傷傷害(5秒) </br>
+                                    ．冰凍(3秒) </br>
+                                    ．無法使用技能(3秒) </br>
+                                    ．能量攻擊力32%冷氣傷害</br>追加冷氣傷害356</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能3 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">寒冰旋風（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．冷氣抗性-10%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    ．電擊抗性-10%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    適用對象: 自身</br>
+                                    ．阻擋6的傷害打擊數(8秒)</br>
+                                    ．所有攻擊力與防禦力+30%,所有速度+6%,及暴擊率+30%,移除無力化(10秒)</br>
+                                    ．能量攻擊力30%冷氣傷害</br>追加冷氣傷害1067</br>
+                                    <h5 id="t2">．冷卻時間13秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能4 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">風雪爆破（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．所有防禦力-15%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    ．能量攻擊力35%冷氣傷害</br>追加冷氣傷害356</br>
+                                    <h5 id="t2">．冷卻時間16秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能5 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">天氣之怒（主動）(電)</h5>
+                                    適用對象: 自身</br>
+                                    ．有100%的機率免疫所有傷害(6秒) </br>
+                                    ．能量攻擊力95%電擊傷害</br>追加電擊傷害1067</br>
+                                    <h5 id="t2">．冷卻時間16秒</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    適用對象: 自身</br>
+                                    ．無視防禦40%(11秒)</br>
+                                    ．以40%的機率無視對方迴避率(11秒)</br>
+                                    ．無敵(7秒)</br>
+                                    ．能量攻擊力150%電擊傷害</br>
+                                    ．追加電擊傷害9</br>
+                                </div>
+                            </td>
+
+                            <!-- T1被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">暴風之眼（被動）（T1）</h5>
+                                    適用對象:全部隊員</br>
+                                    ．所有屬性傷害+35%</br>
+                                </div>
+                            </td>
+
+                            <!-- T2被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">氣候之女神（被動）（T2）</h5>
+                                    適用對象: 自身</br>
+                                    ．技能的傷害增加50%追加傷害增加50%</br>
+                                    <h5 id="t2">強化暴風之眼技能效果</h5>
+                                </div>
+                            </td>
+
+                            <!-- 隊長技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">順風（隊長技）</h5>
+                                    適用對象: 全部隊員</br>
+                                    ．所有速度+6%</br>
+                                </div>
+                            </td>
+
+                            <!-- 制服效果 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">制服效果:</h5>
+                                    發動條件:使用女神正義 技能時</br>
+                                    適用對象: 自身</br>
+                                    ．無視對方的防禦及迴避,累積加諸於敵人的真實傷害量10%</br>
+                                    ．累積的真實傷害量無法不能超過10000(11秒)</br>
+                                    <h5 id="t2">變更 暴風之眼技能效果</h5>
+                                    <h5 id="t2">變更 氣候之女神技能效果</h5>
+                                    <h5 id="t2">．冷卻時間1秒</h5>
+                                </div>
+                            </td>
+                        </table>
+                        <br>
+                        <!-- 連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+                                <!-- 
+                                <td scope="col" width="7%">第1件:舒莉-<br>漫威黑豹<br><img src="./img/英雄ICON/速度英雄-舒莉/漫威黑豹.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第2件:死亡戰士-<br>現代<br><img src="./img/英雄ICON/近戰英雄-死亡戰士/現代.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第3件:天使-<br>X特攻隊<br><img src="./img/英雄ICON/速度英雄-天使/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第4件:鐵拳俠-<br>鐵拳俠<br><img src="./img/英雄ICON/近戰英雄-鐵拳俠/鐵拳俠.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第5件:紅浩克-<br>Marvel Now!<br><img src="./img/英雄ICON/近戰反派-紅浩克/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td> -->
+                            </table>
+                        </tr>
+                </div>
+            </section>
+
+            <!--====================異人族 VS X戰警手機模式=================== -->
+            <section>
+                <div id="skin3s" style="display:none;">
+                    <!-- 制服來源 -->
+                    <table class="" border="2" width="100%"><img src="./img/英雄ICON/爆破英雄-暴風女/異人族VSX戰警.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                        <td scope="col" width="60%" height="50px">制 服 名 稱:</td>
+                        <td scope="col">異人族 VS X戰警</td>
+                        <tr></tr>
+                        <td scope="col" height="40px">取得方式:</td>
+                        <td scope="col" height="40px">鑽石 1,750</td>
+                        <tr></tr>
+                    </table>
+
+                    <!-- 技能說明&圖片 -->
+                    <table class="" border="2" width="100%">
+                        <td scope="col" width="150%" height="50px">技 能1 至 5:</td>
+                        <!-- 技能1 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">閃電一擊（主動）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外20%衝擊傷害(3秒) </br>
+                                    ．昏迷(無視免疫)(3秒) </br>
+                                    ．能量攻擊力25%電擊傷害</br>追加電擊傷害107</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 技能2 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">冰河尖釘（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．每1秒造成額外30%凍傷傷害(5秒) </br>
+                                    ．冰凍(3秒) </br>
+                                    ．無法使用技能(3秒) </br>
+                                    ．能量攻擊力32%冷氣傷害</br>追加冷氣傷害356</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 技能3 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">寒冰旋風（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．冷氣抗性-10%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    ．電擊抗性-10%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    適用對象: 自身</br>
+                                    ．阻擋6的傷害打擊數(8秒)</br>
+                                    ．所有攻擊力與防禦力+30%,所有速度+6%,及暴擊率+30%,移除無力化(10秒)</br>
+                                    ．能量攻擊力30%冷氣傷害</br>追加冷氣傷害1067</br>
+                                    <h5 id="t2">．冷卻時間13秒</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 技能4 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">風雪爆破（主動）（冰）</h5>
+                                    適用對象: 敵人</br>
+                                    ．所有防禦力-15%(最多重疊至60%,無視免疫)(10秒) </br>
+                                    ．能量攻擊力35%冷氣傷害</br>追加冷氣傷害356</br>
+                                    <h5 id="t2">．冷卻時間16秒</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 技能5 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">天氣之怒（主動）(電)</h5>
+                                    適用對象: 自身</br>
+                                    ．有100%的機率免疫所有傷害(6秒) </br>
+                                    ．能量攻擊力95%電擊傷害</br>追加電擊傷害1067</br>
+                                    <h5 id="t2">．冷卻時間16秒</h5>
+                                </div>
+                            </td>
+                            </td>
+                        </tr>
+                        <td scope="col" width="150%" height="100px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                        <!-- T3技能 -->
+                        <tr>
+                            <td scope="col">
+                                <div id="skipText">
+                                    <h5 id="t1">女神正義（終極技能）（電）</h5>
+                                    適用對象: 敵人</br>
+                                    ．昏迷(2秒) </br>
+                                    適用對象: 自身</br>
+                                    ．無視防禦40%(11秒)</br>
+                                    ．以40%的機率無視對方迴避率(11秒)</br>
+                                    ．無敵(7秒)</br>
+                                    ．能量攻擊力150%電擊傷害</br>
+                                    ．追加電擊傷害9</br>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- T1被動技能 -->
+                        <tr>
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">暴風之眼（被動）（T1）</h5>
+                                        適用對象:全部隊員</br>
+                                        ．所有屬性傷害+35%</br>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <!-- T2被動技能 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">氣候之女神（被動）（T2）</h5>
+                                        適用對象: 自身</br>
+                                        ．技能的傷害增加50%追加傷害增加50%</br>
+                                        <h5 id="t2">強化暴風之眼技能效果</h5>
+                                    </div>
+                                </td>
+
+                                <!-- 隊長技能 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">順風（隊長技）</h5>
+                                            適用對象: 全部隊員</br>
+                                            ．所有速度+6%</br>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 制服效果 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">制服效果:</h5>
+                                            發動條件:使用女神正義 技能時</br>
+                                            適用對象: 自身</br>
+                                            ．無視對方的防禦及迴避,累積加諸於敵人的真實傷害量10%</br>
+                                            ．累積的真實傷害量無法不能超過10000(11秒)</br>
+                                            <h5 id="t2">變更 暴風之眼技能效果</h5>
+                                            <h5 id="t2">變更 氣候之女神技能效果</h5>
+                                            <h5 id="t2">．冷卻時間1秒</h5>
+                                        </div>
+                                    </td>
+                                    </td>
+                                </tr>
+                    </table>
+                    <!-- 連動制服 -->
+                    <table class="" border="3" width="100%">
+                        <!-- <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+                        <tr></tr>
+                        <td scope="col" width="7%">第1件:舒莉-漫威黑豹<br><img src="./img/英雄ICON/速度英雄-舒莉/漫威黑豹.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        <tr></tr>
+                        <td scope="col" width="7%">第2件:死亡戰士-現代<br><img src="./img/英雄ICON/近戰英雄-死亡戰士/現代.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        <tr></tr>
+                        <td scope="col" width="7%">第3件:天使-X特攻隊<br><img src="./img/英雄ICON/速度英雄-天使/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        <tr></tr>
+                        <td scope="col" width="7%">第4件:鐵拳俠-鐵拳俠<br><img src="./img/英雄ICON/近戰英雄-鐵拳俠/鐵拳俠.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        <tr></tr>
+                        <td scope="col" width="7%">第5件:紅浩克-Marvel Now!<br><img src="./img/英雄ICON/近戰反派-紅浩克/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td> -->
+                    </table>
+                    </tr>
+                </div>
+            </section>
 
 
-
-
-        </div>
+            </div>
     </section>
 
     <!-- 頁尾 -->
