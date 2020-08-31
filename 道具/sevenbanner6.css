@@ -464,6 +464,20 @@ body {
 }
 
 
+/* =====卡片ICON上邊框的格式 =====*/
+
+.cardIcon {
+    height: 155px;
+    width: 100px;
+    float: left;
+    margin: 1%;
+    background-size: cover;
+    border: 8px solid rgba(228, 228, 156, 0.849);
+    border-style: double;
+    border-radius: 20px;
+}
+
+
 /* 同位素8 */
 
 .isotope {
@@ -531,7 +545,8 @@ body {
 .propsm-text {
     font-size: 10px;
     font-weight: bold;
-    color: rgba(2, 3, 7, 0.8);
+    color: rgba(79, 8, 107, 0.8);
+    text-shadow: 0.01em 0.03em black;
     background-color: rgba(217, 229, 240, 0.8);
     border-radius: 20%;
     position: relative;
@@ -822,13 +837,6 @@ body {
 
 #comprehend {
     background: url("./img/領悟CTP.jpg");
-}
-
-
-/* 1602女巫獵人戰鬥天使 */
-
-#witchHunter1 {
-    background: url("./img/1602女巫獵人戰鬥天使1.jpg");
 }
 
 
