@@ -334,8 +334,8 @@ body {
 @media(max-width:800px) {
     .skinMenus {
         display: block;
-        width: 200px;
-        font-size: 8px;
+        width: 300px;
+        font-size: 20px;
         margin-left: 10%;
         font-weight: bolder;
         color: rgb(184, 97, 97);
@@ -398,7 +398,6 @@ body {
     font-size: 15px;
     text-align: left;
     font-weight: bold;
-    color: rgb(204, 66, 107);
     background-color: rgba(51, 187, 146, 0.9);
     border-top: 3px solid rgba(68, 13, 56, 0.849);
 }
@@ -425,23 +424,10 @@ body {
 @media(max-width:800px) {
     .skinSpans {
         cursor: pointer;
-        font-size: 7px;
+        font-size: 20px;
         color: rgb(241, 233, 199);
         background-color: rgba(146, 155, 238, 0.9);
         border-top: 1px solid rgba(29, 8, 24, 0.849);
-    }
-}
-
-@media(max-width:800px) {
-    .skinSpans:hover {
-        width: 180px;
-        height: 20px;
-        font-size: 7px;
-        text-align: left;
-        font-weight: normal;
-        color: rgb(241, 233, 199);
-        background-color: rgba(51, 187, 146, 0.9);
-        border-top: 3px solid rgba(68, 13, 56, 0.849);
     }
 }
 
@@ -457,7 +443,7 @@ body {
 
 #skin {
     height: 80%;
-    width: 85%;
+    width: 95%;
     margin-top: 10px;
     margin: 0px auto;
     padding: 30px;
@@ -471,9 +457,9 @@ body {
 }
 
 
-/* 螢幕尺寸低於1300px的設定 */
+/* 螢幕尺寸低於550px的設定 */
 
-@media(max-width:1300px) {
+@media(max-width:550px) {
     #skin {
         height: 100%;
         width: 90%;
