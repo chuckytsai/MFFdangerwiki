@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./hero.css">
+    <!-- 連結js -->
+    <script src="./skin.js"></script>
+    <!--title -->
+    <title>近 戰 反 派-猛 毒</title>
+    <link rel="icon" href="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <!-- ===========導覽列========== -->
+    <div class="navbar-toggler">
+        <a class="newsText0"></a>
+        <!-- ==========改版資訊 & 遊戲內容========== -->
+        <div class="menu">
+            <!-- =====改版資訊 ======-->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.最新改版消息 -->
+                    <li role="presentation">
+                        <a href="../news-banner1.html">
+                            <h3 class="navText2">最 新 改 版 消 息</h3>
+                        </a>
+                    </li>
+                    <!-- 2.最新速報 -->
+                    <li role="presentation">
+                        <a href="../news-banner2.html">
+                            <h3 class="navText2">最 新 速 報</h3>
+                        </a>
+                    </li>
+                    <!-- 3.活動 -->
+                    <li role="presentation">
+                        <a href="../news-banner3.html">
+                            <h3 class="navText2">活 動</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- =====遊戲內容 ===== -->
+            <div class="dropdown">
+                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <!-- 1.各英雄資料庫 -->
+                    <li role="presentation">
+                        <a href="../各英雄資料庫/sevenbanner1.html ">
+                            <h3 class="navText2">角 色</h3>
+                        </a>
+                    </li>
+                    <!-- 2.挑戰 -->
+                    <li role="presentation">
+                        <a href="../挑戰/sevenbanner2.html">
+                            <h3 class="navText2">挑 戰</h3>
+                        </a>
+                    </li>
+                    <!-- 3.神盾局 -->
+                    <li role="presentation">
+                        <a href="../神盾局/sevenbanner3.html ">
+                            <h3 class="navText2">神 盾 局</h3>
+                        </a>
+                    </li>
+                    <!-- 4.任務 -->
+                    <li role="presentation">
+                        <a href="../任務/sevenbanner4.html ">
+                            <h3 class="navText2">任 務</h3>
+                        </a>
+                    </li>
+                    <!-- 5.PVP模式-->
+                    <li role="presentation">
+                        <a href="../PVP模式/sevenbanner5.html">
+                            <h3 class="navText2">PVP 模 式</h3>
+                        </a>
+                    </li>
+                    <!-- 6.PVP模式-->
+                    <li role="presentation">
+                        <a href="../道具/sevenbanner6.html">
+                            <h3 class="navText2">道 具</h3>
+                        </a>
+                    </li>
+                    <!-- 7.組隊模式 -->
+                    <li role="presentation">
+                        <a href="../組隊模式/sevenbanner7.html">
+                            <h3 class="navText2">組 隊 模 式</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
+        <div class="menu-trigger">
+            <button onclick="show();">改版資訊<br> 遊戲內容</button>
+            <div class="menu">
+                <!-- =====改版資訊===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.最新改版消息 -->
+                        <li role="presentation">
+                            <a href="../news-banner1.html">
+                                <h3 class="navText2">最 新 改 版 消 息</h3>
+                            </a>
+                        </li>
+                        <!-- 2.最新速報 -->
+                        <li role="presentation">
+                            <a href="../news-banner2.html">
+                                <h3 class="navText2">最 新 速 報</h3>
+                            </a>
+                        </li>
+                        <!-- 3.活動 -->
+                        <li role="presentation">
+                            <a href="../news-banner3.html">
+                                <h3 class="navText2">活 動</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- =====遊戲內容 ===== -->
+                <div class="dropdown">
+                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
+<span class="caret"></span>
+</button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+
+                        <!-- 1.各英雄資料庫 -->
+                        <li role="presentation">
+                            <a href="../各英雄資料庫/sevenbanner1.html ">
+                                <h3 class="navText2">角 色</h3>
+                            </a>
+                        </li>
+                        <!-- 2.挑戰 -->
+                        <li role="presentation">
+                            <a href="../挑戰/sevenbanner2.html">
+                                <h3 class="navText2">挑 戰</h3>
+                            </a>
+                        </li>
+                        <!-- 3.神盾局 -->
+                        <li role="presentation">
+                            <a href="../神盾局/sevenbanner3.html ">
+                                <h3 class="navText2">神 盾 局</h3>
+                            </a>
+                        </li>
+                        <!-- 4.任務 -->
+                        <li role="presentation">
+                            <a href="../任務/sevenbanner4.html ">
+                                <h3 class="navText2">任 務</h3>
+                            </a>
+                        </li>
+                        <!-- 5.PVP模式-->
+                        <li role="presentation">
+                            <a href="./PVP模式/sevenbanner5.html">
+                                <h3 class="navText2">PVP 模 式</h3>
+                            </a>
+                        </li>
+                        <!-- 6.PVP模式-->
+                        <li role="presentation">
+                            <a href="../道具/sevenbanner6.html">
+                                <h3 class="navText2">道 具</h3>
+                            </a>
+                        </li>
+                        <!-- 7.組隊模式 -->
+                        <li role="presentation">
+                            <a href="../組隊模式/sevenbanner7.html">
+                                <h3 class="navText2">組 隊 模 式</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
+    <a href="../index.html"><img class="index-bamnner" src="../img/index.jpg" height="68%" width="100%"></a>
+    <!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+
+    <!-- =====英雄介紹===== -->
+    <section class="introduction">
+        <table ID="introductionTr" border="4">
+            <tr>
+                <td>介 紹:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>實際名稱:</td>
+                <td>艾迪．布洛克</td>
+            </tr>
+            <tr>
+                <td>身高/體重:</td>
+                <td>190.5cm/117.9kg</td>
+            </tr>
+            <tr>
+                <td>種族:</td>
+                <td>人類</td>
+            </tr>
+            <tr>
+                <td>能力:</td>
+                <td>治療/;<br>邪惡/</td>
+            </tr>
+        </table>
+        <table ID="introductionTr" border="4">
+            <td>外星共生體與新聞記者艾迪．布洛克結合，讓他變成如同怪物的猛毒。共生體賦予他超人般的力量與感官能力， 成為蜘蛛人最傷腦筋的敵人。
+            </td>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h1 ID="getBanner">猛 毒 升 級 資 訊</h1>
+        <hr>
+        <hr>
+
+    </section>
+    <!--===================升級原始內容=================== -->
+    <section>
+        <div id="skin">
+
+            <section>
+                <div id="up">
+
+                    <tr>
+                        <!-- 60等 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">升級到60等</td>
+                            <!-- 2星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至40等 & 2星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x20個 & 力量之北歐符石x30個</h5>
+                                </div>
+                            </td>
+                            <!-- 3星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至45等 & 3星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x40個 & 力量之北歐符石x60個</h5>
+                                </div>
+                            </td>
+                            <!-- 4星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至50等 & 4星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x80個 & 力量之北歐符石x90個</h5>
+                                </div>
+                            </td>
+                            <!-- 5星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至55等 & 5星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x160個 & 力量之北歐符石x120個</h5>
+                                </div>
+                            </td>
+                            <!-- 6星 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至60等 & 6星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x320個 & 力量之北歐符石x150個</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">升級到70等</td>
+
+                            <!-- 62等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至62等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+
+                            <!-- 64等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至64等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+
+                            <!-- 66等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至66等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+
+                            <!-- 68等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至68等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+
+                            <!-- 70等 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至70等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+                        </table>
+                    </tr>
+                </div>
+            </section>
+
+            <!--===================升級手機模式=================== -->
+            <section>
+                <div id="ups">
+
+                    <!-- 技能說明&圖片 -->
+                    <table class="" border="2" width="100%">
+                        <td scope="col" width="150%" height="50px">升級到60等</td>
+                        <!-- 2星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至40等 & 2星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x20個 & 力量之北歐符石x30個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 3星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至45等 & 3星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x40個 & 力量之北歐符石x60個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 4星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至50等 & 4星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x80個 & 力量之北歐符石x90個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 5星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至55等 & 5星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x160個 & 力量之北歐符石x120個</h5>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 6星 -->
+                        <tr>
+                            <td scope="col" width="100%">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至60等 & 6星精通</h5>
+                                    <img src="../各英雄資料庫/img/英雄ICON/近戰反派-猛毒/經典.jpg" alt="" width="40px">
+                                    <img src="../道具/img/全能之北歐符文.jpg" alt="" width="40px">
+                                    <h5 id="t2">生體x320個 & 全能之北歐符石x150個</h5>
+                                </div>
+                            </td>
+                            </td>
+                        </tr>
+                        <td scope="col" width="150%" height="100px">升級到70等</td>
+
+                        <!-- 62等 -->
+                        <tr>
+                            <td scope="col">
+                                <div id="skipText">
+                                    <h5 id="t1">升級至62等</h5>
+                                    目前無開放
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- 64等 -->
+                        <tr>
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">升級至64等</h5>
+                                        目前無開放
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 66等 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">升級至68等</h5>
+                                        目前無開放
+                                    </div>
+                                </td>
+
+                                <!-- 68等 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">升級至68等</h5>
+                                            目前無開放
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 70等 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">升級至70等</h5>
+                                            目前無開放
+                                        </div>
+                                    </td>
+
+                                    <!--  T3 -->
+                                    <table class="" border="3" width="100%">
+
+                                        <td scope="col" width="5%" height="80px">T3</td>
+                                        <!-- T3 -->
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">T3</h5>
+                                                目前無開放T3
+                                            </div>
+                                        </td>
+                                </tr>
+                                </table>
+
+                            </tr>
+                </div>
+            </section>
+
+
+
+        </div>
+    </section>
+
+    <section>
+        <h1 ID="getBanner">猛 毒 制 服 相 關 資 訊</h1>
+        <hr>
+        <hr>
+    </section>
+
+    <hr>
+
+    <!-- =====制服選擇列表原本模式 ===== -->
+    <div>
+        <span type="button" class="btn skinMenu" id="skinMenu" data-toggle="dropdown" onmouseover="over();" onmouseout="out();">制 服 列 表 選 擇 單
+    </span>
+        <span id="skinRell" onmouseover="over();" onmouseout="out();">
+    <div class="skinSpan" onclick="change(0)">經典</div>
+    <div class="skinSpan" onclick="change(1)">秘密戰爭-漫威活屍</div>
+    <div class="skinSpan" onclick="change(2)">反猛毒</div>
+    </span>
+    </div>
+    <!-- =====制服選擇列表手機模式 ===== -->
+    <div>
+        <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
+</span>
+        <button id="skinRells" onmouseover="overs();" onmouseout="outs();">
+  <div class="skinSpans" onclick="change(11)">經典</div>
+  <div class="skinSpans" onclick="change(12)">秘密戰爭-漫威活屍</div>
+  <div class="skinSpans" onclick="change(13)">反猛毒</div>
+</button>
+    </div>
+
+    <!-- =======================制服內容=========================== -->
+    <section>
+        <div id="skin">
+            <!--===================經典原始內容=================== -->
+            <section>
+                <div id="skin1">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="3" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/經典.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="30%" height="50px" ;>制 服 名 稱:</td>
+                            <td scope="col" height="50px">經 典</td>
+                            <tr></tr>
+                            <td scope="col" height="50px">取 得 方 式:</td>
+                            <td scope="col" height="50px">預 設</td>
+                            <tr></tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">共生聚強（主動）（物理）</h5>
+                                    ．物理攻擊力65%物理傷害</br>追加物理傷害365</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能2 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                    ．物理攻擊力41%物理傷害</br>追加物理傷害219</br>
+                                    <h5 id="t2">．冷卻時間8秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能3 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                    ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                    <h5 id="t2">．冷卻時間9秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能4 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命的大嘴（主動）（精神）</h5>
+                                    適用對象: 敵人</br>
+                                    ．恐懼(3秒) </br>
+                                    ．物理攻擊力196%精神傷害</br>追加精神傷害1094</br>
+                                    <h5 id="t2">．冷卻時間9秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能5 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                    ．物理攻擊力49%火焰傷害</br>追加火焰傷害1094</br>
+                                    <h5 id="t2">．冷卻時間18秒</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <td scope="col" width="184px">
+                                <!-- <div id="skipText">
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                            </td>
+
+                            <!-- T1被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                    發動條件:HP30%以下的時候</br>
+                                    適用對象: 自身</br>
+                                    ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                    <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                </div>
+                            </td>
+
+                            <!-- T2被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                    適用對象: 自身</br>
+                                    ．以45%的機率無視對方迴避率</br>
+                                    ．技能的傷害增加52%追加傷害增加45%</br>
+                                </div>
+                            </td>
+
+                            <!-- 隊長技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                    適用對象: 全部隊員</br>
+                                    ．狀態異常時間24%下降</br>
+                                </div>
+                            </td>
+
+                            <!-- 制服效果 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">制服效果:
+                                        <h5>
+                                            ．無</br>
+                                </div>
+                            </td>
+                        </table>
+                        <br>
+                </div>
+            </section>
+
+            <!--==================經典-手機模式=================== -->
+            <section>
+                <div id="skin1s">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="2" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/經典.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="60%" height="50px">制 服 名 稱:</td>
+                            <td scope="col">經 典</td>
+                            <tr></tr>
+                            <td scope="col" height="40px">取得方式:</td>
+                            <td scope="col" height="40px">預 設</td>
+                            <tr></tr>
+                        </table>
+
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="2" width="100%">
+                            <td scope="col" width="150%" height="50px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">共生聚強（主動）（物理）</h5>
+                                        ．物理攻擊力65%物理傷害</br>追加物理傷害365</br>
+                                        <h5 id="t2">．冷卻時間7秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能2 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                        ．物理攻擊力41%物理傷害</br>追加物理傷害219</br>
+                                        <h5 id="t2">．冷卻時間8秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能3 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                        ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                        <h5 id="t2">．冷卻時間9秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能4 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命的大嘴（主動）（精神）</h5>
+                                        適用對象: 敵人</br>
+                                        ．恐懼(3秒) </br>
+                                        ．物理攻擊力196%精神傷害</br>追加精神傷害1094</br>
+                                        <h5 id="t2">．冷卻時間9秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能5 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                        ．物理攻擊力49%物理傷害</br>追加物理傷害1094</br>
+                                        <h5 id="t2">．冷卻時間18秒</h5>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                            <td scope="col" width="150%" height="100px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <tr>
+                                <td scope="col">
+                                    <!-- <div id="skipTexts" >
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                                </td>
+                            </tr>
+                            <!-- T1被動技能 -->
+                            <tr>
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                            發動條件:HP30%以下的時候</br>
+                                            適用對象: 自身</br>
+                                            ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                            <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- T2被動技能 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                            適用對象: 自身</br>
+                                            ．以45%的機率無視對方迴避率</br>
+                                            ．技能的傷害增加52%追加傷害增加45%</br>
+                                        </div>
+                                    </td>
+
+                                    <!-- 隊長技能 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                                適用對象: 全部隊員</br>
+                                                ．狀態異常時間24%下降</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 制服效果 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipTexts">
+                                                <h5 id="t1">制服效果:
+                                                    <h5>
+                                                        ．無</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                        </table>
+
+                        </tr>
+                </div>
+            </section>
+
+            <!--==================秘密戰爭:漫威活屍原始內容================ -->
+            <section>
+                <div id="skin2" style="display:none;">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="3" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/秘密戰爭-漫威活屍.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="30%" height="50px" ;>制 服 名 稱:</td>
+                            <td scope="col" height="50px">秘密戰爭-漫 威 活 屍</td>
+                            <tr></tr>
+                            <td scope="col" height="50px">取 得 方 式:</td>
+                            <td scope="col" height="50px">金幣 500,000</td>
+                            <tr></tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">共生聚強（主動）（物理）</h5>
+                                    ．物理攻擊力65%物理傷害</br>追加物理傷害365</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能2 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                    ．物理攻擊力41%物理傷害</br>追加物理傷害219</br>
+                                    <h5 id="t2">．冷卻時間8秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能3 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                    ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                    <h5 id="t2">．冷卻時間9秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能4 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命的大嘴（主動）（精神）</h5>
+                                    適用對象: 敵人</br>
+                                    ．恐懼(3秒) </br>
+                                    ．物理攻擊力196%精神傷害</br>追加精神傷害1094</br>
+                                    <h5 id="t2">．冷卻時間9秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能5 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                    ．物理攻擊力49%物理傷害</br>追加物理傷害1094</br>
+                                    <h5 id="t2">．冷卻時間18秒</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <td scope="col" width="184px">
+                                <!-- <div id="skipText">
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                            </td>
+
+                            <!-- T1被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                    發動條件:HP30%以下的時候</br>
+                                    適用對象: 自身</br>
+                                    ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                    <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                </div>
+                            </td>
+
+                            <!-- T2被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                    適用對象: 自身</br>
+                                    ．以45%的機率無視對方迴避率</br>
+                                    ．技能的傷害增加52%追加傷害增加45%</br>
+                                </div>
+                            </td>
+
+                            <!-- 隊長技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                    適用對象: 全部隊員</br>
+                                    ．狀態異常時間24%下降</br>
+                                </div>
+                            </td>
+
+                            <!-- 制服效果 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">制服效果:</h5>
+                                    發動條件:被攻擊時10%的機率</br>
+                                    適用對象: 自身</br>
+                                    ．超級護甲,所有防禦+5%(10秒)</br>
+                                    <h5 id="t2">．冷卻時間20秒</h5>
+                                </div>
+                            </td>
+                        </table>
+                        <br>
+                        <!-- 連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+
+                                <td scope="col" width="7%">第1件:綠惡魔-<br>究極<br><img src="./img/英雄ICON/速度反派-綠惡魔/究極.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第2件:松鼠女孩-<br>Marvel Now!<br><img src="./img/英雄ICON/速度英雄-松鼠女孩/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第3件:火箭浣熊-<br>全新全異<br><img src="./img/英雄ICON/爆破英雄-火箭浣熊/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第4件:戰爭機器-<br>行動<br><img src="./img/英雄ICON/爆破英雄-戰爭機器/復仇者-行動.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第5件:鷹眼-<br>復仇者聯盟:奧創紀元<br><img src="./img/英雄ICON/速度英雄-鷹眼/復仇者聯盟-奧創紀元.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            </table>
+                        </tr>
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+
+                                <td scope="col" width="7%">索爾-<br>復仇者聯盟:奧創紀元<br><img src="./img/英雄ICON/宇宙英雄-索爾/復仇者聯盟-奧創紀元.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>攻擊速度 </br>移動速度 </br>技能冷卻 </br>異常狀態時間 </br>迴避率</td>
+
+                                <td scope="col" width="7%">勇度-<br>全新全異<br><img src="./img/英雄ICON/速度英雄-勇度/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+
+                                <td scope="col" width="7%">夜魔俠-<br>全新全異<br><img src="./img/英雄ICON/速度英雄-夜魔俠/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+
+                                <td scope="col" width="7%">黑貓-<br>全新全異<br><img src="./img/英雄ICON/速度反派-黑貓/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+
+                                <td scope="col" width="7%">蛛絲女-<br>網衣<br><img src="./img/英雄ICON/速度英雄-蛛絲女/網衣.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+
+                                <td scope="col" width="7%">禿鷹-<br>蜘蛛人:返校日<br><img src="./img/英雄ICON/速度反派-禿鷹/蜘蛛人-返校日.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">秘客-<br>鳳凰5人組<br><img src="./img/英雄ICON/爆破英雄-秘客/鳳凰5人組.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                            </table>
+                        </tr>
+                </div>
+            </section>
+
+            <!--====================秘密戰爭:漫威活屍-手機模式=================== -->
+            <section>
+                <div id="skin2s" style="display:none;">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="2" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/秘密戰爭-漫威活屍.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="60%" height="50px">制 服 名 稱:</td>
+                            <td scope="col">秘密戰爭:漫 威 活 屍</td>
+                            <tr></tr>
+                            <td scope="col" height="40px">取得方式:</td>
+                            <td scope="col" height="40px">金幣 500,000</td>
+                            <tr></tr>
+                        </table>
+
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="2" width="100%">
+                            <td scope="col" width="150%" height="50px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">共生聚強（主動）（物理）</h5>
+                                        ．物理攻擊力65%物理傷害</br>追加物理傷害365</br>
+                                        <h5 id="t2">．冷卻時間7秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能2 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                        ．物理攻擊力41%物理傷害</br>追加物理傷害219</br>
+                                        <h5 id="t2">．冷卻時間8秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能3 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                        ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                        <h5 id="t2">．冷卻時間9秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能4 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命的大嘴（主動）（精神）</h5>
+                                        適用對象: 敵人</br>
+                                        ．恐懼(3秒) </br>
+                                        ．物理攻擊力196%精神傷害</br>追加精神傷害1094</br>
+                                        <h5 id="t2">．冷卻時間9秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能5 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                        ．物理攻擊力49%物理傷害</br>追加物理傷害1094</br>
+                                        <h5 id="t2">．冷卻時間18秒</h5>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                            <td scope="col" width="150%" height="100px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <tr>
+                                <td scope="col">
+                                    <!-- <div id="skipTexts" >
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                                </td>
+                            </tr>
+                            <!-- T1被動技能 -->
+                            <tr>
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                            發動條件:HP30%以下的時候</br>
+                                            適用對象: 自身</br>
+                                            ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                            <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- T2被動技能 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                            適用對象: 自身</br>
+                                            ．以45%的機率無視對方迴避率</br>
+                                            ．技能的傷害增加52%追加傷害增加45%</br>
+                                        </div>
+                                    </td>
+
+                                    <!-- 隊長技能 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                                適用對象: 全部隊員</br>
+                                                ．狀態異常時間24%下降</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 制服效果 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">制服效果:</h5>
+                                                發動條件:被攻擊時10%的機率</br>
+                                                適用對象: 自身</br>
+                                                ．超級護甲,所有防禦+5%(10秒)</br>
+                                                <h5 id="t2">．冷卻時間20秒</h5>
+                                            </div>
+                                        </td>
+                                    </tr>
+                        </table>
+                        <!-- 連動制服 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第1件:綠惡魔-究極<br><img src="./img/英雄ICON/速度反派-綠惡魔/究極.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第2件:松鼠女孩-Marvel Now!<br><img src="./img/英雄ICON/速度英雄-松鼠女孩/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第3件:火箭浣熊-全新全異<br><img src="./img/英雄ICON/爆破英雄-火箭浣熊/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第4件:戰爭機器-行動<br><img src="./img/英雄ICON/爆破英雄-戰爭機器/復仇者-行動.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第5件:鷹眼-復仇者聯盟:奧創紀元<br><img src="./img/英雄ICON/速度英雄-鷹眼/復仇者聯盟-奧創紀元.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        </table>
+                        </tr>
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+                                <tr></tr>
+                                <td scope="col" width="7%">索爾-復仇者聯盟:奧創紀元<br><img src="./img/英雄ICON/宇宙英雄-索爾/復仇者聯盟-奧創紀元.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>攻擊速度 </br>移動速度 </br>技能冷卻 </br>異常狀態時間 </br>迴避率</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">勇度-全新全異<br><img src="./img/英雄ICON/速度英雄-勇度/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">夜魔俠-全新全異<br><img src="./img/英雄ICON/速度英雄-夜魔俠/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">黑貓-全新全異<br><img src="./img/英雄ICON/速度反派-黑貓/全新全異.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">蛛絲女-網衣<br><img src="./img/英雄ICON/速度英雄-蛛絲女/網衣.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>回復率 </br>無視防禦 </br>技能冷卻 </br>HP </br>攻擊速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">禿鷹-蜘蛛人:返校日<br><img src="./img/英雄ICON/速度反派-禿鷹/蜘蛛人-返校日.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">秘客-鳳凰5人組<br><img src="./img/英雄ICON/爆破英雄-秘客/鳳凰5人組.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                            </table>
+                        </tr>
+                </div>
+            </section>
+
+            <!--==================反猛毒原始內容================ -->
+            <section>
+                <div id="skin3" style="display:none;">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="3" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/反猛毒.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="30%" height="50px" ;>制 服 名 稱:</td>
+                            <td scope="col" height="50px">反 猛 毒</td>
+                            <tr></tr>
+                            <td scope="col" height="50px">取 得 方 式:</td>
+                            <td scope="col" height="50px">鑽石 1,250</td>
+                            <tr></tr>
+                        </table>
+                    </tr>
+                    <tr>
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="5%" height="80px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">共生體鐮刀（主動）（物理）</h5>
+                                    ．物理攻擊力39%物理傷害</br>追加物理傷害1094</br>
+                                    <h5 id="t2">．冷卻時間7秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能2 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                    適用對象: 自身</br>
+                                    ．以對對手造成之傷害量的8%HP恢復(3秒)</br>
+                                    傷害量每次最高只能會恢復至最大HP的0.5%(3秒)</br>
+                                    ．物理攻擊力30%物理傷害</br>追加物理傷害219</br>
+                                    <h5 id="t2">．冷卻時間8秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能3 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                    ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                    <h5 id="t2">．冷卻時間9秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能4 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命的大嘴（主動）（物理）</h5>
+                                    適用對象: 自身</br>
+                                    ．最高HP回復5%(1秒)</br>
+                                    ．物理攻擊力99%物理傷害</br>追加物理傷害1094</br>
+                                    <h5 id="t2">生體認證的粒子會掉落.觸碰時可恢復些微HP</h5>
+                                    <h5 id="t2">．冷卻時間13秒</h5>
+                                </div>
+                            </td>
+                            <!-- 技能5 -->
+                            <td scope="col" width="13%">
+                                <div id="skipText">
+                                    <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                    ．最高HP回復5%(1秒)</br>
+                                    ．物理攻擊力49%物理傷害</br>追加物理傷害1094</br>
+                                    <h5 id="t2">．冷卻時間18秒</h5>
+                                </div>
+                            </td>
+
+                            <tr></tr>
+                            <td scope="col" width="0" height="80px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <td scope="col" width="184px">
+                                <!-- <div id="skipText">
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                            </td>
+
+                            <!-- T1被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                    發動條件:HP30%以下的時候</br>
+                                    適用對象: 自身</br>
+                                    ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                    <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                </div>
+                            </td>
+
+                            <!-- T2被動技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                    適用對象: 自身</br>
+                                    ．以45%的機率無視對方迴避率</br>
+                                    ．技能的傷害增加52%追加傷害增加45%</br>
+                                </div>
+                            </td>
+
+                            <!-- 隊長技能 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                    適用對象: 全部隊員</br>
+                                    ．狀態異常時間24%下降</br>
+                                </div>
+                            </td>
+
+                            <!-- 制服效果 -->
+                            <td scope="col" width="184px">
+                                <div id="skipText">
+                                    <h5 id="t1">制服效果:</h5>
+                                    發動條件:被攻擊時30%的機率</br>
+                                    適用對象: 全部隊員</br>
+                                    ．最高HP回復15%</br>
+                                    <h5 id="t2">．冷卻時間20秒</h5>
+                                </div>
+                            </td>
+                        </table>
+                        <br>
+                        <!-- 連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+
+                                <td scope="col" width="7%">第1件:星爵-<br>星際異攻隊2<br><img src="./img/英雄ICON/爆破英雄-星爵/星際特攻隊2.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第2件:關死恃-<br>關死恃<br><img src="./img/英雄ICON/速度英雄-關死恃/關死恃.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第3件:靶眼-<br>秘密戰爭1872<br><img src="./img/英雄ICON/近戰反派-靶眼/秘密戰爭1872.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第4件:驚奇女士-喀拉蚩服裝<br><img src="./img/英雄ICON/近戰英雄-驚奇女士/喀拉蚩服裝.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+
+                                <td scope="col" width="7%">第5件:王-<br>奇異博士<br><img src="./img/英雄ICON/速度英雄-王/奇異博士.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            </table>
+                        </tr>
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+
+                                <td scope="col" width="7%">獵鷹-<br>漫威傳承<br><img src="./img/英雄ICON/速度英雄-獵鷹/漫威傳承.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">蜘蛛人-<br>復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/速度英雄-蜘蛛人/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">幽靈-<br>蟻人與黃蜂女<br><img src="./img/英雄ICON/速度反派-幽靈/蟻人與黃蜂女.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">猛毒特工-<br>反猛毒特工<br><img src="./img/英雄ICON/近戰英雄-猛毒特工/反猛毒特工.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">死恃-<br>X特攻隊<br><img src="./img/英雄ICON/速度英雄-死恃/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+
+                                <td scope="col" width="7%">黑寡婦-<br>復仇者聯盟:終局之戰<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟-終局之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                            </table>
+                        </tr>
+                </div>
+            </section>
+
+            <!--==================反猛毒-手機模式=================== -->
+            <section>
+                <div id="skin3s" style="display:none;">
+                    <tr>
+                        <!-- 制服來源 -->
+                        <table class="" border="2" width="100%"><img src="./img/英雄ICON/近戰反派-猛毒/反猛毒.jpg" style="border:double 2px rgb(83, 32, 8) ;">
+                            <td scope="col" width="60%" height="50px">制 服 名 稱:</td>
+                            <td scope="col">反 猛 毒</td>
+                            <tr></tr>
+                            <td scope="col" height="40px">取得方式:</td>
+                            <td scope="col" height="40px">鑽石 1,250</td>
+                            <tr></tr>
+                        </table>
+
+                        <!-- 技能說明&圖片 -->
+                        <table class="" border="2" width="100%">
+                            <td scope="col" width="150%" height="50px">技 能1 至 5:</td>
+                            <!-- 技能1 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">共生體鐮刀（主動）（物理）</h5>
+                                        ．物理攻擊力39%物理傷害</br>追加物理傷害1094</br>
+                                        <h5 id="t2">．冷卻時間7秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能2 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">捲曲尖釘（主動）（物理）</h5>
+                                        適用對象: 自身</br>
+                                        ．以對對手造成之傷害量的8%HP恢復(3秒)</br>
+                                        傷害量每次最高只能會恢復至最大HP的0.5%(3秒)</br>
+                                        ．物理攻擊力30%物理傷害</br>追加物理傷害219</br>
+                                        <h5 id="t2">．冷卻時間8秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能3 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">寄生射擊（主動）（物理）</h5>
+                                        ．物理攻擊力23%物理傷害</br>追加物理傷害110</br>
+                                        <h5 id="t2">．冷卻時間9秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能4 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命的大嘴（主動）（物理）</h5>
+                                        適用對象: 自身</br>
+                                        ．最高HP回復5%(1秒)</br>
+                                        ．物理攻擊力99%物理傷害</br>追加物理傷害1094</br>
+                                        <h5 id="t2">生體認證的粒子會掉落.觸碰時可恢復些微HP</h5>
+                                        <h5 id="t2">．冷卻時間13秒</h5>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- 技能5 -->
+                            <tr>
+                                <td scope="col" width="100%">
+                                    <div id="skipText">
+                                        <h5 id="t1">致命性的共生體（主動）（物理）</h5>
+                                        ．最高HP回復5%(1秒)</br>
+                                        ．物理攻擊力49%物理傷害</br>追加物理傷害1094</br>
+                                        <h5 id="t2">．冷卻時間18秒</h5>
+                                    </div>
+                                </td>
+                                </td>
+                            </tr>
+                            <td scope="col" width="150%" height="100px">被動技能:<br>T3技能:<br>隊長技能:</td>
+
+                            <!-- T3技能 -->
+                            <tr>
+                                <td scope="col">
+                                    <!-- <div id="skipTexts" >
+    <h5 id="t1">英雄衝刺（終極技能）（物理）</h5>
+    適用對象: 敵人</br>．移動速度-24%(10秒)</br> 
+   ．所有防禦力-20%(3秒) </br>．昏迷(3秒) </br>
+    適用對象: 自身</br>．所有攻擊力+50%(20秒)</br> 
+   ．無視防禦15%(5秒)</br> 
+   ．以100%的機率無視對方迴避率(3秒)</br>
+   ．80%的機率超級護甲,屏障,盾牌,所有傷害免疫,無敵貫穿效果(3秒)</br>
+   ．移除所有狀態異常(3秒)</br>
+   ．有100%的機率免疫所有傷害(3秒)</br>
+   ．累積每1%傷害量時所有攻擊力增加+15%(10秒)</br>
+   ．累積無關防禦力與迴避率的真實傷害量150%</br>
+   ．累積的真實傷害量無法超過最大HP的15%(10秒)(3秒)</br>
+   ．物理攻擊力100%物理傷害</br>
+   ．追加物理傷害36</br>
+    </div> -->
+                                </td>
+                            </tr>
+                            <!-- T1被動技能 -->
+                            <tr>
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">害蟲橫行（被動）（T1）</h5>
+                                            發動條件:HP30%以下的時候</br>
+                                            適用對象: 自身</br>
+                                            ．腳色大小+30%,所有速度,所有攻擊力提升10%(5秒)</br>
+                                            <h5 id="t2">達成條件發動1次,且在該戰鬥永久有效,切換角色時達成條件後會再次發動</h5>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- T2被動技能 -->
+                                <tr>
+                                    <td scope="col" width="100%">
+                                        <div id="skipText">
+                                            <h5 id="t1">共生體本能（被動）（T2）</h5>
+                                            適用對象: 自身</br>
+                                            ．以45%的機率無視對方迴避率</br>
+                                            ．技能的傷害增加52%追加傷害增加45%</br>
+                                        </div>
+                                    </td>
+
+                                    <!-- 隊長技能 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">我們是猛毒（隊長技）</h5>
+                                                適用對象: 全部隊員</br>
+                                                ．狀態異常時間24%下降</br>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!-- 制服效果 -->
+                                    <tr>
+                                        <td scope="col" width="100%">
+                                            <div id="skipText">
+                                                <h5 id="t1">制服效果:</h5>
+                                                發動條件:被攻擊時30%的機率</br>
+                                                適用對象: 全部隊員</br>
+                                                ．最高HP回復15%</br>
+                                                <h5 id="t2">．冷卻時間20秒</h5>
+                                            </div>
+                                        </td>
+                                    </tr>
+                        </table>
+                        <!-- 連動制服 -->
+                        <table class="" border="3" width="100%">
+                            <td scope="col" width="10%" height="80px">連 動 制 服:</td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第1件:星爵-<br>星際異攻隊2<br><img src="./img/英雄ICON/爆破英雄-星爵/星際特攻隊2.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第2件:關死恃-<br>關死恃<br><img src="./img/英雄ICON/速度英雄-關死恃/關死恃.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第3件:靶眼-<br>秘密戰爭1872<br><img src="./img/英雄ICON/近戰反派-靶眼/秘密戰爭1872.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第4件:驚奇女士-喀拉蚩服裝<br><img src="./img/英雄ICON/近戰英雄-驚奇女士/喀拉蚩服裝.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                            <tr></tr>
+                            <td scope="col" width="7%">第5件:王-<br>奇異博士<br><img src="./img/英雄ICON/速度英雄-王/奇異博士.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
+                        </table>
+                        </tr>
+
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+                                <tr></tr>
+                                <td scope="col" width="7%">獵鷹-漫威傳承<br><img src="./img/英雄ICON/速度英雄-獵鷹/漫威傳承.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">蜘蛛人-復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/速度英雄-蜘蛛人/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">幽靈-蟻人與黃蜂女<br><img src="./img/英雄ICON/速度反派-幽靈/蟻人與黃蜂女.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">猛毒特工-反猛毒特工<br><img src="./img/英雄ICON/近戰英雄-猛毒特工/反猛毒特工.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">死恃-X特攻隊<br><img src="./img/英雄ICON/速度英雄-死恃/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">黑寡婦-復仇者聯盟:終局之戰<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟-終局之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                            </table>
+                        </tr>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <section>
+        <div>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <!-- 兩邊預設Banner -->
+    <!-- <h6>預設banner左邊</h6> -->
+    <!-- <h6>預設banner右邊</h6> -->
+</body>
+
+</html>

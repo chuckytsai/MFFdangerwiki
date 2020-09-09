@@ -12,6 +12,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- 連結Style.css -->
     <link rel="stylesheet" href="./hero.css">
+    <!-- 連結js -->
+    <script src="./skin.js"></script>
     <!--title -->
     <title>爆 破 英 雄-地 獄 火</title>
     <link rel="icon" href="../各英雄資料庫/img/英雄ICON/爆破英雄-地獄火/全新 全異.jpg" type="image/x-icon">
@@ -530,366 +532,14 @@
     </span>
     </div>
     <!-- =====制服選擇列表手機模式 ===== -->
-
-    <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
+    <div>
+        <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
 </span>
-    <button id="skinRells" onmouseover="overs();" onmouseout="outs();">
+        <button id="skinRells" onmouseover="overs();" onmouseout="outs();">
   <div class="skinSpans" onclick="change(11)">全新全異</div>
   <div class="skinSpans" onclick="change(12)">現代</div>
 </button>
-
-
-
-
-    <!-- 點選制服顯示方式的定義&JS -->
-    <script>
-        // 滑鼠移動到選單目錄按鈕出現清單效果
-        function over() {
-            skinRell.style.display = 'block';
-        }
-
-        function out() {
-            skinRell.style.display = 'none';
-        }
-
-        function overs() {
-            skinRells.style.display = 'block';
-        }
-
-        function outs() {
-            skinRells.style.display = 'none';
-        }
-
-        // 點及清單中選擇制服顯示效果
-        function change(index) {
-            let skin1 = document.getElementById("skin1");
-            let skin2 = document.getElementById("skin2");
-            let skin3 = document.getElementById("skin3");
-            let skin4 = document.getElementById("skin4");
-            let skin5 = document.getElementById("skin5");
-            let skin6 = document.getElementById("skin6");
-            let skin7 = document.getElementById("skin7");
-            let skin8 = document.getElementById("skin8");
-            let skin9 = document.getElementById("skin9");
-            let skin10 = document.getElementById("skin10");
-            let skin11 = document.getElementById("skin11");
-            let skin1s = document.getElementById("skin1s");
-            let skin2s = document.getElementById("skin2s");
-            let skin3s = document.getElementById("skin3s");
-            let skin4s = document.getElementById("skin4s");
-            let skin5s = document.getElementById("skin5s");
-            let skin6s = document.getElementById("skin6s");
-            let skin7s = document.getElementById("skin7s");
-            let skin8s = document.getElementById("skin8s");
-            let skin9s = document.getElementById("skin9s");
-            let skin10s = document.getElementById("skin10s")
-            let skin11s = document.getElementById("skin11s");
-
-            if (index == 0) {
-                skin1.style.display = "block";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 1) {
-                skin1.style.display = "none";
-                skin2.style.display = "block";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 2) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "block";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 3) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "block";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 4) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "block";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 5) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "block";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 6) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "block";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin11.style.display = "none";
-                skin10.style.display = "none";
-            } else if (index == 7) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "block";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 8) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "block";
-                skin10.style.display = "none";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 9) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "block";
-                skin11.style.display = "none";
-                skinRell.style.display = 'none';
-            } else if (index == 10) {
-                skin1.style.display = "none";
-                skin2.style.display = "none";
-                skin3.style.display = "none";
-                skin4.style.display = "none";
-                skin5.style.display = "none";
-                skin6.style.display = "none";
-                skin7.style.display = "none";
-                skin8.style.display = "none";
-                skin9.style.display = "none";
-                skin10.style.display = "none";
-                skin11.style.display = "block";
-                skinRell.style.display = 'none';
-            }
-
-            if (index == 11) {
-                skin1s.style.display = "block";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 12) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "block";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 13) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "block";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 14) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "block";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 15) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "block";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 16) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "block";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                s10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 17) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "block";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 18) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "block";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 19) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "block";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 20) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "block";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            } else if (index == 21) {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "block";
-                skinRells.style.display = 'none';
-            } else {
-                skin1s.style.display = "none";
-                skin2s.style.display = "none";
-                skin3s.style.display = "none";
-                skin4s.style.display = "none";
-                skin5s.style.display = "none";
-                skin6s.style.display = "none";
-                skin7s.style.display = "none";
-                skin8s.style.display = "none";
-                skin9s.style.display = "none";
-                skin10s.style.display = "none";
-                skin11s.style.display = "none";
-                skinRells.style.display = 'none';
-            }
-
-        }
-    </script>
-
+    </div>
 
     <!-- =======================制服內容=========================== -->
     <section>
@@ -1315,6 +965,28 @@
                                 <td scope="col" width="7%">第5件:浩克-<br>索爾:諸神黃昏<br><img src="./img/英雄ICON/近戰英雄-浩克/雷神索爾3-諸神黃昏.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
                             </table>
                         </tr>
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+
+                                <td scope="col" width="7%">撒旦娜-<br>漫威傳承<br><img src="./img/英雄ICON/宇宙英雄-撒旦娜/漫威傳承.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+
+                                <td scope="col" width="7%">戰爭機器-<br>復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/爆破英雄-戰爭機器/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+
+                                <td scope="col" width="7%">闇夜無星-<br>復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/宇宙反派-闇夜無星/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+
+                                <td scope="col" width="7%">萬磁王-<br>Marvel Now!<br><img src="./img/英雄ICON/爆破反派-萬磁王/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>攻擊速度 </br>移動速度 </br>技能冷卻 </br>異常狀態時間 </br>迴避率</td>
+
+                                <td scope="col" width="7%">夜行者-<br>X特攻隊<br><img src="./img/英雄ICON/速度英雄-夜行者/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+
+                                <td scope="col" width="7%">黑寡婦-<br>復仇者聯盟:終局之戰<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟-終局之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+
+                                <td scope="col" width="7%">黑寡婦-<br>復仇者隊服<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟隊服.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+                            </table>
+                        </tr>
                 </div>
             </section>
 
@@ -1474,6 +1146,28 @@
                             <tr></tr>
                             <td scope="col" width="7%">第5件:浩克-<br>索爾:諸神黃昏<br><img src="./img/英雄ICON/近戰英雄-浩克/雷神索爾3-諸神黃昏.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></td>
                         </table>
+                        </tr>
+
+                        <!-- 被連動制服 -->
+                        <tr>
+                            <table class="" border="3" width="100%">
+                                <td scope="col" width="10%" height="80px">被 連 動 制 服:</br>可改變屬性
+                                </td>
+                                <tr></tr>
+                                <td scope="col" width="7%">撒旦娜-漫威傳承<br><img src="./img/英雄ICON/宇宙英雄-撒旦娜/漫威傳承.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>所有攻擊力 </br>暴擊率 </br>暴擊傷害率</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">戰爭機器-復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/爆破英雄-戰爭機器/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理攻擊力 </br>能量攻擊力 </br>物理防禦力 </br>能量防禦力 </br>HP</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">闇夜無星-復仇者聯盟:無限之戰<br><img src="./img/英雄ICON/宇宙反派-闇夜無星/復仇者聯盟-無限之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">萬磁王-Marvel Now!<br><img src="./img/英雄ICON/爆破反派-萬磁王/Marvel Now!.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>攻擊速度 </br>移動速度 </br>技能冷卻 </br>異常狀態時間 </br>迴避率</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">夜行者-X特攻隊<br><img src="./img/英雄ICON/速度英雄-夜行者/X特攻隊.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">黑寡婦-復仇者聯盟:終局之戰<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟-終局之戰.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+                                <tr></tr>
+                                <td scope="col" width="7%">黑寡婦-復仇者隊服<br><img src="./img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟隊服.jpg" width="60%" style="border:4px rgb(128, 83, 0) double;"></br>物理防禦力 </br>能量防禦力 </br>所有防禦力 </br>迴避率 </br>移動速度</td>
+                            </table>
                         </tr>
                 </div>
             </section>
