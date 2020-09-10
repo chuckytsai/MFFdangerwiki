@@ -371,7 +371,6 @@ body {
     #skinRells {
         width: 150px;
         height: 80px;
-        overflow: auto;
         display: none;
         z-index: 30;
         position: absolute;
