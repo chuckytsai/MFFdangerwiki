@@ -260,6 +260,7 @@ body {
 @media(max-width:800px) {
     #ups {
         display: block;
+        margin-top: -10%;
     }
 }
 
@@ -285,7 +286,7 @@ body {
         height: 50px;
         width: 100%;
         margin: 0.5%;
-        margin-top: 1px;
+        margin-top: 5px;
         background-size: cover;
         border: 8px solid rgba(64, 26, 233, 0.849);
         background-color: rgb(208, 206, 233, 0.6);
@@ -336,6 +337,7 @@ body {
         display: block;
         width: 300px;
         font-size: 20px;
+        margin-top: 10%;
         margin-left: 10%;
         font-weight: bolder;
         color: rgb(184, 97, 97);
@@ -369,8 +371,6 @@ body {
 
 @media(max-width:800px) {
     #skinRells {
-        width: 200px;
-        height: 120px;
         display: none;
         z-index: 30;
         position: absolute;
@@ -424,7 +424,7 @@ body {
 @media(max-width:800px) {
     .skinSpans {
         cursor: pointer;
-        font-size: 7px;
+        font-size: 15px;
         color: rgb(241, 233, 199);
         background-color: rgba(146, 155, 238, 0.9);
         border-top: 1px solid rgba(29, 8, 24, 0.849);
@@ -433,9 +433,6 @@ body {
 
 @media(max-width:800px) {
     .skinSpans:hover {
-        width: 180px;
-        height: 20px;
-        font-size: 7px;
         text-align: left;
         font-weight: normal;
         color: rgb(241, 233, 199);
@@ -759,7 +756,7 @@ body {
     padding-left: 5px;
     width: 200px;
     height: 110px;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bolder;
     overflow: auto;
     text-align: left;
