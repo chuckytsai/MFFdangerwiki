@@ -375,6 +375,7 @@ body {
         z-index: 30;
         position: absolute;
         margin-left: 11%;
+        height: 100%;
     }
 }
 
