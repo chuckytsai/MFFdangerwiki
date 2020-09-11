@@ -371,8 +371,8 @@ body {
 
 @media(max-width:800px) {
     #skinRells {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 150px;
         display: none;
         z-index: 30;
         position: absolute;
