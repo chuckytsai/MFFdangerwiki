@@ -376,10 +376,11 @@ body {
         display: none;
         z-index: 30;
         position: absolute;
+        border: rgb(88, 88, 54, 0);
         border-radius: 0%;
         background-color: rgb(61, 79, 94, 0);
         margin-left: 11%;
-        overflow-x: hidden;
+        overflow-x: auto;
         overflow-y: auto;
     }
 }
