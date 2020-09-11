@@ -372,16 +372,15 @@ body {
 @media(max-width:800px) {
     #skinRells {
         width: 180px;
-        height: 100px;
+        height: 260px;
         display: none;
-        z-index: 30;
+        z-index: 20;
         position: absolute;
         border: rgb(88, 88, 54, 0);
         border-radius: 0%;
         background-color: rgb(61, 79, 94, 0);
         margin-left: 11%;
-        overflow-x: hidden;
-        overflow-y: visible;
+        overflow-y: scroll;
     }
 }
 
