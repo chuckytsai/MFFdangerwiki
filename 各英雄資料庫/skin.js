@@ -347,7 +347,7 @@ function change(index) {
 // ==========制服屬性選取頁面執行js===========
 
 
-function getSkin(url) {
+function getSkin() {
     {
         var url = location.href;
         //去尋找網址列中是否有資料傳遞(QueryString)
@@ -361,8 +361,11 @@ function getSkin(url) {
             //下迴圈去搜尋每個資料參數
             for (i = 0; i <= ary.length - 1; i++) {
                 //如果資料名稱為id的話那就把他取出來
+
                 if (ary[i].split('=')[0] == 'id')
                     id = ary[i].split('=')[1];
+
+                return id;
             }
 
         }
