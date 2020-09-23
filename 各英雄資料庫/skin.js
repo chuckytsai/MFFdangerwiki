@@ -16,6 +16,7 @@ function outs() {
 }
 
 // ===========點及清單中選擇制服顯示效果===========
+
 function change(index) {
     let skin1 = document.getElementById("skin1");
     let skin2 = document.getElementById("skin2");
@@ -184,7 +185,7 @@ function change(index) {
         skinRell.style.display = 'none';
     }
 
-    if (index == 11) {
+    if (index == 'a') {
         skin1s.style.display = "block";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -197,7 +198,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 12) {
+    } else if (index == 'b') {
         skin1s.style.display = "none";
         skin2s.style.display = "block";
         skin3s.style.display = "none";
@@ -210,7 +211,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 13) {
+    } else if (index == 'c') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "block";
@@ -223,7 +224,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 14) {
+    } else if (index == 'd') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -236,7 +237,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 15) {
+    } else if (index == 'e') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -249,7 +250,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 16) {
+    } else if (index == 'f') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -262,7 +263,7 @@ function change(index) {
         s10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 17) {
+    } else if (index == 'g') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -275,7 +276,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 18) {
+    } else if (index == 'h') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -288,7 +289,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 19) {
+    } else if (index == 'i') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -301,7 +302,7 @@ function change(index) {
         skin10s.style.display = "none";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 20) {
+    } else if (index == 'j') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -314,7 +315,7 @@ function change(index) {
         skin10s.style.display = "block";
         skin11s.style.display = "none";
         skinRells.style.display = 'none';
-    } else if (index == 21) {
+    } else if (index == 'k') {
         skin1s.style.display = "none";
         skin2s.style.display = "none";
         skin3s.style.display = "none";
@@ -344,7 +345,7 @@ function change(index) {
 
 }
 
-// ==========制服屬性選取頁面執行js===========
+// ==========制服屬性選取頁面自動執行js===========
 
 
 function getSkin() {
@@ -371,3 +372,94 @@ function getSkin() {
         }
     }
 }
+
+
+var id = getSkin();
+
+$(document).ready(function() {
+
+    if (screen.width >= 551) {
+        if (id == "skin2") {
+            skin1.style.display = "none";
+            skin2.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "ski2") {
+            skin1s.style.display = "none";
+            skin2s.style.display = "block";
+        }
+    }
+
+    if (screen.width >= 551) {
+        if (id == "skin3") {
+            skin1.style.display = "none";
+            skin3.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "skin3") {
+            skin1s.style.display = "none";
+            skin3s.style.display = "block";
+        }
+    }
+
+    if (screen.width >= 551) {
+        if (id == "skin4") {
+            skin1.style.display = "none";
+            skin4.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "ski4") {
+            skin1s.style.display = "none";
+            skin4s.style.display = "block";
+        }
+    }
+
+    if (screen.width >= 551) {
+        if (id == "skin5") {
+            skin1.style.display = "none";
+            skin5.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "skin5") {
+            skin1s.style.display = "none";
+            skin5s.style.display = "block";
+        }
+    }
+
+    if (screen.width >= 551) {
+        if (id == "skin6") {
+            skin1.style.display = "none";
+            skin6.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "ski6") {
+            skin1s.style.display = "none";
+            skin6s.style.display = "block";
+        }
+    }
+
+    if (screen.width >= 551) {
+        if (id == "skin7") {
+            skin1.style.display = "none";
+            skin7.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "skin7") {
+            skin1s.style.display = "none";
+            skin7s.style.display = "block";
+        }
+    }
+
+
+    if (screen.width >= 551) {
+        if (id == "skin11") {
+            skin1.style.display = "none";
+            skin11.style.display = "block";
+        }
+    } else if (screen.width <= 550) {
+        if (id == "ski11") {
+            skin1s.style.display = "none";
+            skin11s.style.display = "block";
+        }
+    }
+});

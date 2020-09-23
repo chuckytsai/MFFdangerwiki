@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- 連結Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- 連結Style.css -->
     <link rel="stylesheet" href="./hero.css">
     <!-- 連結js -->
     <script src="./skin.js"></script>
+    <script src="./herodata.js"></script>
+    <!-- JQ -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
     <!--title -->
     <title>速 度 英 雄-蜘 蛛 人</title>
     <link rel="icon" href="../各英雄資料庫/img/英雄ICON/速度英雄-蜘蛛人/經典.jpg" type="image/x-icon">
@@ -554,7 +555,7 @@
 
     <!-- =====制服選擇列表原本模式 ===== -->
     <div>
-        <span type="button" class="btn skinMenu" id="skinMenu" data-toggle="dropdown" onmouseover="over();" onmouseout="out();">制 服 列 表 選 擇 單
+        <span type="button" class="skinMenu" id="skinMenu" data-toggle="dropdown" onmouseover="over();" onmouseout="out();">制 服 列 表 選 擇 單
         </span>
         <span id="skinRell" onmouseover="over();" onmouseout="out();">
             <div class="skinSpan" onclick="change(0)">經典</div>
@@ -570,17 +571,17 @@
 
     <!-- =====制服選擇列表手機模式 ===== -->
     <div>
-        <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
+        <span type="button" class="skinMenus" id="skinMenus" data-toggle="dropdown1" onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
         </span>
         <span id="skinRells" onmouseover="overs();" onmouseout="outs();">
-            <div class="skinSpans" onclick="change(11)">經典</div>
-            <div class="skinSpans" onclick="change(12)">秘密戰爭-延續你的誓約</div>
-            <div class="skinSpans" onclick="change(13)">全新全異</div>
-            <div class="skinSpans" onclick="change(14)">美國隊長-英雄內戰</div>
-            <div class="skinSpans" onclick="change(15)">返校日-自製制服</div>
-            <div class="skinSpans" onclick="change(16)">復仇者聯盟-無限之戰</div>
-            <div class="skinSpans" onclick="change(17)">蜘蛛人-離家日</div>
-            <div class="skinSpans" onclick="change(18)">離家日-潛行衣</div>
+            <div class="skinSpans" onclick="change('a')">經典</div>
+            <div class="skinSpans" onclick="change('b')">秘密戰爭-延續你的誓約</div>
+            <div class="skinSpans" onclick="change('c')">全新全異</div>
+            <div class="skinSpans" onclick="change('d')">美國隊長-英雄內戰</div>
+            <div class="skinSpans" onclick="change('e')">返校日-自製制服</div>
+            <div class="skinSpans" onclick="change('f')">復仇者聯盟-無限之戰</div>
+            <div class="skinSpans" onclick="change('g')">蜘蛛人-離家日</div>
+            <div class="skinSpans" onclick="change('h')">離家日-潛行衣</div>
         </span>
     </div>
 

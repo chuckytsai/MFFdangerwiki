@@ -1,26 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>onload test</title>
-    // ES5
-    <script>
-        function load() {
-            console.log("load event detected!");
-        }
-        window.onload = load;
-    </script>
-    // ES2015
-    <script>
-        const load = () => {
-            console.log("load event detected!");
-        }
-        window.onload = load;
-    </script>
+    <title>TEST</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 </head>
 
 <body>
-    <p>The load event fires when the document has finished loading!</p>
+
+
+    <script>
+        $(function() {
+            $("#header").load("layout-navigator.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <div id="header"></div>
+
+    <div id="footer"></div>
 </body>
 
 </html>

@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- 連結Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- 連結Style.css -->
     <link rel="stylesheet" href="./hero.css">
     <!-- 連結js -->
     <script src="./skin.js"></script>
+    <script src="./herodata.js"></script>
+    <!-- JQ -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
     <!--title -->
     <title>近 戰 英 雄-狼 人</title>
     <link rel="icon" href="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" type="image/x-icon">
@@ -22,182 +23,8 @@
 
 <body>
 
-    <!-- ===========導覽列========== -->
-    <div class="navbar-toggler">
-        <a class="newsText0"></a>
-        <!-- ==========改版資訊 & 遊戲內容========== -->
-        <div class="menu">
-            <!-- =====改版資訊 ======-->
-            <div class="dropdown">
-                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
-<span class="caret"></span>
-</button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <!-- 1.最新改版消息 -->
-                    <li role="presentation">
-                        <a href="../news-banner1.html">
-                            <h3 class="navText2">最 新 改 版 消 息</h3>
-                        </a>
-                    </li>
-                    <!-- 2.最新速報 -->
-                    <li role="presentation">
-                        <a href="../news-banner2.html">
-                            <h3 class="navText2">最 新 速 報</h3>
-                        </a>
-                    </li>
-                    <!-- 3.活動 -->
-                    <li role="presentation">
-                        <a href="../news-banner3.html">
-                            <h3 class="navText2">活 動</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- =====遊戲內容 ===== -->
-            <div class="dropdown">
-                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
-<span class="caret"></span>
-</button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <!-- 1.各英雄資料庫 -->
-                    <li role="presentation">
-                        <a href="../各英雄資料庫/sevenbanner1.html ">
-                            <h3 class="navText2">角 色</h3>
-                        </a>
-                    </li>
-                    <!-- 2.挑戰 -->
-                    <li role="presentation">
-                        <a href="../挑戰/sevenbanner2.html">
-                            <h3 class="navText2">挑 戰</h3>
-                        </a>
-                    </li>
-                    <!-- 3.神盾局 -->
-                    <li role="presentation">
-                        <a href="../神盾局/sevenbanner3.html ">
-                            <h3 class="navText2">神 盾 局</h3>
-                        </a>
-                    </li>
-                    <!-- 4.任務 -->
-                    <li role="presentation">
-                        <a href="../任務/sevenbanner4.html ">
-                            <h3 class="navText2">任 務</h3>
-                        </a>
-                    </li>
-                    <!-- 5.PVP模式-->
-                    <li role="presentation">
-                        <a href="../PVP模式/sevenbanner5.html">
-                            <h3 class="navText2">PVP 模 式</h3>
-                        </a>
-                    </li>
-                    <!-- 6.PVP模式-->
-                    <li role="presentation">
-                        <a href="../道具/sevenbanner6.html">
-                            <h3 class="navText2">道 具</h3>
-                        </a>
-                    </li>
-                    <!-- 7.組隊模式 -->
-                    <li role="presentation">
-                        <a href="../組隊模式/sevenbanner7.html">
-                            <h3 class="navText2">組 隊 模 式</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
-        <div class="menu-trigger">
-            <button onclick="show();">改版資訊<br> 遊戲內容</button>
-            <div class="menu">
-                <!-- =====改版資訊===== -->
-                <div class="dropdown">
-                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
-<span class="caret"></span>
-</button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-
-                        <!-- 1.最新改版消息 -->
-                        <li role="presentation">
-                            <a href="../news-banner1.html">
-                                <h3 class="navText2">最 新 改 版 消 息</h3>
-                            </a>
-                        </li>
-                        <!-- 2.最新速報 -->
-                        <li role="presentation">
-                            <a href="../news-banner2.html">
-                                <h3 class="navText2">最 新 速 報</h3>
-                            </a>
-                        </li>
-                        <!-- 3.活動 -->
-                        <li role="presentation">
-                            <a href="../news-banner3.html">
-                                <h3 class="navText2">活 動</h3>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- =====遊戲內容 ===== -->
-                <div class="dropdown">
-                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
-<span class="caret"></span>
-</button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-
-                        <!-- 1.各英雄資料庫 -->
-                        <li role="presentation">
-                            <a href="../各英雄資料庫/sevenbanner1.html ">
-                                <h3 class="navText2">角 色</h3>
-                            </a>
-                        </li>
-                        <!-- 2.挑戰 -->
-                        <li role="presentation">
-                            <a href="../挑戰/sevenbanner2.html">
-                                <h3 class="navText2">挑 戰</h3>
-                            </a>
-                        </li>
-                        <!-- 3.神盾局 -->
-                        <li role="presentation">
-                            <a href="../神盾局/sevenbanner3.html ">
-                                <h3 class="navText2">神 盾 局</h3>
-                            </a>
-                        </li>
-                        <!-- 4.任務 -->
-                        <li role="presentation">
-                            <a href="../任務/sevenbanner4.html ">
-                                <h3 class="navText2">任 務</h3>
-                            </a>
-                        </li>
-                        <!-- 5.PVP模式-->
-                        <li role="presentation">
-                            <a href="./PVP模式/sevenbanner5.html">
-                                <h3 class="navText2">PVP 模 式</h3>
-                            </a>
-                        </li>
-                        <!-- 6.PVP模式-->
-                        <li role="presentation">
-                            <a href="../道具/sevenbanner6.html">
-                                <h3 class="navText2">道 具</h3>
-                            </a>
-                        </li>
-                        <!-- 7.組隊模式 -->
-                        <li role="presentation">
-                            <a href="../組隊模式/sevenbanner7.html">
-                                <h3 class="navText2">組 隊 模 式</h3>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
-    <a href="../index.html"><img class="index-bamnner" src="../img/index.jpg" height="68%" width="100%"></a>
-    <!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+    <!-- ==========NAV========== -->
+    <div id="NAV"></div>
 
     <!-- =====英雄介紹===== -->
     <section class="introduction">
@@ -228,12 +55,12 @@
             </td>
         </table>
     </section>
-    
+
 
     <section>
         <h1 ID="getBanner">狼 人 升 級 資 訊</h1>
-        
-        
+
+
 
     </section>
     <!--===================升級原始內容=================== -->
@@ -252,7 +79,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至40等 & 2星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x20個 & 力量之北歐符石x30個</h5>
                                 </div>
                             </td>
@@ -261,7 +88,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至45等 & 3星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x40個 & 力量之北歐符石x60個</h5>
                                 </div>
                             </td>
@@ -270,7 +97,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至50等 & 4星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x80個 & 力量之北歐符石x90個</h5>
                                 </div>
                             </td>
@@ -279,7 +106,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至55等 & 5星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x160個 & 力量之北歐符石x120個</h5>
                                 </div>
                             </td>
@@ -288,7 +115,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至60等 & 6星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x320個 & 力量之北歐符石x150個</h5>
                                 </div>
                             </td>
@@ -373,7 +200,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至40等 & 2星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x20個 & 力量之北歐符石x30個</h5>
                                 </div>
                             </td>
@@ -384,7 +211,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至45等 & 3星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x40個 & 力量之北歐符石x60個</h5>
                                 </div>
                             </td>
@@ -395,7 +222,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至50等 & 4星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x80個 & 力量之北歐符石x90個</h5>
                                 </div>
                             </td>
@@ -406,7 +233,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至55等 & 5星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x160個 & 力量之北歐符石x120個</h5>
                                 </div>
                             </td>
@@ -417,7 +244,7 @@
                                 <div id="skipText">
                                     <h5 id="t1">升級至60等 & 6星精通</h5>
                                     <img src="../各英雄資料庫/img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg" alt="" width="40px">
-                                     <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
+                                    <img src="../道具/img/力量北歐符文.jpg" alt="" width="40px">
                                     <h5 id="t2">生體x320個 & 力量之北歐符石x150個</h5>
                                 </div>
                             </td>
@@ -516,14 +343,14 @@
 
     <section>
         <h1 ID="getBanner">狼　人 制 服 相 關 資 訊</h1>
-        
-        
+
+
     </section>
-    
+
 
     <!-- =====制服選擇列表原本模式 ===== -->
     <!-- <div>
-    <span type="button" class="btn skinMenu" id="skinMenu" data-toggle="dropdown" 
+    <span type="button" class="skinMenu" id="skinMenu" data-toggle="dropdown" 
     onmouseover="over();" onmouseout="out();">制 服 列 表 選 擇 單
     </span>
     <span id="skinRell" onmouseover="over();" onmouseout="out();">
@@ -542,28 +369,28 @@
 </div> -->
     <!-- =====制服選擇列表手機模式 ===== -->
 
-    <!-- <span type="button" class="btn skinMenus" id="skinMenus" data-toggle="dropdown1" 
+    <!-- <span type="button" class="skinMenus" id="skinMenus" data-toggle="dropdown1" 
     onmouseover="overs();" onmouseout="outs();">制 服 列 表 選 擇 單
 </span>
   <span id="skinRells" onmouseover="overs();" onmouseout="outs();">
-    <div class="skinSpans" onclick="change(11)">復仇者聯盟</div>
-    <div class="skinSpans" onclick="change(12)">復仇者聯盟:奧創紀元</div>
-    <div class="skinSpans" onclick="change(13)">秘密戰爭:2099</div>
-    <div class="skinSpans" onclick="change(14)">美國隊長:酷寒戰士</div>
-    <div class="skinSpans" onclick="change(15)">美國隊長:英雄內戰</div>
-    <div class="skinSpans" onclick="change(16)">Marvel NOW!</div>
-    <div class="skinSpans" onclick="change(17)">復仇者聯盟:無限之戰</div>
-    <div class="skinSpans" onclick="change(18)">復仇者隊服</div> 
-    <div class="skinSpans" onclick="change(19)">復仇者聯盟:終局之戰</div> 
-    <div class="skinSpans" onclick="change(20)">復仇者3099</div> 
-    <div class="skinSpans" onclick="change(21)">九頭蛇至尊</div>
+    <div class="skinSpans" onclick="change('a')">復仇者聯盟</div>
+    <div class="skinSpans" onclick="change('b')">復仇者聯盟:奧創紀元</div>
+    <div class="skinSpans" onclick="change('c')">秘密戰爭:2099</div>
+    <div class="skinSpans" onclick="change('d')">美國隊長:酷寒戰士</div>
+    <div class="skinSpans" onclick="change('e')">美國隊長:英雄內戰</div>
+    <div class="skinSpans" onclick="change('f')">Marvel NOW!</div>
+    <div class="skinSpans" onclick="change('g')">復仇者聯盟:無限之戰</div>
+    <div class="skinSpans" onclick="change('h')">復仇者隊服</div> 
+    <div class="skinSpans" onclick="change('i')">復仇者聯盟:終局之戰</div> 
+    <div class="skinSpans" onclick="change('j')">復仇者3099</div> 
+    <div class="skinSpans" onclick="change('k')">九頭蛇至尊</div>
   </button> -->
 
 
 
 
 
-    
+
 
 
     <!-- =======================制服內容=========================== -->
