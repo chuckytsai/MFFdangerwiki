@@ -30,7 +30,65 @@
     <!-- ==========NAV========== -->
     <div id="NAV"></div>
 
+    <!-- ====================各英雄ICON==================== -->
+    <!-- =====選擇英雄類別的Button===== -->
+    <span style="display: flex;">
 
+      <label class="typeButton" for="gender"></label>
+      <select class="selectButton" name="gender" id="gender">
+        <option value="" data-name="preset">性別</option>
+        <option value="men" data-name="men">男</option>
+        <option value="women" data-name="women">女</option>
+        <option value="no" data-name="no">中性</option>
+      </select>
+  
+      <label for="type"></label>
+      <select class="selectButton" name="type" id="type">
+        <option value="" data-name="preset">屬性</option>
+        <option value="combat" data-name="combat">近戰</option>
+        <option value="blast" data-name="blast">爆破</option>
+        <option value="speed" data-name="speed">速度</option>
+        <option value="universal" data-name="universal">宇宙</option>
+      </select>
+  
+      <label for="race"></label>
+      <select class="selectButton" name="race" id="race">
+        <option value="" data-name="preset">種族</option>
+        <option value="humen" data-name="humen">人類</option>
+        <option value="xmen" data-name="xmen">X基因</option>
+        <option value="et" data-name="et">外星人</option>
+        <option value="inhumans" data-name="inhumans">異人族</option>
+        <option value="biological" data-name="biological">生物</option>
+      </select>
+  
+      <label for="camp"></label>
+      <select class="selectButton" name="camp" id="camp">
+        <option value="" data-name="preset">陣營</option>
+        <option value="justice" data-name="justice">英雄</option>
+        <option value="villain" data-name="villain">反派</option>
+        <option value="neutral" data-name="neutral">中立</option>
+      </select>
+  
+      <label for="ability"></label>
+      <select class="selectButton" name="ability" id="ability">
+        <option value="" data-name="preset">能力</option>
+        <option value="mechanical" data-name="mechanical">機械</option>
+        <option value="arms" data-name="arms">武器專家</option>
+        <option value="leader" data-name="leader">領導力</option>
+        <option value="phoenix" data-name="phoenix">鳳凰之力</option>
+        <option value="spider" data-name="spider">蜘蛛感應</option>
+        <option value="gamma" data-name="gamma">伽碼射線</option>
+        <option value="fire" data-name="fire">火焰</option>
+        <option value="six6" data-name="six6">邪惡6人組</option>
+        <option value="f4" data-name="f4">驚奇4超人</option>
+        <option value="spirit" data-name="spirit">精神抵抗</option>
+      </select>
+  
+    <!-- 清除條件按紐 -->
+      <button class="selectButton" onclick="clearFilter(0)" style="width: 10%;margin-left:0.1%;"> 清除所有條件</button>
+    </span>
+    <br>
+    <br>
 
 
     <!-- 頁尾 -->
