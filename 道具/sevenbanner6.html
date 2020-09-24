@@ -24,6 +24,10 @@
 
     <!-- 選擇道具類別的JS設定 -->
     <script>
+        $(function() {
+            $("#NAV").load("layout-navigator.html");
+        });
+
         function change(index) {
             let consumables = document.getElementById("consumables");
             let equipment = document.getElementById("equipment");

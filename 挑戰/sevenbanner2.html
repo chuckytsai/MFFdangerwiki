@@ -25,6 +25,10 @@
 
     <!-- 點選挑戰模式顯示方式的定義&JS -->
     <script>
+        $(function() {
+            $("#NAV").load("layout-navigator.html");
+        });
+
         // 滑鼠移動到選單目錄按鈕出現清單效果
         function overs() {
             shadowAll.style.display = 'block';

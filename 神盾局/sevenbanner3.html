@@ -25,6 +25,10 @@
 
     <!-- 選擇英雄類別的JS設定 -->
     <script>
+        $(function() {
+            $("#NAV").load("layout-navigator.html");
+        });
+
         function change(index) {
             let achievement = document.getElementById("achievement");
             let store = document.getElementById("store");
