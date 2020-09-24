@@ -18,7 +18,7 @@ function clearFilter(clear) {
 var heroDatas = [
 
     {
-        'id': '',
+        'id': 'captainAmeric',
         'class': 'heroIcon preset men combat humen justice leader',
         'url': './近戰英雄-美國隊長.html',
         'bgImg': './img/英雄ICON/近戰英雄-美國隊長/復仇者聯盟.jpg',
@@ -28,7 +28,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'captainAmeric:sw2099',
         'class': 'heroIcon women combat humen justice leader',
         'url': './近戰英雄-美國隊長.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰英雄-美國隊長/秘密戰爭-2099.jpg ',
@@ -38,7 +38,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'captainAmeric:hydra',
         'class': 'heroIcon men blast humen villain leader',
         'url': './近戰英雄-美國隊長.html?id=skin11',
         'bgImg': './img/英雄ICON/近戰英雄-美國隊長/九頭蛇至尊.jpg ',
@@ -48,7 +48,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blackpanther',
         'class': 'heroIcon preset men combat humen justice leader',
         'url': './近戰英雄-黑豹.html',
         'bgImg': './img/英雄ICON/近戰英雄-黑豹/現代.jpg',
@@ -58,7 +58,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulk',
         'class': 'heroIcon preset men combat humen justice gamma',
         'url': './近戰英雄-浩克.html',
         'bgImg': './img/英雄ICON/近戰英雄-浩克/復仇者聯盟.jpg',
@@ -68,7 +68,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulk:sw',
         'class': 'heroIcon men combat humen villain gamma',
         'url': './近戰英雄-浩克.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-浩克/秘密戰爭-不完美的未來.jpg ',
@@ -78,7 +78,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulk:immortal',
         'class': 'heroIcon men combat humen villain gamma',
         'url': './近戰英雄-浩克.html?id=skin7',
         'bgImg': './img/英雄ICON/近戰英雄-浩克/不朽浩克.jpg ',
@@ -88,7 +88,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'thing',
         'class': 'heroIcon preset men combat humen justice f4',
         'url': './近戰英雄-石頭人.html',
         'bgImg': './img/英雄ICON/近戰英雄-石頭人/現代.jpg',
@@ -98,7 +98,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'beast',
         'class': 'heroIcon preset men combat xmen justice',
         'url': './近戰英雄-野獸.html',
         'bgImg': './img/英雄ICON/近戰英雄-野獸/經典.jpg',
@@ -108,7 +108,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'beast:apocalypse',
         'class': 'heroIcon men combat xmen villain',
         'url': './近戰英雄-野獸.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-野獸/天啟紀元.jpg ',
@@ -118,7 +118,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'colossus',
         'class': 'heroIcon preset men combat xmen justice',
         'url': './近戰英雄-鋼人.html',
         'bgImg': './img/英雄ICON/近戰英雄-鋼人/現代.jpg',
@@ -128,7 +128,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'colossus:phoenix',
         'class': 'heroIcon men combat xmen villain phoenix',
         'url': './近戰英雄-鋼人.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰英雄-鋼人/鳳凰5人組.jpg ',
@@ -138,7 +138,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'giantman',
         'class': 'heroIcon preset men combat humen justice',
         'url': './近戰英雄-巨人.html',
         'bgImg': './img/英雄ICON/近戰英雄-巨人/現代.jpg',
@@ -148,7 +148,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'giantman:ultron',
         'class': 'heroIcon men universal humen villain',
         'url': './近戰英雄-巨人.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰英雄-巨人/奧創皮姆.jpg ',
@@ -158,7 +158,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'shehulk',
         'class': 'heroIcon preset women combat humen justice gamma',
         'url': './近戰英雄-女浩克.html',
         'bgImg': './img/英雄ICON/近戰英雄-女浩克/秘密戰爭-A-force.jpg',
@@ -168,7 +168,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'shehulk:f4',
         'class': 'heroIcon women combat humen justice gamma f4',
         'url': './近戰英雄-女浩克.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰英雄-女浩克/驚奇4超人.jpg ',
@@ -178,7 +178,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulking',
         'class': 'heroIcon preset men combat et justice',
         'url': './近戰英雄-小浩克.html',
         'bgImg': './img/英雄ICON/近戰英雄-小浩克/新復仇者.jpg',
@@ -188,7 +188,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'wolverine',
         'class': 'heroIcon preset men combat xmen justice leader',
         'url': './近戰英雄-金鋼狼.html',
         'bgImg': './img/英雄ICON/近戰英雄-金鋼狼/經典.jpg',
@@ -198,7 +198,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'americaChavez',
         'class': 'heroIcon preset women combat humen justice',
         'url': '近戰英雄-阿美利卡.html',
         'bgImg': './img/英雄ICON/近戰英雄-阿美利卡/終極戰隊.jpg',
@@ -208,7 +208,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'agentVenom',
         'class': 'heroIcon preset men combat humen justice',
         'url': './近戰英雄-猛毒特工.html',
         'bgImg': './img/英雄ICON/近戰英雄-猛毒特工/全新全異.jpg',
@@ -218,7 +218,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'misterFantastic',
         'class': 'heroIcon preset men combat humen justice leader f4',
         'url': './近戰英雄-驚奇先生.html',
         'bgImg': './img/英雄ICON/近戰英雄-驚奇先生/現代.jpg',
@@ -228,7 +228,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulkbuster',
         'class': 'heroIcon preset no combat biological justice mechanical',
         'url': './近戰英雄-反浩克裝甲.html',
         'bgImg': './img/英雄ICON/近戰英雄-反浩克裝甲/復仇者聯盟-奧創紀元.jpg',
@@ -238,7 +238,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'warpath',
         'class': 'heroIcon preset men combat xmen justice',
         'url': './近戰英雄-戰跡.html',
         'bgImg': './img/英雄ICON/近戰英雄-戰跡/X特攻隊.jpg',
@@ -248,7 +248,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'whiteTiger',
         'class': 'heroIcon preset women combat humen justice',
         'url': './近戰英雄-白虎.html',
         'bgImg': './img/英雄ICON/近戰英雄-白虎/新復仇者.jpg',
@@ -258,7 +258,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'namor',
         'class': 'heroIcon preset men combat xmen justice leader',
         'url': './近戰英雄-納摩.html',
         'bgImg': './img/英雄ICON/近戰英雄-納摩/經典.jpg',
@@ -268,7 +268,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'namor:phoenix',
         'class': 'heroIcon men combat xmen villain leader phoenix',
         'url': './近戰英雄-納摩.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-納摩/鳳凰5人組.jpg ',
@@ -278,7 +278,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'shangchi',
         'class': 'heroIcon preset men combat humen justice leader',
         'url': './近戰英雄-上氣.html',
         'bgImg': './img/英雄ICON/近戰英雄-上氣/現代.jpg',
@@ -288,7 +288,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'Volstagg',
         'class': 'heroIcon preset men combat humen et justice',
         'url': './近戰英雄-佛格斯泰格.html',
         'bgImg': './img/英雄ICON/近戰英雄-佛勒斯泰格/現代.jpg',
@@ -298,7 +298,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blade',
         'class': 'heroIcon preset men combat humen justice arms',
         'url': './近戰英雄-刀鋒戰士.html',
         'bgImg': './img/英雄ICON/近戰英雄-刀鋒戰士/現代.jpg',
@@ -308,7 +308,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'punisher',
         'class': 'heroIcon preset men combat humen justice arms leader',
         'url': './近戰英雄-制裁者.html',
         'bgImg': './img/英雄ICON/近戰英雄-制裁者/現代.jpg',
@@ -318,7 +318,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'punisher:gr',
         'class': 'heroIcon men universal humen villain arms leader',
         'url': './近戰英雄-制裁者.html?id=skin6',
         'bgImg': './img/英雄ICON/近戰英雄-制裁者/宇宙惡靈戰警.jpg ',
@@ -328,7 +328,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'swordMaster',
         'class': 'heroIcon preset men combat humen justice arms leader',
         'url': './近戰英雄-劍仙.html',
         'bgImg': './img/英雄ICON/近戰英雄-劍仙/現代.jpg',
@@ -338,7 +338,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'lukeCage',
         'class': 'heroIcon preset men combat humen justice arms leader',
         'url': './近戰英雄-力量人.html',
         'bgImg': './img/英雄ICON/近戰英雄-力量人/現代.jpg',
@@ -348,7 +348,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sif',
         'class': 'heroIcon preset women combat et justice',
         'url': './近戰英雄-希芙.html',
         'bgImg': './img/英雄ICON/近戰英雄-希芙/神盾局特工.jpg',
@@ -358,7 +358,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'crescent',
         'class': 'heroIcon preset women combat humen justice leader',
         'url': './近戰英雄-弦月神女.html',
         'bgImg': './img/英雄ICON/近戰英雄-弦月神女/現代.jpg',
@@ -368,7 +368,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hogun',
         'class': 'heroIcon preset men combat et justice',
         'url': './近戰英雄-後剛.html',
         'bgImg': './img/英雄ICON/近戰英雄-後剛/現代.jpg',
@@ -378,7 +378,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'drax',
         'class': 'heroIcon preset men combat et justice',
         'url': './近戰英雄-德克斯.html',
         'bgImg': './img/英雄ICON/近戰英雄-德克斯/星際異攻隊.jpg',
@@ -388,7 +388,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'moonKight',
         'class': 'heroIcon preset men combat humen justice arms leader',
         'url': './近戰英雄-月光騎士.html',
         'bgImg': './img/英雄ICON/近戰英雄-月光騎士/現代.jpg',
@@ -398,7 +398,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gorgon',
         'class': 'heroIcon preset men combat inhumans justice',
         'url': './近戰英雄-戈爾工.html',
         'bgImg': './img/英雄ICON/近戰英雄-戈爾工/皇者之戰.jpg',
@@ -408,7 +408,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'groot',
         'class': 'heroIcon preset men combat et justice',
         'url': './近戰英雄-古魯特.html',
         'bgImg': './img/英雄ICON/近戰英雄-古魯特/星際異攻隊.jpg',
@@ -418,7 +418,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'groot:sw',
         'class': 'heroIcon men universal et justice',
         'url': './近戰英雄-古魯特.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-古魯特/秘密戰爭-索爾.jpg ',
@@ -428,7 +428,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'groot:gx2',
         'class': 'heroIcon men speed et justice',
         'url': './近戰英雄-古魯特.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰英雄-古魯特/星際異攻隊2.jpg ',
@@ -439,7 +439,7 @@ var heroDatas = [
 
 
     {
-        'id': '',
+        'id': 'goliath',
         'class': 'heroIcon preset men combat humans justice',
         'url': './近戰英雄-歌利亞.html',
         'bgImg': './img/英雄ICON/近戰英雄-歌利亞/經典.jpg',
@@ -449,7 +449,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'deathlok',
         'class': 'heroIcon preset men combat humans justice 機械',
         'url': './近戰英雄-死亡戰士.html',
         'bgImg': './img/英雄ICON/近戰英雄-死亡戰士/神盾局特工.jpg',
@@ -459,7 +459,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'deathlok:modern',
         'class': 'heroIcon men blast humans justice 機械',
         'url': './近戰英雄-死亡戰士.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-死亡戰士/現代.jpg ',
@@ -469,7 +469,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hulkCho',
         'class': 'heroIcon preset men combat humans justice 伽碼射線',
         'url': './近戰英雄-浩克(阿爾迪斯).html',
         'bgImg': './img/英雄ICON/近戰英雄-浩克阿爾迪斯/完全嶄新的浩克.jpg',
@@ -479,7 +479,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'jessicaJones',
         'class': 'heroIcon preset women combat humans justice',
         'url': './近戰英雄-潔西卡瓊斯.html',
         'bgImg': './img/英雄ICON/近戰英雄-潔西卡瓊斯/現代.jpg',
@@ -489,7 +489,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'warwolf',
         'class': 'heroIcon preset men combat humans justice',
         'url': './近戰英雄-狼人.html',
         'bgImg': './img/英雄ICON/近戰英雄-狼人/神盾局咆嘯突擊隊.jpg',
@@ -499,7 +499,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'valkyrie',
         'class': 'heroIcon preset women combat et justice',
         'url': './近戰英雄-瓦爾基麗.html',
         'bgImg': './img/英雄ICON/近戰英雄-瓦爾基麗/雷神索爾-諸神黃昏.jpg',
@@ -509,7 +509,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ironfist',
         'class': 'heroIcon preset men combat humans justice',
         'url': './近戰英雄-鐵拳俠.html',
         'bgImg': './img/英雄ICON/近戰英雄-鐵拳俠/經典.jpg',
@@ -519,7 +519,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kamalaKhan',
         'class': 'heroIcon preset women combat inhumans justice',
         'url': './近戰英雄-驚奇女士.html',
         'bgImg': './img/英雄ICON/近戰英雄-驚奇女士/全新全異.jpg',
@@ -529,7 +529,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kamalaKhan:karachi',
         'class': 'heroIcon women speed inhumans justice',
         'url': './近戰英雄-驚奇女士.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰英雄-驚奇女士/喀拉蚩服裝.jpg ',
@@ -539,7 +539,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gorillaman',
         'class': 'heroIcon preset men combat humans justice arms',
         'url': './近戰英雄-猩猩人.html',
         'bgImg': './img/英雄ICON/近戰英雄-猩猩人/現代.jpg',
@@ -549,7 +549,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'warTiger',
         'class': 'heroIcon preset men combat humans justice',
         'url': './近戰英雄-戰虎.html',
         'bgImg': './img/英雄ICON/近戰英雄-戰虎/現代.jpg',
@@ -559,7 +559,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gladiator',
         'class': 'heroIcon preset men combat et justice leader',
         'url': './近戰英雄-角鬥士.html',
         'bgImg': './img/英雄ICON/近戰英雄-角鬥士/現代.jpg',
@@ -569,7 +569,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redShehulk',
         'class': 'heroIcon preset women combat humen justice gamma fire',
         'url': './近戰英雄-女紅浩克.html',
         'bgImg': './img/英雄ICON/近戰英雄-女紅浩克/現代.jpg',
@@ -579,7 +579,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'nebula',
         'class': 'heroIcon preset women combat et villain',
         'url': './近戰反派-涅布拉.html',
         'bgImg': './img/英雄ICON/近戰反派-涅布拉/星際特攻隊.jpg',
@@ -589,7 +589,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'nebula:eg',
         'class': 'heroIcon women combat et justice',
         'url': './近戰反派-涅布拉.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰反派-涅布拉/復仇者聯盟-終局之戰.jpg ',
@@ -599,7 +599,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'nebula:team',
         'class': 'heroIcon women combat et justice',
         'url': './近戰反派-涅布拉.html?id=skin4',
         'bgImg': './img/英雄ICON/近戰反派-涅布拉/復仇者聯盟-終局之戰.jpg ',
@@ -609,7 +609,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redHulk',
         'class': 'heroIcon preset men combat humen villain gamma fire',
         'url': './近戰反派-紅浩克.html',
         'bgImg': './img/英雄ICON/近戰反派-紅浩克/現代.jpg',
@@ -619,7 +619,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redHulk:vengeance',
         'class': 'heroIcon men universal humen justice gamma fire',
         'url': './近戰反派-紅浩克.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰反派-紅浩克/復仇共生體.jpg ',
@@ -629,7 +629,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'titania',
         'class': 'heroIcon preset women combat humen villain',
         'url': './近戰反派-泰坦妮亞.html',
         'bgImg': './img/英雄ICON/近戰反派-泰坦妮亞/現代.jpg',
@@ -639,7 +639,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'apocalypse',
         'class': 'heroIcon preset men combat xmen villain',
         'url': './近戰反派-天啟.html',
         'bgImg': './img/英雄ICON/近戰反派-天啟/天啟紀元.jpg',
@@ -649,7 +649,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'doctorOctopus',
         'class': 'heroIcon preset men combat humen villain mechanical six6',
         'url': './近戰反派-八爪博士.html',
         'bgImg': './img/英雄ICON/近戰反派-八爪博士/經典.jpg',
@@ -659,7 +659,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'doctorOctopus:spider',
         'class': 'heroIcon men combat humen justice mechanical six6 spider',
         'url': './近戰反派-八爪博士.html?id=skin2',
         'bgImg': './img/英雄ICON/近戰反派-八爪博士/究極蜘蛛人.jpg',
@@ -669,7 +669,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'doctorOctopus:superior',
         'class': 'heroIcon men speed humen villain mechanical six6',
         'url': './近戰反派-八爪博士.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰反派-八爪博士/究極八爪.jpg',
@@ -679,7 +679,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kingpin',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-金霸王.html',
         'bgImg': './img/英雄ICON/近戰反派-金霸王/現代.jpg',
@@ -689,7 +689,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kingpin:sw',
         'class': 'heroIcon men blast humen villain',
         'url': './近戰反派-金霸王.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰反派-金霸王/秘密戰爭-裝甲戰爭.jpg',
@@ -699,7 +699,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'venom',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-猛毒.html',
         'bgImg': './img/英雄ICON/近戰反派-猛毒/經典.jpg',
@@ -709,7 +709,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'antiVenom',
         'class': 'heroIcon men combat humen justice',
         'url': './近戰反派-猛毒.html?id=skin3',
         'bgImg': './img/英雄ICON/近戰反派-猛毒/反猛毒.jpg',
@@ -719,7 +719,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sandman',
         'class': 'heroIcon preset men combat humen villain six6',
         'url': './近戰反派-沙人.html',
         'bgImg': './img/英雄ICON/近戰反派-沙人/經典.jpg',
@@ -729,7 +729,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'lizard',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-蜥蜴人.html',
         'bgImg': './img/英雄ICON/近戰反派-蜥蜴人/經典.jpg',
@@ -739,7 +739,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'carnage',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-屠殺.html',
         'bgImg': './img/英雄ICON/近戰反派-屠殺/全新全異.jpg',
@@ -749,7 +749,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'bullseye',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-靶眼.html',
         'bgImg': './img/英雄ICON/近戰反派-靶眼/現代.jpg',
@@ -759,7 +759,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sabretooth',
         'class': 'heroIcon preset men combat xmen villain',
         'url': './近戰反派-劍齒虎.html',
         'bgImg': './img/英雄ICON/近戰反派-劍齒虎/變種人兄弟會.jpg',
@@ -769,7 +769,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'crossBones',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-十字骨.html',
         'bgImg': './img/英雄ICON/近戰反派-十字骨/美國隊長-英雄內戰.jpg',
@@ -779,7 +779,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'skurge',
         'class': 'heroIcon preset men combat et villain',
         'url': './近戰反派-史泰奇.html',
         'bgImg': './img/英雄ICON/近戰反派-史泰奇/雷神索爾-諸神黃昏.jpg',
@@ -789,7 +789,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'absorbingman',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-吸收人.html',
         'bgImg': './img/英雄ICON/近戰反派-吸收人/現代.jpg',
@@ -799,7 +799,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ulik',
         'class': 'heroIcon preset men combat et villain',
         'url': './近戰反派-烏里克.html',
         'bgImg': './img/英雄ICON/近戰反派-烏里克/現代.jpg',
@@ -809,7 +809,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'moltenman',
         'class': 'heroIcon preset men combat humen villain fire',
         'url': './近戰反派-熔岩人.html',
         'bgImg': './img//英雄ICON/近戰反派-熔岩人/蜘蛛人-離家日.jpg',
@@ -819,7 +819,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'rhino',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-犀牛人.html',
         'bgImg': './img//英雄ICON/近戰反派-犀牛人/經典.jpg',
@@ -829,7 +829,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'minnerva',
         'class': 'heroIcon preset women combat et villain',
         'url': './近戰反派-米勒娃.html',
         'bgImg': './img/英雄ICON/近戰反派-米勒娃/現代.jpg',
@@ -839,7 +839,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'juggernaut',
         'class': 'heroIcon preset men combat xmen villain',
         'url': './近戰反派-紅坦克.html',
         'bgImg': './img//英雄ICON/近戰反派-紅坦克/變種人兄弟會.jpg',
@@ -849,7 +849,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'killmonger',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-奇爾蒙格.html',
         'bgImg': './img//英雄ICON/近戰反派-奇爾蒙格/經典.jpg',
@@ -859,7 +859,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redGuardian',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-紅色守衛者.html',
         'bgImg': './img//英雄ICON/近戰反派-紅色守衛者/現代.jpg',
@@ -869,7 +869,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redGuardian:bw',
         'class': 'heroIcon men combat humen justice',
         'url': './近戰反派-紅色守衛者.html?id=skin2',
         'bgImg': './img//英雄ICON/近戰反派-紅色守衛者/漫威黑寡婦.jpg',
@@ -879,7 +879,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'taskmaster',
         'class': 'heroIcon preset men combat humen villain arms',
         'url': './近戰反派-模仿大師.html',
         'bgImg': './img/英雄ICON/近戰反派-模仿大師/現代.jpg',
@@ -889,7 +889,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'abomination',
         'class': 'heroIcon preset men combat humen villain gamma',
         'url': './近戰反派-惡形怪.html',
         'bgImg': './img/英雄ICON/近戰反派-惡型怪/現代.jpg',
@@ -899,7 +899,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'morbius',
         'class': 'heroIcon preset men combat humen villain',
         'url': './近戰反派-魔比斯.html',
         'bgImg': './img//英雄ICON/近戰反派-魔比斯/現代.jpg',
@@ -909,7 +909,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ironman',
         'class': 'heroIcon preset men blast humen justice mechanical',
         'url': './爆破英雄-鋼鐵人.html',
         'bgImg': './img/英雄ICON/爆破英雄-鋼鐵人/經典.jpg',
@@ -919,7 +919,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'warMachine',
         'class': 'heroIcon preset men blast humen justice mechanical leader',
         'url': './爆破英雄-戰爭機器.html',
         'bgImg': './img/英雄ICON/爆破英雄-戰爭機器/現代.jpg',
@@ -929,7 +929,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'doctorStrange',
         'class': 'heroIcon preset men blast humen justice',
         'url': './爆破英雄-奇異博士.html',
         'bgImg': './img/英雄ICON/爆破英雄-奇異博士/全新全異.jpg',
@@ -939,7 +939,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'negasonicTeenageWarhead',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-青少年彈頭.html',
         'bgImg': './img/英雄ICON/爆破英雄-青少女彈頭/現代.jpg',
@@ -949,7 +949,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'cable',
         'class': 'heroIcon preset men blast xmen justice arms',
         'url': './爆破英雄-機堡.html',
         'bgImg': './img/英雄ICON/爆破英雄-機堡/現代.jpg',
@@ -959,7 +959,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'cyclops',
         'class': 'heroIcon preset men blast xmen justice',
         'url': './爆破英雄-獨眼龍.html',
         'bgImg': './img/英雄ICON/爆破英雄-獨眼龍/經典.jpg',
@@ -969,7 +969,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'cyclops:apocalypse',
         'class': 'heroIcon men blast xmen villain',
         'url': './爆破英雄-獨眼龍.html?id=skin2',
         'bgImg': './img/英雄ICON/爆破英雄-獨眼龍/天啟紀元.jpg ',
@@ -979,7 +979,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'cyclops: phoenix',
         'class': 'heroIcon men blast xmen villain phoenix',
         'url': './爆破英雄-獨眼龍.html?id=skin4',
         'bgImg': './img/英雄ICON/爆破英雄-獨眼龍/鳳凰5人組.jpg ',
@@ -989,7 +989,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'jeanGrey',
         'class': 'heroIcon preset women blast xmen justice phoenix spirit',
         'url': './爆破英雄-琴葛雷.html',
         'bgImg': './img/英雄ICON/爆破英雄-琴葛雷/鳳凰.jpg',
@@ -999,7 +999,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'jeanGrer:msMarvel',
         'class': 'heroIcon women universal xmen justice phoenix spirit',
         'url': './爆破英雄-琴葛雷.html?id=skin3 ',
         'bgImg': './img/英雄ICON/爆破英雄-琴葛雷/驚奇少女.jpg ',
@@ -1009,7 +1009,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sharonRogers',
         'class': 'heroIcon preset women blast humen justice leader',
         'url': '爆破英雄-雪倫羅傑斯.html',
         'bgImg': './img/英雄ICON/爆破英雄-雪倫羅傑斯/美國隊長75周年紀念.jpg',
@@ -1019,7 +1019,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ancientOne',
         'class': 'heroIcon preset men blast humen justice leader',
         'url': './爆破英雄-上古尊者.html',
         'bgImg': './img/英雄ICON/爆破英雄-上古尊者/現代.jpg',
@@ -1029,7 +1029,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ancientOne:ds',
         'class': 'heroIcon women blast humen justice leader',
         'url': './爆破英雄-上古尊者.html?id=skin4',
         'bgImg': './img/英雄ICON/爆破英雄-上古尊者/奇異博士.jpg ',
@@ -1039,7 +1039,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'iceman',
         'class': 'heroIcon preset men blast xmen justice',
         'url': './爆破英雄-冰人.html',
         'bgImg': './img/英雄ICON/爆破英雄-冰人/現代.jpg',
@@ -1049,7 +1049,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'weaponHex',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-咒術武器.html',
         'bgImg': './img/英雄ICON/爆破英雄-咒術武器/無限融合.jpg',
@@ -1059,7 +1059,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'infernd',
         'class': 'heroIcon preset men blast inhumen justice fire',
         'url': './爆破英雄-地獄火.html',
         'bgImg': './img/英雄ICON/爆破英雄-地獄火/全新全異.jpg',
@@ -1069,7 +1069,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'wiccan',
         'class': 'heroIcon preset men blast humen justice',
         'url': './爆破英雄-巫術.html',
         'bgImg': './img/英雄ICON/爆破英雄-巫術/新復仇者.jpg',
@@ -1079,7 +1079,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'vision',
         'class': 'heroIcon preset men blast biological justice',
         'url': './爆破英雄-幻視.html',
         'bgImg': './img/英雄ICON/爆破英雄-幻視/現代.jpg',
@@ -1089,7 +1089,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'vision:ua',
         'class': 'heroIcon men universal biological justice',
         'url': './爆破英雄-幻視.html?id=skin2 "  display: n',
         'bgImg': './img/英雄ICON/爆破英雄-幻視/復仇者聯盟-奧創紀元.jpg ',
@@ -1099,7 +1099,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'rescue',
         'class': 'heroIcon preset women blast humen justice mechanical leader',
         'url': './爆破英雄-救援.html',
         'bgImg': './img/英雄ICON/爆破英雄-救援/終局之戰.jpg',
@@ -1109,7 +1109,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'starLord',
         'class': 'heroIcon preset men blast humen justice arms',
         'url': './爆破英雄-星爵.html',
         'bgImg': './img/英雄ICON/爆破英雄-星爵/星際特攻隊.jpg',
@@ -1119,7 +1119,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'storm',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-暴風女.html',
         'bgImg': './img/英雄ICON/爆破英雄-暴風女/現代.jpg',
@@ -1129,7 +1129,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'moonGirl',
         'class': 'heroIcon preset women blast inhumans justice arms leader',
         'url': './爆破英雄-月亮女孩.html',
         'bgImg': './img/英雄ICON/爆破英雄-月亮女孩/Marvel.jpg',
@@ -1139,7 +1139,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'lincolnCampbell',
         'class': 'heroIcon preset men blast inhumans justice',
         'url': './爆破英雄-林肯坎貝爾.html',
         'bgImg': './img/英雄ICON/爆破英雄-林肯坎貝爾/神盾局特工.jpg',
@@ -1149,7 +1149,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sisterGrimm',
         'class': 'heroIcon preset women blast humans justice',
         'url': './爆破英雄-格林姊妹.html',
         'bgImg': './img/英雄ICON/爆破英雄-格林姊妹/秘密戰爭A-Force.jpg',
@@ -1159,7 +1159,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'songbird',
         'class': 'heroIcon preset women blast humans justice',
         'url': './爆破英雄-歌姬.html',
         'bgImg': './img/英雄ICON/爆破英雄-歌姬/新復仇者.jpg',
@@ -1169,7 +1169,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kidOmega',
         'class': 'heroIcon preset men blast xmen justice phoenix',
         'url': './爆破英雄-奧米伽小子.html.html',
         'bgImg': './img/英雄ICON/爆破英雄-奧米加小子/現代.jpg',
@@ -1179,7 +1179,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'crystal',
         'class': 'heroIcon preset women blast inhumans justice',
         'url': './爆破英雄-水晶.html',
         'bgImg': './img/英雄ICON/爆破英雄-水晶/全新全異.jpg',
@@ -1189,7 +1189,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'crystal:f4',
         'class': 'heroIcon women blast inhumans justice f4',
         'url': './爆破英雄-水晶.html?id=skin3',
         'bgImg': './img/英雄ICON/爆破英雄-水晶/驚奇四超人.jpg ',
@@ -1199,7 +1199,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'rocketRaccoon',
         'class': 'heroIcon preset men blast et justice arms',
         'url': './爆破英雄-火箭浣熊.html',
         'bgImg': './img/英雄ICON/爆破英雄-火箭浣熊/星際異功隊.jpg',
@@ -1209,7 +1209,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'rachelSummers',
         'class': 'heroIcon preset women blast xmen justice phoenix',
         'url': './爆破英雄-瑞秋桑瑪斯.html',
         'bgImg': './img/英雄ICON/爆破英雄-瑞秋桑瑪斯/現代.jpg',
@@ -1219,7 +1219,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'bishop',
         'class': 'heroIcon preset men blast xmen justice',
         'url': './爆破英雄-畢曉普.html',
         'bgImg': './img/英雄ICON/爆破英雄-畢曉普/解散.jpg',
@@ -1229,7 +1229,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'jubilee',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-白光花火.html',
         'bgImg': './img/英雄ICON/爆破英雄-白光花火/經典.jpg',
@@ -1239,7 +1239,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'magik',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-秘客.html',
         'bgImg': './img/英雄ICON/爆破英雄-秘客/經典.jpg',
@@ -1249,7 +1249,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'magik:phoenix',
         'class': 'heroIcon women blast xmen villain phoenix',
         'url': './爆破英雄-秘客.html?id=skin2',
         'bgImg': './img/英雄ICON/爆破英雄-秘客/鳳凰5人組.jpg ',
@@ -1259,7 +1259,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'scarletWitch',
         'class': 'heroIcon preset women blast xmen justiec',
         'url': './爆破英雄-緋紅女巫.html',
         'bgImg': './img/英雄ICON/爆破英雄-緋紅女巫/經典.jpg ',
@@ -1270,7 +1270,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'emmaFrost',
         'class': 'heroIcon preset women blast xmen justice spirit',
         'url': './爆破英雄-艾瑪佛斯特.html',
         'bgImg': './img/英雄ICON/爆破英雄-艾瑪佛斯特/現代.jpg',
@@ -1280,7 +1280,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'emmaFrost:phoenix',
         'class': 'heroIcon women blast xmen villain spirit phoenix',
         'url': './爆破英雄-艾瑪佛斯特.html?id=skin3',
         'bgImg': './img/英雄ICON/爆破英雄-艾瑪佛斯特/鳳凰5人組.jpg ',
@@ -1300,7 +1300,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'philCoulson',
         'class': 'heroIcon preset women blast et justice',
         'url': './爆破英雄-螳螂女.html',
         'bgImg': './img/英雄ICON/爆破英雄-螳螂女/星際異攻隊2.jpg',
@@ -1310,7 +1310,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'adamWarlock',
         'class': 'heroIcon preset women blast biological justice',
         'url': './爆破英雄-術士亞當.html',
         'bgImg': './img/英雄ICON/爆破英雄-術士亞當/現代.jpg',
@@ -1320,7 +1320,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gambit',
         'class': 'heroIcon preset men blast xmen justice',
         'url': './爆破英雄-金牌手.html',
         'bgImg': './img/英雄ICON/爆破英雄-金牌手/現代.jpg',
@@ -1330,7 +1330,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ironHeart',
         'class': 'heroIcon preset women blast humen justice mechanical arms',
         'url': './爆破英雄-鋼鐵心.html',
         'bgImg': './img/英雄ICON/爆破英雄-鋼鐵心/Marvel!.jpg',
@@ -1340,7 +1340,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'invisobleWoman',
         'class': 'heroIcon preset women blast humans justice f4',
         'url': './爆破英雄-隱形女.html',
         'bgImg': './img/英雄ICON/爆破英雄-隱形女/現代.jpg',
@@ -1350,7 +1350,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'humanTorch',
         'class': 'heroIcon preset men blast humans justice fire f4',
         'url': './爆破英雄-霹靂火.html',
         'bgImg': './img/英雄ICON/爆破英雄-霹靂火/現代.jpg',
@@ -1360,7 +1360,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'psylocke',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-靈蝶.html',
         'bgImg': './img/英雄ICON/爆破英雄-靈蝶/X特攻隊.jpg',
@@ -1370,7 +1370,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'wasp',
         'class': 'heroIcon preset women blast humans justice',
         'url': './爆破英雄-黃蜂女.html',
         'bgImg': './img/英雄ICON/爆破英雄-黃蜂女/現代.jpg',
@@ -1380,7 +1380,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'waspNadia',
         'class': 'heroIcon preset women blast humans justice',
         'url': './爆破英雄-黃蜂女(納迪婭).html',
         'bgImg': './img/英雄ICON/爆破英雄-黃蜂女納迪亞/現代.jpg',
@@ -1390,7 +1390,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'daisyJohnson',
         'class': 'heroIcon preset women blast inhumans justice',
         'url': './爆破英雄-黛希強森.html',
         'bgImg': './img/英雄ICON/爆破英雄-戴希強森/神盾局特工.jpg',
@@ -1400,7 +1400,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blueDargon',
         'class': 'heroIcon preset women blast humans justice leader',
         'url': './爆破英雄-青龍.html',
         'bgImg': './img/英雄ICON/爆破英雄-青龍/現代.jpg',
@@ -1410,7 +1410,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'professorX',
         'class': 'heroIcon preset men blast xmen justice leader spirit',
         'url': './爆破英雄-X教授.html',
         'bgImg': './img/英雄ICON/爆破英雄-X教授/現代.jpg',
@@ -1420,7 +1420,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'dazzler',
         'class': 'heroIcon preset women blast xmen justice',
         'url': './爆破英雄-炫音.html',
         'bgImg': './img/英雄ICON/爆破英雄-炫音/現代.jpg',
@@ -1430,7 +1430,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'magneto',
         'class': 'heroIcon preset men blast xmen villain spirit',
         'url': './爆破反派-萬磁王.html',
         'bgImg': './img/英雄ICON/爆破反派-萬磁王/經典.jpg',
@@ -1440,7 +1440,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kaecilius',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-卡西流斯.html',
         'bgImg': './img/英雄ICON/爆破反派-卡西流斯/奇異博士.jpg',
@@ -1450,7 +1450,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ulyssesKlaue',
         'class': 'heroIcon preset men blast humen villain arms',
         'url': '爆破反派-尤里西斯克勞.html',
         'bgImg': './img/英雄ICON/爆破反派-尤里西斯克勞/漫威黑豹.jpg',
@@ -1460,7 +1460,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hydroman',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-水人.html',
         'bgImg': './img/英雄ICON/爆破反派-水人/蜘蛛人-離家日.jpg',
@@ -1470,7 +1470,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'mysterio',
         'class': 'heroIcon preset men blast humen villain six6',
         'url': './爆破反派-神秘法師.html',
         'bgImg': './img/英雄ICON/爆破反派-神秘法師/經典.jpg',
@@ -1480,7 +1480,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redskull',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-紅骷髏.html',
         'bgImg': './img/英雄ICON/爆破反派-紅骷髏/美國隊長-復仇者先鋒.jpg',
@@ -1490,7 +1490,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'redskull:sw',
         'class': 'heroIcon men speed humen villain',
         'url': './爆破反派-紅骷髏.html?id=skin2',
         'bgImg': './img/英雄ICON/爆破反派-紅骷髏/秘密戰爭-紅骷髏.jpg ',
@@ -1500,7 +1500,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'stryfe',
         'class': 'heroIcon preset men blast xmen villain',
         'url': './爆破反派-紛爭.html',
         'bgImg': './img/英雄ICON/爆破反派-紛爭/現代.jpg',
@@ -1510,7 +1510,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'baronMordo',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-莫度男爵.html',
         'bgImg': './img/英雄ICON/爆破反派-莫度男爵/經典.jpg',
@@ -1520,7 +1520,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'baronMordo:ds',
         'class': 'heroIcon men speed humen justice',
         'url': './爆破反派-莫度男爵.html?id=skin2',
         'bgImg': './img/英雄ICON/爆破反派-莫度男爵/奇異博士.jpg ',
@@ -1530,7 +1530,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'lash',
         'class': 'heroIcon preset men blast inhumans villain',
         'url': './爆破反派-萊許.html',
         'bgImg': './img/英雄ICON/爆破反派-萊許/神盾局特工.jpg',
@@ -1540,7 +1540,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'whiplash',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-鞭狂.html',
         'bgImg': './img/英雄ICON/爆破反派-鞭狂/鋼鐵人2.jpg',
@@ -1550,7 +1550,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'maximus',
         'class': 'heroIcon preset men blast inhumans villain spirit',
         'url': './爆破反派-馬克西穆斯.html',
         'bgImg': './img/英雄ICON/爆破反派-馬克西穆斯/皇者之戰.jpg',
@@ -1560,7 +1560,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'enchanTress',
         'class': 'heroIcon preset women blast et villain',
         'url': './爆破反派-魅惑魔女.html',
         'bgImg': './img/英雄ICON/爆破反派-魅惑女巫/現代.jpg',
@@ -1570,7 +1570,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'modok',
         'class': 'heroIcon preset men blast humen villain',
         'url': './爆破反派-魔多客.html',
         'bgImg': './img/英雄ICON/爆破反派-魔多客/經典.jpg',
@@ -1580,7 +1580,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'malekith',
         'class': 'heroIcon preset men blast et villain',
         'url': './爆破反派-魔雷基.html',
         'bgImg': './img/英雄ICON/爆破反派-魔雷基/雷神索爾-黑暗世界.jpg',
@@ -1590,7 +1590,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'yellowJacket',
         'class': 'heroIcon preset men blast humen villain mechanical',
         'url': './爆破反派-黃衫俠.html',
         'bgImg': './img/英雄ICON/爆破反派-黃衫俠/蟻人.jpg',
@@ -1610,7 +1610,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'misterSinister',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-黑寡婦.html',
         'bgImg': './img/英雄ICON/速度英雄-黑寡婦/復仇者聯盟.jpg',
@@ -1620,7 +1620,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hawekeye',
         'class': 'heroIcon preset men speed humen justice arms',
         'url': './速度英雄-鷹眼.html',
         'bgImg': './img/英雄ICON/速度英雄-鷹眼/復仇者聯盟.jpg',
@@ -1630,7 +1630,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'spiderman',
         'class': 'heroIcon preset men speed humen justice spider leader',
         'url': './速度英雄-蜘蛛人.html',
         'bgImg': './img/英雄ICON/速度英雄-蜘蛛人/經典.jpg',
@@ -1640,7 +1640,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'falcon',
         'class': 'heroIcon preset men speed humen justice leader',
         'url': './速度英雄-獵鷹.html',
         'bgImg': './img/英雄ICON/速度英雄-獵鷹/美國隊長-酷寒戰士.jpg',
@@ -1650,7 +1650,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'winterSoldier',
         'class': 'heroIcon preset men speed humen justice arms',
         'url': './速度英雄-酷寒戰士.html',
         'bgImg': './img/英雄ICON/速度英雄-酷寒戰士/美國隊長-酷寒戰士.jpg',
@@ -1660,7 +1660,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'quicksilver',
         'class': 'heroIcon preset men speed xmen justice',
         'url': './速度英雄-快銀.html',
         'bgImg': './img/英雄ICON/速度英雄-快銀/經典.jpg',
@@ -1670,7 +1670,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'nickFury',
         'class': 'heroIcon preset men speed humen justice arms leader',
         'url': './速度英雄-尼克福瑞.html',
         'bgImg': './img/英雄ICON/速度英雄-尼克福瑞/現代.jpg',
@@ -1680,7 +1680,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'deadpool',
         'class': 'heroIcon preset men speed xmen justice arms',
         'url': './速度英雄-死恃.html',
         'bgImg': './img/英雄ICON/速度英雄-死恃/經典.jpg',
@@ -1690,7 +1690,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'deadpool:lady',
         'class': 'heroIcon women speed xmen justice arms',
         'url': './速度英雄-死恃.html?id=skin3',
         'bgImg': './img/英雄ICON/速度英雄-死恃/女死恃.jpg ',
@@ -1700,7 +1700,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'deadpool:party',
         'class': 'heroIcon women speed xmen justice arms',
         'url': './速度英雄-死恃.html?id=skin4',
         'bgImg': './img/英雄ICON/速度英雄-死恃/節日派對.jpg ',
@@ -1710,7 +1710,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'domind',
         'class': 'heroIcon preset women speed xmen justice arms',
         'url': './速度英雄-多米諾.html',
         'bgImg': './img/英雄ICON/速度英雄-多米諾/X特攻隊.jpg',
@@ -1720,7 +1720,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gwenpool',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-關死恃.html',
         'bgImg': './img/英雄ICON/速度英雄-關死恃/全新全異.jpg',
@@ -1730,7 +1730,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'lunaSnow',
         'class': 'heroIcon preset women speed humen justice leader',
         'url': './速度英雄-冰月花雪.html',
         'bgImg': './img/英雄ICON/速度英雄-冰月花雪/現代.jpg',
@@ -1740,7 +1740,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'antman',
         'class': 'heroIcon preset men speed humen justice',
         'url': './速度英雄-蟻人.html',
         'bgImg': './img/英雄ICON/速度英雄-蟻人/經典.jpg',
@@ -1750,7 +1750,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'agent13',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-13 號特工.html',
         'bgImg': './img/英雄ICON/速度英雄-13號特工/現代.jpg',
@@ -1760,7 +1760,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'x23',
         'class': 'heroIcon preset women speed xmen justice',
         'url': './速度英雄-X23.html',
         'bgImg': './img/英雄ICON/速度英雄-X23/經典.jpg',
@@ -1770,7 +1770,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'mockingbird',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-仿聲鳥.html',
         'bgImg': './img/英雄ICON/速度英雄-仿聲鳥/英雄時代.jpg',
@@ -1780,7 +1780,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kittyPryde',
         'class': 'heroIcon preset women speed xmen justice arms',
         'url': './速度英雄-凱蒂普萊特.html',
         'bgImg': './img/英雄ICON/速度英雄-凱蒂普萊特/現代.jpg',
@@ -1790,7 +1790,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'yondu',
         'class': 'heroIcon preset men speed et justice arms',
         'url': './速度英雄-勇度.html',
         'bgImg': './img/英雄ICON/速度英雄-勇度/星際異攻隊.jpg',
@@ -1800,7 +1800,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'karnak',
         'class': 'heroIcon preset men speed inhumans justice',
         'url': './速度英雄-卡爾奈克.html',
         'bgImg': './img/英雄ICON/速度英雄-卡爾奈克/皇者之戰.jpg',
@@ -1810,7 +1810,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hellcat',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-地獄貓.html',
         'bgImg': './img/英雄ICON/速度英雄-地獄貓/全新全異.jpg',
@@ -1820,7 +1820,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'nightcrawler',
         'class': 'heroIcon preset men speed xmen justice leader',
         'url': './速度英雄-夜行者.html',
         'bgImg': './img/英雄ICON/速度英雄-夜行者/現代.jpg',
@@ -1830,7 +1830,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'daredevil',
         'class': 'heroIcon preset men speed humen justice leader',
         'url': './速度英雄-夜魔俠.html',
         'bgImg': './img/英雄ICON/速度英雄-夜魔俠/現代.jpg',
@@ -1840,7 +1840,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'angel',
         'class': 'heroIcon preset men speed xmen justice',
         'url': './速度英雄-天使.html',
         'bgImg': './img/英雄ICON/速度英雄-天使/現代.jpg',
@@ -1850,7 +1850,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'spiderGwen',
         'class': 'heroIcon preset women speed humen justice spider leader',
         'url': './速度英雄-女蜘蛛人關.html',
         'bgImg': './img/英雄ICON/速度英雄-女蜘蛛人關/全新全異.jpg',
@@ -1860,7 +1860,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'rogue',
         'class': 'heroIcon preset women speed xmen justice',
         'url': './速度英雄-小淘氣.html',
         'bgImg': './img/英雄ICON/速度英雄-小淘氣/經典.jpg',
@@ -1870,7 +1870,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'elektra',
         'class': 'heroIcon preset women speed humen justice arms',
         'url': './速度英雄-幻影殺手.html',
         'bgImg': './img/英雄ICON/速度英雄-幻影殺手/經典.jpg',
@@ -1880,7 +1880,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kidKaiju',
         'class': 'heroIcon preset men speed inhumen justice',
         'url': './速度英雄-怪獸小子.html',
         'bgImg': './img/英雄ICON/速度英雄-怪獸小子/怪物解放.jpg',
@@ -1890,7 +1890,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'squirrelgirl',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-松鼠女孩.html',
         'bgImg': './img/英雄ICON/速度英雄-松鼠女孩/新復仇者.jpg',
@@ -1900,7 +1900,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'aero',
         'class': 'heroIcon preset women speed humen justice leader',
         'url': './速度英雄-氣旋.html',
         'bgImg': './img/英雄ICON/速度英雄-氣旋/現代.jpg',
@@ -1910,7 +1910,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'wave',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-浪.html',
         'bgImg': './img/英雄ICON/速度英雄-浪/現代.jpg',
@@ -1920,7 +1920,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'wong',
         'class': 'heroIcon preset men speed humen justice',
         'url': './速度英雄-王.html',
         'bgImg': './img/英雄ICON/速度英雄-王/全新全異.jpg',
@@ -1930,7 +1930,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'fantomex',
         'class': 'heroIcon preset men speed xmen justice arms',
         'url': './速度英雄-白幽靈.html',
         'bgImg': './img/英雄ICON/速度英雄-白幽靈/X特攻隊.jpg',
@@ -1940,7 +1940,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'whiteFox',
         'class': 'heroIcon preset women speed humen justice leader',
         'url': './速度英雄-白狐.html',
         'bgImg': './img/英雄ICON/速度英雄-白狐/現代.jpg',
@@ -1950,7 +1950,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'fandral',
         'class': 'heroIcon preset men speed et justice',
         'url': './速度英雄-范德爾.html',
         'bgImg': './img/英雄ICON/速度英雄-范達爾/現代.jpg',
@@ -1960,7 +1960,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'shuri',
         'class': 'heroIcon preset women speed humen justice leader',
         'url': './速度英雄-舒莉.html',
         'bgImg': './img/英雄ICON/速度英雄-舒莉/漫威傳承.jpg',
@@ -1970,7 +1970,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'elsaBloodstone',
         'class': 'heroIcon preset women speed humen justice arms',
         'url': './速度英雄-艾爾莎血石.html',
         'bgImg': './img/英雄ICON/速度英雄-艾爾莎血石/現代.jpg',
@@ -1980,7 +1980,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'gamora',
         'class': 'heroIcon preset women speed et justice arms',
         'url': './速度英雄-葛摩拉.html',
         'bgImg': './img/英雄ICON/速度英雄-葛摩拉/星際異攻隊.jpg',
@@ -1990,7 +1990,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'silk',
         'class': 'heroIcon preset women speed humen justice spider',
         'url': './速度英雄-蛛絲女.html',
         'bgImg': './img/英雄ICON/速度英雄-蛛絲女/全新全異.jpg',
@@ -2000,7 +2000,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'spidermanMiles',
         'class': 'heroIcon preset men speed humen justice spider leader',
         'url': './速度英雄-蜘蛛人(邁爾斯).html',
         'bgImg': './img/英雄ICON/速度英雄-蜘蛛人邁爾斯/全新全異.jpg',
@@ -2010,7 +2010,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'spider2099',
         'class': 'heroIcon preset men speed humen justice spider leader',
         'url': './速度英雄-蜘蛛人2099.html',
         'bgImg': './img/英雄ICON/速度英雄-蜘蛛人2099/現代.jpg',
@@ -2020,7 +2020,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'arachKnight',
         'class': 'heroIcon preset men speed humen justice spider leader',
         'url': './速度英雄-蜘蛛騎士.html',
         'bgImg': './img/英雄ICON/速度英雄-蜘蛛騎士/無限融合.jpg',
@@ -2030,7 +2030,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'mistyKnght',
         'class': 'heroIcon preset women speed humen justice arms',
         'url': './速度英雄-迷霧騎士.html',
         'bgImg': './img/英雄ICON/速度英雄-迷霧騎士/全新全異.jpg',
@@ -2040,7 +2040,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hawkeyeKate',
         'class': 'heroIcon preset women speed humen justice',
         'url': './速度英雄-鷹眼(凱特).html',
         'bgImg': './img/英雄ICON/速度英雄-鷹眼凱特/Marvel!.jpg',
@@ -2050,7 +2050,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sunBird',
         'class': 'heroIcon preset men speed humen justice',
         'url': './速度英雄-鳳皇.html',
         'bgImg': './img/英雄ICON/速度英雄-鳳皇/現代.jpg',
@@ -2060,7 +2060,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'darkhawk',
         'class': 'heroIcon preset men speed humen justice leader',
         'url': './速度英雄-黑鷹.html',
         'bgImg': './img/英雄ICON/速度英雄-黑鷹/現代.jpg',
@@ -2070,7 +2070,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'scarletSpider',
         'class': 'heroIcon preset men speed humen justice spider leader',
         'url': './速度英雄-猩紅蜘蛛.html',
         'bgImg': './img/英雄ICON/速度英雄-猩紅蜘蛛/現代.jpg',
@@ -2080,7 +2080,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sin',
         'class': 'heroIcon preset women speed humen villain arms',
         'url': './速度反派-原罪.html',
         'bgImg': './img/英雄ICON/速度反派-原罪/全新全異.jpg',
@@ -2090,7 +2090,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ghost',
         'class': 'heroIcon preset men speed humen villain mechanical',
         'url': './速度反派-幽靈.html',
         'bgImg': './img/英雄ICON/速度反派-幽靈/經典.jpg',
@@ -2100,7 +2100,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ghost:as',
         'class': 'heroIcon preset women speed humen villain mechanical',
         'url': './速度反派-幽靈.html?id=skin2',
         'bgImg': './img/英雄ICON/速度反派-幽靈/蟻人與黃蜂女.jpg ',
@@ -2110,7 +2110,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'kravenHunter',
         'class': 'heroIcon preset men speed humen villain arms six6',
         'url': './速度反派-獵人克萊文.html',
         'bgImg': './img/英雄ICON/速度反派-獵人克萊文/現代.jpg',
@@ -2120,7 +2120,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'vulture',
         'class': 'heroIcon preset men speed humen villain six6',
         'url': './速度反派-禿鷹.html',
         'bgImg': './img/英雄ICON/速度反派-禿鷹/經典.jpg',
@@ -2130,7 +2130,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'korath',
         'class': 'heroIcon preset men speed et villain arms',
         'url': './速度反派-科拉特.html',
         'bgImg': './img/英雄ICON/速度反派-柯拉特/驚奇隊長.jpg',
@@ -2140,7 +2140,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'greenGoblin',
         'class': 'heroIcon preset men speed humen villain',
         'url': './速度反派-綠惡魔.html',
         'bgImg': './img/英雄ICON/速度反派-綠惡魔/經典.jpg',
@@ -2150,7 +2150,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'greenGoblin:ultimate',
         'class': 'heroIcon men speed humen villain',
         'url': './速度反派-綠惡魔.html?id=skin2',
         'bgImg': './img/英雄ICON/速度反派-綠惡魔/究極.jpg ',
@@ -2160,7 +2160,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'baronZemo',
         'class': 'heroIcon preset men speed humen villain',
         'url': './速度反派-齊莫男爵.html',
         'bgImg': './img/英雄ICON/速度反派-齊莫男爵/現代.jpg',
@@ -2170,7 +2170,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'electro',
         'class': 'heroIcon preset men speed humen villain six6',
         'url': './速度反派-電光人.html',
         'bgImg': './img/英雄ICON/速度反派-電光人/現代.jpg',
@@ -2180,7 +2180,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blackcat',
         'class': 'heroIcon preset women speed humen villain',
         'url': './速度反派-黑貓.html',
         'bgImg': './img/英雄ICON/速度反派-黑貓/現代.jpg',
@@ -2190,7 +2190,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'viper',
         'class': 'heroIcon preset women speed humen villain',
         'url': './速度反派-毒蛇.html',
         'bgImg': './img/英雄ICON/速度反派-毒蛇/現代.jpg',
@@ -2200,7 +2200,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'mystique',
         'class': 'heroIcon preset women speed xmen villain arms',
         'url': './速度反派-魔形女.html',
         'bgImg': './img/英雄ICON/速度反派-魔形女/現代.jpg',
@@ -2210,7 +2210,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'yelena',
         'class': 'heroIcon preset women speed humen villain',
         'url': './速度反派-葉蓮娜.html',
         'bgImg': './img/英雄ICON/速度反派-葉蓮娜/現代.jpg',
@@ -2220,7 +2220,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'yelena:bw',
         'class': 'heroIcon women speed humen justice',
         'url': './速度反派-葉蓮娜.html?id=skin2',
         'bgImg': './img/英雄ICON/速度反派-葉蓮娜/漫威黑寡婦.jpg ',
@@ -2230,7 +2230,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'yelena:snow',
         'class': 'heroIcon women speed humen justice',
         'url': './速度反派-葉蓮娜.html?id=skin2',
         'bgImg': './img/英雄ICON/速度反派-葉蓮娜/冰雪戰衣.jpg ',
@@ -2240,7 +2240,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'thor',
         'class': 'heroIcon preset men universal et justice leader',
         'url': './宇宙英雄-索爾.html',
         'bgImg': './img/英雄ICON/宇宙英雄-索爾/復仇者聯盟.jpg',
@@ -2250,7 +2250,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'captainMarvel',
         'class': 'heroIcon preset women universal humen justice leader',
         'url': './宇宙英雄-驚奇隊長.html',
         'bgImg': './img/英雄ICON/宇宙英雄-驚奇隊長/現代.jpg',
@@ -2260,7 +2260,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'slapstick',
         'class': 'heroIcon preset men universal humen justice',
         'url': './宇宙英雄-鬧劇.html',
         'bgImg': './img/英雄ICON/宇宙英雄-鬧劇/現代.jpg',
@@ -2270,7 +2270,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'clea',
         'class': 'heroIcon preset women universal et justice',
         'url': './宇宙英雄-克莉.html',
         'bgImg': './img/英雄ICON/宇宙英雄-克莉/現代.jpg',
@@ -2280,7 +2280,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hellstorm',
         'class': 'heroIcon preset men universal humen justice',
         'url': './宇宙英雄-地獄風暴.html',
         'bgImg': './img/英雄ICON/宇宙英雄-地獄風暴/現代.jpg',
@@ -2290,7 +2290,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hyperion',
         'class': 'heroIcon preset men universal et justice leader',
         'url': './宇宙英雄-太陽神.html',
         'bgImg': './img/英雄ICON/宇宙英雄-太陽神/全新全異.jpg',
@@ -2300,7 +2300,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'singularity',
         'class': 'heroIcon preset women universal et justice',
         'url': './宇宙英雄-奇點.html',
         'bgImg': './img/英雄ICON/宇宙英雄-奇點/秘密戰爭A-force.jpg',
@@ -2310,7 +2310,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'odin',
         'class': 'heroIcon preset men universal et justice',
         'url': './宇宙英雄-奧丁.html',
         'bgImg': './img/英雄ICON/宇宙英雄-奧丁/現代.jpg',
@@ -2320,7 +2320,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'doctorVoodoo',
         'class': 'heroIcon preset men universal humen justice',
         'url': './宇宙英雄-巫毒.html',
         'bgImg': './img/英雄ICON/宇宙英雄-巫毒/現代.jpg',
@@ -2330,7 +2330,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ghostrider',
         'class': 'heroIcon preset men universal humen justice leader fire',
         'url': './宇宙英雄-惡靈戰警.html',
         'bgImg': './img/英雄ICON/宇宙英雄-惡靈戰警/經典.jpg',
@@ -2340,7 +2340,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ghostriderRobbie',
         'class': 'heroIcon preset men universal humen justice fire',
         'url': './宇宙英雄-惡靈戰警(羅比).html',
         'bgImg': './img/英雄ICON/宇宙英雄-惡靈戰警羅比/Marvel!.jpg',
@@ -2350,7 +2350,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ghostPanther',
         'class': 'heroIcon preset men universal humen justice fire',
         'url': './宇宙英雄-惡靈黑豹.html',
         'bgImg': './img/英雄ICON/宇宙英雄-惡靈黑豹/無限融合.jpg',
@@ -2360,7 +2360,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'angela',
         'class': 'heroIcon preset women universal et justice',
         'url': './宇宙英雄-戰鬥天使.html',
         'bgImg': './img/英雄ICON/宇宙英雄-戰鬥天使/現代.jpg',
@@ -2370,7 +2370,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'satana',
         'class': 'heroIcon preset women universal humen justice fire',
         'url': './宇宙英雄-撒旦娜.html',
         'bgImg': './img/英雄ICON/宇宙英雄-撒旦娜/現代.jpg',
@@ -2380,7 +2380,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'novaSam',
         'class': 'heroIcon preset men universal humen justice',
         'url': './宇宙英雄-新星(山姆亞歷山大).html',
         'bgImg': './img/英雄ICON/宇宙英雄-新星/全新全異.jpg',
@@ -2390,7 +2390,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'heimdall',
         'class': 'heroIcon preset men universal et justice',
         'url': './宇宙英雄-海姆達姆.html',
         'bgImg': './img/英雄ICON/宇宙英雄-海姆達姆/雷神索爾-諸神黃昏.jpg',
@@ -2400,7 +2400,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'thorJane',
         'class': 'heroIcon preset women universal humen justice',
         'url': './宇宙英雄-索爾(珍． 佛斯特).html',
         'bgImg': './img/英雄ICON/宇宙英雄-索爾珍/全新全異.jpg',
@@ -2410,7 +2410,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'medusa',
         'class': 'heroIcon preset women universal inhumans justice',
         'url': './宇宙英雄-美杜莎.html',
         'bgImg': './img/英雄ICON/宇宙英雄-美杜莎/全新全異.jpg',
@@ -2420,7 +2420,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blueMarvel',
         'class': 'heroIcon preset men universal humen justice leader',
         'url': './宇宙英雄-藍驚奇.html',
         'bgImg': './img/英雄ICON/宇宙英雄-藍驚奇/終極戰隊.jpg',
@@ -2430,7 +2430,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'silverSurfer',
         'class': 'heroIcon preset men universal et justice',
         'url': './宇宙英雄-銀色衝浪手.html',
         'bgImg': './img/英雄ICON/宇宙英雄-銀色衝浪手/現代.jpg',
@@ -2440,7 +2440,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ironHammer',
         'class': 'heroIcon preset men universal et justice mechanical',
         'url': './宇宙英雄-鋼鐵之錘.html',
         'bgImg': './img/英雄ICON/宇宙英雄-鋼鐵之槌/無限融合.jpg',
@@ -2450,7 +2450,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'quasar',
         'class': 'heroIcon preset women universal humen justice',
         'url': './宇宙英雄-類星體.html',
         'bgImg': './img/英雄ICON/宇宙英雄-類星體/全新全異.jpg',
@@ -2460,7 +2460,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'blackBolt',
         'class': 'heroIcon preset men universal inhumans justice',
         'url': './宇宙英雄-黑霹雷.html',
         'bgImg': './img/英雄ICON/宇宙英雄-黑霹雷/現代.jpg',
@@ -2470,7 +2470,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'shadowShell',
         'class': 'heroIcon preset women universal humen justice',
         'url': './宇宙英雄-玄武.html',
         'bgImg': './img/英雄ICON/宇宙英雄-玄武/現代.jpg',
@@ -2480,7 +2480,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'novaRichard',
         'class': 'heroIcon preset men universal humen justice leader',
         'url': './宇宙英雄-新星.html',
         'bgImg': './img/英雄ICON/宇宙英雄-新星理查/現代.jpg',
@@ -2490,7 +2490,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'betaRayBill',
         'class': 'heroIcon preset men universal et justice leader',
         'url': './宇宙英雄-貝塔.html',
         'bgImg': './img/英雄ICON/宇宙英雄-貝塔/現代.jpg',
@@ -2500,7 +2500,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'phylaVell',
         'class': 'heroIcon preset women universal et justice leader',
         'url': './宇宙英雄-菲拉威爾.html',
         'bgImg': './img/英雄ICON/宇宙英雄-菲拉威爾/現代.jpg',
@@ -2510,7 +2510,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'thanos',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-薩諾斯.html',
         'bgImg': './img/英雄ICON/宇宙反派-薩諾斯/無限.jpg',
@@ -2520,7 +2520,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'loki',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-洛基.html',
         'bgImg': './img/英雄ICON/宇宙反派-洛基/復仇者聯盟.jpg',
@@ -2530,7 +2530,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'loki:lady',
         'class': 'heroIcon women universal et villain',
         'url': './宇宙反派-洛基.html?ID=skin2',
         'bgImg': './img/英雄ICON/宇宙反派-洛基/淑女洛基.jpg ',
@@ -2540,7 +2540,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'antiman',
         'class': 'heroIcon preset men universal humen villain',
         'url': './宇宙反派-反物質人.html',
         'bgImg': './img/英雄ICON/宇宙反派-反物質人/全新全異.jpg',
@@ -2550,7 +2550,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'dormammu',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-多瑪暮.html',
         'bgImg': './img/英雄ICON/宇宙反派-多瑪暮/經典.jpg',
@@ -2560,7 +2560,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ultron',
         'class': 'heroIcon preset men universal biological villain mechanical',
         'url': './宇宙反派-奧創.html',
         'bgImg': './img/英雄ICON/宇宙反派-奧創/現代.jpg',
@@ -2570,7 +2570,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'corvusGlaive',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-掠鴉兇刃.html',
         'bgImg': './img/英雄ICON/宇宙反派-掠鴨兇刃/無限.jpg',
@@ -2580,7 +2580,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'morganLefav',
         'class': 'heroIcon preset women universal humen villain',
         'url': './宇宙反派-摩根娜.html',
         'bgImg': './img/英雄ICON/宇宙反派-摩根娜/現代.jpg',
@@ -2600,7 +2600,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'superGiant',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-星駭寂滅.html',
         'bgImg': './img/英雄ICON/宇宙反派-星駭寂滅/無限.jpg',
@@ -2610,7 +2610,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'proximaMidnight',
         'class': 'heroIcon preset women universal et villain',
         'url': './宇宙反派-闇夜無星.html',
         'bgImg': './img/英雄ICON/宇宙反派-闇夜無星/無限.jpg',
@@ -2620,7 +2620,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'DoctorDoom',
         'class': 'heroIcon preset men universal humen villain',
         'url': './宇宙反派-末日博士.html',
         'bgImg': './img/英雄ICON/宇宙反派-末日博士/現代.jpg',
@@ -2630,7 +2630,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'hela',
         'class': 'heroIcon preset women universal et villain',
         'url': './宇宙反派-海拉.html',
         'bgImg': './img/英雄ICON/宇宙反派-海拉/現代.jpg',
@@ -2640,7 +2640,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ebonyMaw',
         'class': 'heroIcon preset men universal et villain',
         'url': './宇宙反派-烏木邪心.html',
         'bgImg': './img/英雄ICON/宇宙反派-烏木邪心/無限.jpg',
@@ -2650,7 +2650,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'victorious',
         'class': 'heroIcon preset women universal humen villain',
         'url': './宇宙反派-維克多利斯.html',
         'bgImg': './img/英雄ICON/宇宙反派-維克多莉斯/現代.jpg',
@@ -2660,7 +2660,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'ronan',
         'class': 'heroIcon preset men universal et villain spirit',
         'url': './宇宙反派-羅南.html',
         'bgImg': './img/英雄ICON/宇宙反派-羅南/星際異攻隊.jpg',
@@ -2670,7 +2670,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'sentinel',
         'class': 'heroIcon preset no universal biological villain mechanical',
         'url': './宇宙反派-哨兵機器人.html',
         'bgImg': './img/英雄ICON/宇宙反派-哨兵機器人/現代.jpg',
@@ -2680,7 +2680,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'thane',
         'class': 'heroIcon preset men universal inhumans villain',
         'url': './宇宙反派-塞恩.html',
         'bgImg': './img/英雄ICON/宇宙反派-塞恩/現代.jpg ',
@@ -2690,7 +2690,7 @@ var heroDatas = [
     },
 
     {
-        'id': '',
+        'id': 'destrover',
         'class': 'heroIcon preset no universal biological neutral',
         'url': './宇宙中立-毀滅者.html',
         'bgImg': './img/英雄ICON/宇宙中立-毀滅者/現代.jpg',

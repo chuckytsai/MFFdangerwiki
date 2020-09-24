@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- 連結Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- 連結Style.css -->
     <link rel="stylesheet" href="./sevenbanner4.css">
+    <script src="nav.js"></script>
+    <!-- JQ -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <!--title -->
     <title>任 務</title>
     <link rel="icon" href="../img/logo121.ico" type="image/x-icon">
@@ -19,181 +19,8 @@
 
 
 <body>
-    <!-- ===========導覽列========== -->
-    <div class="navbar-toggler">
-        <a class="newsText0"></a>
-        <!-- ==========改版資訊 & 遊戲內容========== -->
-        <div class="menu">
-            <!-- =====改版資訊 ======-->
-            <div class="dropdown">
-                <button id="dropdownMenu1" data-toggle="dropdown"><h5 class="navText1">改 版 資 訊</h5>
-<span class="caret"></span>
-</button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <!-- 1.最新改版消息 -->
-                    <li role="presentation">
-                        <a href="../news-banner1.html">
-                            <h3 class="navText2">最 新 改 版 消 息</h3>
-                        </a>
-                    </li>
-                    <!-- 2.最新速報 -->
-                    <li role="presentation">
-                        <a href="../news-banner2.html">
-                            <h3 class="navText2">最 新 速 報</h3>
-                        </a>
-                    </li>
-                    <!-- 3.活動 -->
-                    <li role="presentation">
-                        <a href="../news-banner3.html">
-                            <h3 class="navText2">活 動</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- =====遊戲內容 ===== -->
-            <div class="dropdown">
-                <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
-<span class="caret"></span>
-</button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                    <!-- 1.各英雄資料庫 -->
-                    <li role="presentation">
-                        <a href="../各英雄資料庫/sevenbanner1.html ">
-                            <h3 class="navText2">角 色</h3>
-                        </a>
-                    </li>
-                    <!-- 2.挑戰 -->
-                    <li role="presentation">
-                        <a href="../挑戰/sevenbanner2.html">
-                            <h3 class="navText2">挑 戰</h3>
-                        </a>
-                    </li>
-                    <!-- 3.神盾局 -->
-                    <li role="presentation">
-                        <a href="../神盾局/sevenbanner3.html ">
-                            <h3 class="navText2">神 盾 局</h3>
-                        </a>
-                    </li>
-                    <!-- 4.任務 -->
-                    <li role="presentation">
-                        <a href="../任務/sevenbanner4.html ">
-                            <h3 class="navText2">任 務</h3>
-                        </a>
-                    </li>
-                    <!-- 5.PVP模式-->
-                    <li role="presentation">
-                        <a href="../PVP模式/sevenbanner5.html">
-                            <h3 class="navText2">PVP 模 式</h3>
-                        </a>
-                    </li>
-                    <!-- 6.PVP模式-->
-                    <li role="presentation">
-                        <a href="../道具/sevenbanner6.html">
-                            <h3 class="navText2">道 具</h3>
-                        </a>
-                    </li>
-                    <!-- 7.組隊模式 -->
-                    <li role="presentation">
-                        <a href="../組隊模式/sevenbanner7.html">
-                            <h3 class="navText2">組 隊 模 式</h3>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <!-- ====為了給手機螢幕小的改版資訊 & 遊戲內容==== -->
-        <div class="menu-trigger">
-            <button onclick="show();">改版資訊<br> 遊戲內容</button>
-            <div class="menu">
-                <!-- =====改版資訊===== -->
-                <div class="dropdown">
-                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">改 版 資 訊</h1>
-<span class="caret"></span>
-</button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-
-                        <!-- 1.最新改版消息 -->
-                        <li role="presentation">
-                            <a href="../news-banner1.html">
-                                <h3 class="navText2">最 新 改 版 消 息</h3>
-                            </a>
-                        </li>
-                        <!-- 2.最新速報 -->
-                        <li role="presentation">
-                            <a href="../news-banner2.html">
-                                <h3 class="navText2">最 新 速 報</h3>
-                            </a>
-                        </li>
-                        <!-- 3.活動 -->
-                        <li role="presentation">
-                            <a href="../news-banner3.html">
-                                <h3 class="navText2">活 動</h3>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- =====遊戲內容 ===== -->
-                <div class="dropdown">
-                    <button id="dropdownMenu1" data-toggle="dropdown"><h1 class="navText1">遊 戲 內 容</h1>
-<span class="caret"></span>
-</button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-
-                        <!-- 1.各英雄資料庫 -->
-                        <li role="presentation">
-                            <a href="../各英雄資料庫/sevenbanner1.html ">
-                                <h3 class="navText2">角 色</h3>
-                            </a>
-                        </li>
-                        <!-- 2.挑戰 -->
-                        <li role="presentation">
-                            <a href="../挑戰/sevenbanner2.html">
-                                <h3 class="navText2">挑 戰</h3>
-                            </a>
-                        </li>
-                        <!-- 3.神盾局 -->
-                        <li role="presentation">
-                            <a href="../神盾局/sevenbanner3.html ">
-                                <h3 class="navText2">神 盾 局</h3>
-                            </a>
-                        </li>
-                        <!-- 4.任務 -->
-                        <li role="presentation">
-                            <a href="../任務/sevenbanner4.html ">
-                                <h3 class="navText2">任 務</h3>
-                            </a>
-                        </li>
-                        <!-- 5.PVP模式-->
-                        <li role="presentation">
-                            <a href="../PVP模式/sevenbanner5.html">
-                                <h3 class="navText2">PVP 模 式</h3>
-                            </a>
-                        </li>
-                        <!-- 6.PVP模式-->
-                        <li role="presentation">
-                            <a href="../道具/sevenbanner6.html">
-                                <h3 class="navText2">道 具</h3>
-                            </a>
-                        </li>
-                        <!-- 7.組隊模式 -->
-                        <li role="presentation">
-                            <a href="../組隊模式/sevenbanner7.html">
-                                <h3 class="navText2">組 隊 模 式</h3>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- =====(未 來 之 戰 危 機 百 科)大圖片===== -->
-    <a href="../index.html"><img class="index-bamnner" src="../img/index.jpg" height="68%" width="100%"></a>
-    <!-- <h1 class="big-banner-text">未 來 之 戰 危 機 百 科</h1> -->
+    <!-- ==========NAV========== -->
+    <div id="NAV"></div>
 
 
     <!-- 點選挑戰模式顯示方式的定義&JS -->
@@ -1945,7 +1772,7 @@
   <div id="plot">
   <div id="weekGearing">
   <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+  <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
   <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
   <tr><td id="heroBonus"> <h6>2.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
   <tr><td id="heroBonus"> <h6>3.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
@@ -2001,7 +1828,7 @@
   <div id="plot">
   <div id="weekGearing">
   <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+  <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
   <tr><td id="heroBonus"> <h6>1.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
   <tr><td id="heroBonus"> <h6>2.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
   <tr><td id="heroBonus"> <h6>3.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
@@ -2057,7 +1884,7 @@
   <div id="plot">
   <div id="weekGearing">
   <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
   <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
   <tr><td id="heroBonus"> <h6>2.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
   <tr><td id="heroBonus"> <h6>3.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
@@ -2113,7 +1940,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
@@ -2163,62 +1990,7 @@
     </div>
     </div>
     </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+
     </section>
   <!-- 鐵拳俠 -->
  <section id="heroList2" style="display: none;">
@@ -2227,54 +1999,54 @@
     <h6>第1週:資料待補</h6>
     <div id="plot">
     <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
+      <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+        <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>2.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>3.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>4.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 </h6></td></tr>
+        <tr><td id="heroBonus"> <h6>5.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>6.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>7.[漫畫卡]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>8.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>9.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>10.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>11.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>力量之北歐符石</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>13.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>14.[漫畫卡]強化1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>15.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>16.使用50能量</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>17.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>18.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>19.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>20.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>21.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>22.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>23.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>24.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>25.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>26.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>27.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>28.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>29.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>30.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>31.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>32.[世界頭目]進行3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>33.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>34.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>35.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>36.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>37.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>38.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>39.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>40.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>41.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>42.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>43.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>44.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>45.[緊急連絡]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+      </table>
     </div>
     </div>
     </div>
@@ -2283,54 +2055,54 @@
     <h6>第2週:資料待補</h6>
     <div id="plot">
     <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
+      <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+        <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>1.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>2.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>3.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>4.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>5.使用300,000金幣</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>6.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>7.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>8.[組隊遊戲]獲得1次完成度獎勵</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>9.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>10.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>11.[聯盟戰爭]在一般模式獲得50.000分</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>13.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>14.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>15.使用300,000金幣</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>16.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>17.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>18.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>19.[世界頭目侵略]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>20.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>21.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>22.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>23.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>24.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>25.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>26.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>27.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品/h6></td></tr>
+        <tr><td id="heroBonus"> <h6>28.使用50能量</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>29.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>30.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>31.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>32.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>33.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>34.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>35.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>36.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>37.使用50能量</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>38.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>39.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>40.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>41.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>42.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>43.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>44.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>45.[追跡]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+      </table>
     </div>
     </div>
     </div>
@@ -2339,281 +2111,227 @@
     <h6>第3週:資料待補</h6>
     <div id="plot">
     <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
+      <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+      <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>2.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>3.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>4.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>5.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>6.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>7.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>8.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>9.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>10.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>11.[世界頭目]進行1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>12.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>13.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>14.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>15.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>16.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>17.使用50能量</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>18.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>19.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>20.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>21.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>22.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>23.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>24.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>25.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>26.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>27.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品/h6></td></tr>
+      <tr><td id="heroBonus"> <h6>28.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>29.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>30.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>31.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>32.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>33.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>34.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>35.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>36.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>37.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>38.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>39.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>40.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>41.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>42.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>43.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>44.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>45.[受雇英雄]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+    </table>
     </div>
     </div>
     </div>
+    
   <!-- 第4週 -->
   <div class="week" style="font-size: 20px;">
     <h6>第4週:資料待補</h6>
     <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
+      <div id="weekGearing">
+      <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+        <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>1.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>2.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>3.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>4.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>5.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>6.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>7.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>8.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>9.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>10.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>11.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>13.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>14.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>15.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>16.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>17.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>18.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>19.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>20.[聯盟戰爭:一般模式]進行1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>21.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>22.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>23.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>24.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>25.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>26.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>27.[聯盟戰爭:一般模式]進行1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>28.[世界頭目]通關1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>29.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>30.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>31.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>32.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>33.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>34.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>35.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>生體認證:鐵拳俠 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>36.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>37.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>38.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>39.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>40.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>41.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>42.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>43.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>44.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>45.[神盾局的資產]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+      </table>
     </div>
     </div>
     </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+
     </section>
   <!-- 潔西卡瓊斯 -->
   <section id="heroList3" style="display: none;">
   <!-- 第1週 -->
  <div class="week" style="font-size: 20px;">
-  <h6>第1週:資料待補</h6>
+  <h6>第1週:九頭蛇的秘密武器</h6>
   <div id="plot">
   <div id="weekGearing">
-  <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-</table>
+    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+      <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>2.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>3.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>4.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 </h6></td></tr>
+      <tr><td id="heroBonus"> <h6>5.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>6.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>7.[漫畫卡]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>8.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>9.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>10.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>11.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>力量之北歐符石</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>13.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>14.[漫畫卡]強化1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>15.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>16.使用50能量</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>17.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>18.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>19.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>20.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>21.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>22.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>23.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>24.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>25.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>26.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>27.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>28.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>29.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>30.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>31.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>32.[世界頭目]進行3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>33.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>34.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>35.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>36.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>37.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>38.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>39.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>40.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>41.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>42.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符石 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>43.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>44.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>45.[緊急連絡]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+    </table>
   </div>
   </div>
   </div>
   <!-- 第2週 -->
   <div class="week" style="font-size: 20px;">
-    <h6>第2週:資料待補</h6>
+    <h6>第2週:捍衛者再次集結</h6>
     <div id="plot">
     <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
+      <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+        <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>1.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>2.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>3.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>4.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>5.使用300,000金幣</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>6.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>7.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>8.[組隊遊戲]獲得1次完成度獎勵</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>9.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>10.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>11.[聯盟戰爭]在一般模式獲得50.000分</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>13.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>14.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>15.使用300,000金幣</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>16.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>17.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>18.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>19.[世界頭目侵略]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>20.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>21.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>22.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>23.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>24.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>25.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>26.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>27.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品/h6></td></tr>
+        <tr><td id="heroBonus"> <h6>28.使用50能量</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>29.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>30.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>31.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>32.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>33.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>34.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>35.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>36.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>37.使用50能量</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>38.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>39.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>40.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>41.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>42.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>43.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>44.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+        <tr><td id="heroBonus"> <h6>45.[追跡]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+      </table>
     </div>
     </div>
     </div>
@@ -2622,54 +2340,54 @@
   <h6>第3週:資料待補</h6>
   <div id="plot">
   <div id="weekGearing">
-  <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-</table>
+    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
+      <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>2.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>3.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>4.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>5.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>6.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>7.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>8.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>9.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>10.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>11.[世界頭目]進行1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>12.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>13.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>14.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>15.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>16.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>17.使用50能量</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>18.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>19.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>20.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>21.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>22.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>23.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>24.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>25.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>26.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>27.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品/h6></td></tr>
+    <tr><td id="heroBonus"> <h6>28.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>29.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>30.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>31.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>32.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>33.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>34.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>35.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>36.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>37.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>38.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>39.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>40.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>41.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>42.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>43.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>44.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>45.[受雇英雄]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+  </table>
   </div>
   </div>
   </div>
@@ -2678,168 +2396,113 @@
   <h6>第4週:退休英雄</h6>
   <div id="plot">
   <div id="weekGearing">
-  <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>2.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>3.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>4.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>5.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>6.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>7.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>8.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>9.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>10.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>11.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>13.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>14.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>15.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>16.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>17.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>18.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>19.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>20.[聯盟戰爭:一般模式]進行1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>22</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>2</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>3</h6></td></tr>
-  <tr><td id="heroBonus"> <h6>1</h6></td><td id="heroBonus"> <h6>3</h6></td></tr>
-</table>
-  </div>
-  </div>
-  </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+      <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>1.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>2.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>3.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>4.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>5.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>6.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>7.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>8.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>9.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>10.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>11.使用300,000金幣</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>13.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>14.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>15.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>16.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>17.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>18.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>19.使用50能量</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>20.[聯盟戰爭:一般模式]進行1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>21.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>22.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>23.[世界頭目]進行2次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>24.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>25.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>26.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>27.[聯盟戰爭:一般模式]進行1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>28.[世界頭目]通關1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>29.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>30.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>31.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>32.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>33.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>34.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>35.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>生體認證:潔西卡瓊斯 10個</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>36.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>37.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>38.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>39.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣10,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>40.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>41.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>能量x15</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>42.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>力量之北歐符文x10</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>43.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>44.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣50,000</h6></td></tr>
+      <tr><td id="heroBonus"> <h6>45.[神盾局的資產]通關</h6></td><td id="heroBonus"> <h6>英雄的高級補給品</h6></td></tr>
+    </table>
+  </div>
+  </div>
+  </div>
+
     </section>
   <!-- 蜘蛛騎士 -->
  <section id="heroList4" style="display: none;">
   <!-- 第1週 -->
   <div class="week" style="font-size: 20px;">
-    <h6>第1週:資料待補</h6>
+    <h6>第1週:來自另一個次元的好鄰居</h6>
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>1.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>生體認證:蜘蛛騎士 10個 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>2.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>英雄的高級補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>3.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣20,000 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>4.[聯盟戰爭]進行一般模式1次</h6></td><td id="heroBonus"> <h6>能量x30 & 智慧之北歐符石10個 </h6></td></tr>
+    <tr><td id="heroBonus"> <h6>5.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 生體認證:蜘蛛騎士 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>6.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>7.[漫畫卡]合成1次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>8.使用50能量</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>9.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>生體認證:蜘蛛騎士 10個 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>10.[同位素8]強化1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>11.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 智慧之北歐符石10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>12.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>13.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>14.[漫畫卡]強化1次</h6></td><td id="heroBonus"> <h6>能量x30 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>15.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 生體認證:蜘蛛騎士 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>16.使用50能量</h6></td><td id="heroBonus"> <h6>金幣20,000 & 智慧之北歐符石 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>17.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>18.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>19.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>20.[危險室]參與1次</h6></td><td id="heroBonus"> <h6>生體認證:蜘蛛騎士 10個 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>21.使用50能量</h6></td><td id="heroBonus"> <h6>金幣20,000 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>22.[同位素8]強化3次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 智慧之北歐符石 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>23.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>24.使用300,000金幣</h6></td><td id="heroBonus"> <h6>金幣20,000 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>25.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 生體認證:蜘蛛騎士 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>26.[時間線}參與10次</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>27.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>28.[組隊遊戲]獲得2次完成度獎勵</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>29.[世界頭目侵略]參與2次</h6></td><td id="heroBonus"> <h6>能量x30 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>30.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>生體認證:蜘蛛騎士 10個 & 智慧之北歐符石 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>31.[同位素8]合成1次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>32.[世界頭目]進行3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>33.使用50能量</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>34.[傳說戰鬥]通關3次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>35.[強化烏魯]合成3次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 生體認證:蜘蛛騎士 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>36.[時間線}勝利10次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>37.[世界頭目侵略]完成合作任務2次</h6></td><td id="heroBonus"> <h6>能量x30 & 智慧之北歐符石 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>38.[漫畫卡]強化3次</h6></td><td id="heroBonus"> <h6>金幣20,000 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>39.在[聯盟戰爭:一般模式]獲得50,000</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 金幣10,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>40.[次元任務]通關10次</h6></td><td id="heroBonus"> <h6>智慧之北歐符石10個 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>41.[次元任務]獲得貢獻度獎勵1次</h6></td><td id="heroBonus"> <h6>英雄的一般補給品 & 能量x15</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>42.[特殊裝備]強化2次</h6></td><td id="heroBonus"> <h6>英雄的高級補給品 & 智慧之北歐符石 10個</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>43.使用300,000金幣</h6></td><td id="heroBonus"> <h6>英雄的高級補給品 & 英雄的一般補給品</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>44.[世界頭目]通關3次</h6></td><td id="heroBonus"> <h6>英雄的高級補給品 & 金幣50,000</h6></td></tr>
+    <tr><td id="heroBonus"> <h6>45.[緊急連絡]通關</h6></td><td id="heroBonus"> <h6>生體認證:蜘蛛騎士 30個 & 英雄的高級補給品</h6></td></tr>
   </table>
     </div>
     </div>
@@ -2850,7 +2513,7 @@
   <div id="plot">
   <div id="weekGearing">
   <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-  <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+  <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
   <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
   <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
   <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -2906,7 +2569,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -2962,7 +2625,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3012,62 +2675,7 @@
     </div>
     </div>
     </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+
     </section>
   <!-- 白狐 -->
  <section id="heroList5" style="display: none;">
@@ -3077,7 +2685,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3133,7 +2741,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3189,7 +2797,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3245,7 +2853,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3295,62 +2903,7 @@
     </div>
     </div>
     </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+
     </section>
   <!-- 浪 -->
  <section id="heroList6" style="display: none;">
@@ -3360,7 +2913,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3416,7 +2969,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3472,7 +3025,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3528,7 +3081,7 @@
     <div id="plot">
     <div id="weekGearing">
     <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
+    <tr><td id="heroBonus" style="width: 50%;"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
     <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
     <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
@@ -3578,62 +3131,7 @@
     </div>
     </div>
     </div>
-  <!-- 第5週 -->
-  <div class="week" style="font-size: 20px;">
-    <h6>第5週:資料待補</h6>
-    <div id="plot">
-    <div id="weekGearing">
-    <table style= "margin: 0px auto;color: rgb(85, 4, 4); width: 100%;"> 
-    <tr><td id="heroBonus"> <h6>條件:</h6></td><td id="heroBonus"> <h6>獎勵</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>1.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>2.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>3.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>4.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>5.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>6.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>7.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>8.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>9.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>10.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>11.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>12.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>13.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>14.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>15.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>16.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>17.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>18.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>19.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>20.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>21.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>22.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>23.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>24.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>25.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>26.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>27.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>28.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>29.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>30.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>31.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>32.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>33.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>34.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>35.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>36.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>37.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>38.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>39.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>40.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>41.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>42.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>43.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>44.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-    <tr><td id="heroBonus"> <h6>45.資料待補</h6></td><td id="heroBonus"> <h6>資料待補</h6></td></tr>
-  </table>
-    </div>
-    </div>
-    </div>
+
     </section>
    
   </div>
