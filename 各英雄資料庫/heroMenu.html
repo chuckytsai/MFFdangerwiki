@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 連結Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="./heroCss/heroMenu.css">
+    <link rel="stylesheet" href="../css/layout-navigator.CSS">
+    <script src="../JavaScropt&Jquery/nav.js"></script>
+    <!-- 連結js -->
+    <script src="./heroJS/heroMenu.js"></script>
+    <!-- JQ -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!--title -->
+    <title>各 英 雄 資 料 庫</title>
+    <link rel="icon" href="../img/logo121.ico" type="image/x-icon">
+</head>
+
+
+<body>
+
+    <div id="nav"></div>
+
+    <!-- ====================各英雄ICON==================== -->
+    <!-- =====選擇英雄類別的Button===== -->
+    <span style="display: flex;">
+
+      <label class="typeButton" for="gender"></label>
+      <select class="selectButton" name="gender" id="gender">
+        <option value="" data-name="preset">性別</option>
+        <option value="men" data-name="men">男</option>
+        <option value="women" data-name="women">女</option>
+        <option value="no" data-name="no">中性</option>
+      </select>
+  
+      <label for="type"></label>
+      <select class="selectButton" name="type" id="type">
+        <option value="" data-name="preset">屬性</option>
+        <option value="combat" data-name="combat">近戰</option>
+        <option value="blast" data-name="blast">爆破</option>
+        <option value="speed" data-name="speed">速度</option>
+        <option value="universal" data-name="universal">宇宙</option>
+      </select>
+  
+      <label for="race"></label>
+      <select class="selectButton" name="race" id="race">
+        <option value="" data-name="preset">種族</option>
+        <option value="humen" data-name="humen">人類</option>
+        <option value="xmen" data-name="xmen">X基因</option>
+        <option value="et" data-name="et">外星人</option>
+        <option value="inhumans" data-name="inhumans">異人族</option>
+        <option value="biological" data-name="biological">生物</option>
+      </select>
+  
+      <label for="camp"></label>
+      <select class="selectButton" name="camp" id="camp">
+        <option value="" data-name="preset">陣營</option>
+        <option value="justice" data-name="justice">英雄</option>
+        <option value="villain" data-name="villain">反派</option>
+        <option value="neutral" data-name="neutral">中立</option>
+      </select>
+  
+      <label for="ability"></label>
+      <select class="selectButton" name="ability" id="ability">
+        <option value="" data-name="preset">能力</option>
+        <option value="mechanical" data-name="mechanical">機械</option>
+        <option value="arms" data-name="arms">武器專家</option>
+        <option value="leader" data-name="leader">領導力</option>
+        <option value="phoenix" data-name="phoenix">鳳凰之力</option>
+        <option value="spider" data-name="spider">蜘蛛感應</option>
+        <option value="gamma" data-name="gamma">伽碼射線</option>
+        <option value="fire" data-name="fire">火焰</option>
+        <option value="six6" data-name="six6">邪惡6人組</option>
+        <option value="f4" data-name="f4">驚奇4超人</option>
+        <option value="spirit" data-name="spirit">精神抵抗</option>
+        <option value="symbiont" data-name="symbiont">共生體</option>
+        <option value="theDarkAvengers" data-name="theDarkAvengers">黑暗復仇者</option>
+      </select>
+  
+    <!-- 清除條件按紐 -->
+      <button class="selectButton" onclick="clearFilter(0)" style="width: 10%;margin-left:0.1%;"> 清除所有條件</button>
+    </span>
+    <br>
+    <br>
+    <!-- 英雄清單 -->
+    <button id="Allhero" class="Allhero"></button>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+                            /* 網頁背景 */
+                            
+                            body {
+                                background-image: url(../img/宇宙.jpg);
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            /*=====Links文章去除連結底線=====*/
+                            
+                            a,
+                            a:link,
+                            a:visited {
+                                color: rgba(243, 230, 231, 0.8);
+                                text-decoration: none
+                            }
+                            
+                            a:hover {
+                                color: none;
+                                text-decoration: none;
+                            }
+                            /* 說明圖卡的框架 */
+                            
+                            .row {
+                                margin-left: -1%;
+                                float: left;
+                            }
+                            /* 說明圖卡 */
+                            
+                            .card {
+                                width: 210px;
+                                height: 240px;
+                                overflow-y: scroll;
+                                margin-top: 5px;
+                            }
+                            /* 人物ID Title */
+                            
+                            .CharacterName {
+                                color: white;
+                                background-color: rgba(131, 178, 218, 0.623);
+                                text-align: center;
+                                margin: 12px 40px;
+                                padding: 10px;
+                            }
+                            /* 人物ID Title(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                .CharacterName {
+                                    margin: 2px 0px;
+                                    height: 100px;
+                                    font-size: 10px;
+                                }
+                            }
+                            /* 人物介紹 */
+                            
+                            .Introduction {
+                                font-size: 15px;
+                                margin: 1% 32%;
+                                width: 800px;
+                            }
+                            /* 人物介紹(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                .Introduction {
+                                    font-size: 17px;
+                                    margin: 0px;
+                                    width: 100%;
+                                    margin-left: -3%;
+                                }
+                            }
+                            /* 手機英雄升級資料&英雄制服資訊的捲軸顯示 */
+                            
+                            @media(max-width:800px) {
+                                .phoneHeroUpDataHeroSkinSkillsScroll {
+                                    height: 500px;
+                                    overflow-y: scroll;
+                                }
+                            }
+                            /* 升級資訊標題 */
+                            
+                            .LevelUpTitle {
+                                font-size: 15px;
+                                width: 15%;
+                                float: left;
+                                color: white;
+                                display: flex;
+                            }
+                            /* 升級資訊標題(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                .LevelUpTitle {
+                                    font-size: 12px;
+                                    margin: 0px;
+                                    width: 90%;
+                                    height: 70px;
+                                }
+                            }
+                            /* 制服名稱與取得方式 */
+                            
+                            .UniformSummary {
+                                margin-top: 10px;
+                                background-color: lavenderblush;
+                                height: 150px;
+                                width: 220px;
+                                padding-top: 2px;
+                                padding-left: 2px;
+                            }
+                            /* 制服&技能資訊資訊標題 */
+                            
+                            .SkinSkillsTitle {
+                                font-size: 15px;
+                                width: 15%;
+                                color: white;
+                                display: flex;
+                            }
+                            /* 制服&技能資訊資訊標題(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                .SkinSkillsTitle {
+                                    font-size: 12px;
+                                    margin: 0px;
+                                    width: 90%;
+                                    height: 70px;
+                                }
+                            }
+                            
+                            @media(max-width:800px) {
+                                .LevelUpInfoCard {
+                                    height: 70px;
+                                    font-size: 22px;
+                                }
+                            }
+                            /* 升級資料欄位格式 */
+                            
+                            .upCard-body {
+                                height: 100%;
+                                margin-bottom: 2%;
+                                font-size: 17px;
+                                color: rgb(241, 235, 235);
+                                font-weight: bold;
+                                background-color: rgba(9, 66, 44, 0.452);
+                            }
+                            
+                            @media(max-width:800px) {
+                                .LvelUpInfoRow {
+                                    height: 100%;
+                                    width: 500px;
+                                    font-size: 15px;
+                                    margin: 0px;
+                                    margin-left: 1px;
+                                }
+                            }
+                            /* 制服選擇按鈕 */
+                            
+                            #dropdownMenuButton {
+                                font-size: 12px;
+                                width: 300px;
+                                margin-bottom: 0px;
+                                float: left;
+                            }
+                            /* 制服選擇捲軸 */
+                            
+                            #UniformOptions {
+                                width: 250px;
+                                margin-left: -0.5%;
+                                font-size: 20px;
+                            }
+                            /* 制服選擇按鈕(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                #dropdownMenuButton {
+                                    width: 260px;
+                                    margin: 1px;
+                                    margin-left: -1%;
+                                    margin-bottom: 5px;
+                                    font-size: 12px;
+                                }
+                            }
+                            /* 制服頭像與名稱 */
+                            
+                            .UniformSummary {
+                                width: 200px;
+                                color: rgb(21, 28, 128);
+                                background-color: white;
+                                margin-left: 1%;
+                                padding-left: 5px;
+                                font-size: 14px;
+                                font-weight: bold;
+                                margin-right: 5%;
+                            }
+                            /* 制服選擇按鈕(小於800px時候) */
+                            
+                            @media(max-width:800px) {
+                                .SkinCard-body {
+                                    margin-left: 0%;
+                                    margin-left: -2%;
+                                    width: 250px;
+                                }
+                            }
+                            /* 技能資料欄位格式 */
+                            
+                            .SkillCard-body {
+                                height: 100%;
+                                width: 100%;
+                                font-size: 14px;
+                                color: rgb(119, 111, 39);
+                                font-weight: bold;
+                            }
+                            
+                            @media(max-width: 800px) {
+                                .UniformSkillRow {
+                                    height: 100%;
+                                    margin: 0px;
+                                    margin-left: -15px;
+                                    border: 5px solid rgb(212, 153, 153);
+                                    font-size: 17px;
+                                    font-size: 17px;
+                                    color: rgb(119, 111, 39);
+                                    font-weight: bold;
+                                    background-color: rgba(218, 193, 193, 0.452);
+                                }
+                            }
+                            /* 被連鎖制服名稱 */
+                            
+                            .Chained_Name {
+                                font-size: 10px;
+                            }

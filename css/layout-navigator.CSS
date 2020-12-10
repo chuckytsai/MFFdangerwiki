@@ -1,0 +1,96 @@
+/*the menu nav bar start ------->*/
+
+.current-active {
+    float: left;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    background: #272222;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    margin: 0px 50px 0px 0px;
+    font-size: 16px;
+}
+
+.liOption {
+    float: left;
+    display: block;
+    list-style: none;
+    margin: 0px 20px 0px 0px;
+    font-size: 16px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight: 300;
+    transition: color linear 0.15s;
+    cursor: pointer;
+}
+
+.menu .menu-logo {
+    margin: auto;
+    margin-left: 0px;
+    padding: 10px 10px 10px 20px;
+}
+
+.menu .menu-logo a {
+    color: rgb(241, 241, 245);
+    font-weight: 900;
+    text-decoration: none
+}
+
+.menu a:hover,
+.menu .current-active a {
+    color: #a4d3d4;
+    font-size: 16.5px;
+    text-decoration: underline;
+}
+
+.toggle-nav {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        position: relative;
+        display: inline-block;
+    }
+    .toggle-nav {
+        position: absolute;
+        left: 4%;
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 40px;
+    }
+    .menu .menu-logo {
+        position: relative;
+        left: 40%;
+    }
+    .menu ul.active {
+        display: none;
+    }
+    .menu ul {
+        left: 0px;
+        padding: 10px 25px;
+        margin-top: -5px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 0px 0px 3px 3px;
+        background: #272626;
+    }
+    .menu li {
+        margin: 10px 0px 10px 0px;
+        float: none;
+        display: block;
+    }
+    .menu a {
+        display: block;
+    }
+}

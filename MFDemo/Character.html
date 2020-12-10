@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap DropDownList -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- 連結Style.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./heroCss/Charactter.css">
+    <!-- 連結js -->
+    <script src="./HeroDataSource/DataMap.js"></script>
+    <script src="./HeroDataSource/Introduction.js"></script>
+    <script src="./HeroDataSource/LevelUpInfos.js"></script>
+    <script src="./HeroDataSource/T3Infos.js"></script>
+    <script src="./HeroDataSource/Uniforms.js"></script>
+    <script src="./HeroDataSource/UniformInfos.js"></script>
+    <script src="./HeroDataSource/RelatedUniforms.js"></script>
+    <script src="./HeroDataSource/ChainedUniforms.js"></script>
+    <script src="./Scripts/Common.js"></script>
+    <script src="./Scripts/Character.js"></script>
+    <script src="./HeroDataSource/ButtonCmd.js"></script>
+    <!--title -->
+    <title>英 雄 資 料 庫</title>
+</head>
+
+<style>
+    .MaterialIcon {
+        width: 10%
+    }
+    
+    .MaterialNeedText {
+        font-size: small;
+    }
+</style>
+<script>
+    var id = getQueryStringItem('id');
+    var uniform = getQueryStringItem('uniform');
+
+    $(function() {
+        $('#HeroId').text(id);
+
+        var dataMap = GetDataMap(id, uniform);
+
+        FillHeroIntroduction(dataMap.IntroId);
+
+        FillHeroLevelUpInfos(dataMap.LevelUpInfo);
+
+        FillHeroT3Info(dataMap.T3Type);
+
+        FillHeroUniformOptions(dataMap.UniformListId);
+
+        FillHeroRelatedUniforms(dataMap.RelatedUniformId);
+
+        FillHeroChainedUniforms(dataMap.ChainedUniformId);
+
+        AllAmountAddCommas();
+
+        BindUniformOptionClickEvent();
+
+        SetDefaultUniform(uniform);
+    });
+</script>
+
+<body>
+    <!-- Title : Character Name -->
+    <div class="CharacterName">
+        <div class="card-body">
+            <p>
+                <h3 id=HeroId>
+                </h3>
+            </p>
+        </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="Introduction">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">實際姓名</th>
+                        <th scope="col"><span id="HeroName"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">身高/體重</th>
+                        <td><span id="HeroHeight"></span> / <span id="HeroWeight"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">種族</th>
+                        <td><span id="HeroRace"></span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">能力</th>
+                        <td><span id="HeroAbility"></span></td>
+                    </tr>
+                    <tr class="bg-secondary">
+                        <td colspan="2">
+                            <span id="HeroStory"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <!-- Header : Level Up Title -->
+    <div class="LevelUpTitle" onclick="change(0)">
+        <button class="card-body">
+            <h3 ID="LevelUpTitleText" style="color: blue;">升級資訊</h3>
+        </button>
+    </div>
+    <!-- Header : Skin %  Skills Title -->
+    <div class="SkinSkillsTitle" onclick="change(1)">
+        <button class="card-body">
+            <h3 ID="SkinSkillsTitleText">制服資訊</h3>
+        </button>
+    </div>
+
+    <div class="characterMenu">
+        <!-- 英雄升級資料 -->
+        <div id="heroUpData" class="phoneHeroUpDataHeroSkinSkillsScroll">
+            <!-- Level Up -->
+            <div class="row LvelUpInfoRow">
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 LevelUpInfoCard">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc"></h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-2 T3Card">
+                    <div class="card h-150">
+                        <div class="upCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Level_Desc">
+                                T3 或 覺醒 升級資訊
+                            </h6>
+                            <p name="Level_Materials"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 英雄制服資訊 -->
+        <div id="heroSkinSkills" class="phoneHeroUpDataHeroSkinSkillsScroll" style="display: none;">
+
+            <!-- Uniform Summary -->
+            <div class="UniformSummary">
+                <img id="UniformThumbnail" src="">
+                <br>
+                <span>名稱：</span><span id="UniformName"></span> <br>
+                <span>取得：</span><span id="UniformHowToGet"></span> <br>
+            </div>
+
+            <!-- Header : Uniform Options -->
+            <button class="btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <h2>制服</h2>
+                            </button>
+            <div class="dropdown-menu" id="UniformOptions" aria-labelledby="dropdownMenuButton">
+            </div>
+
+            <!-- Uniform Skills -->
+            <div class="row" style="float: left;">
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 UniformSkillCard">
+                    <div class="card h-150">
+                        <div class="SkillCard-body">
+                            <h6 class="card-title btn btn-warning btn-md" name="Skill_Name"></h6>
+                            <p>
+                                冷卻時間：<span name="Skill_CoolDown"></span> <br> 觸發條件：
+                                <span name="Skill_Trigger"></span>
+                            </p>
+                            <div name="Skill_TargetEffectGroups"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Uniforms -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 mb-5 RelatedUniformCard">
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6>連動第1件制服</h6>
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Related_Name"></h6>
+                            <span name="Related_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Related_Icon" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 RelatedUniformCard">
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6>連動第2件制服</h6>
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Related_Name"></h6>
+                            <span name="Related_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Related_Icon" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 RelatedUniformCard">
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6>連動第3件制服</h6>
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Related_Name"></h6>
+                            <span name="Related_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Related_Icon" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 RelatedUniformCard">
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6>連動第4件制服</h6>
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Related_Name"></h6>
+                            <span name="Related_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Related_Icon" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 RelatedUniformCard">
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6>連動第5件制服</h6>
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Related_Name"></h6>
+                            <span name="Related_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Related_Icon" src="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+
+            <!-- Chained Uniforms -->
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-5 ChainedUniformCard">
+                    <h6 style="color: white;">可被連動的制服</h6>
+                    <div class="card h-150">
+                        <div class="card-body">
+                            <h6 class="btn btn-warning btn-md d-flex justify-content-center" name="Chained_Name"></h6>
+                            <span name="Chained_From" class="d-flex justify-content-center"></span>
+                            <div class="d-flex justify-content-center">
+                                <img name="Chained_Icon" src="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                可連動屬性：
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <ul name="Chained_Effects"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">網石 版權所有 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
