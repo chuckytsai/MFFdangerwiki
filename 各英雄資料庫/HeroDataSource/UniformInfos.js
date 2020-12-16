@@ -21433,6 +21433,18 @@ var heroUniformInfos = [
                         '物理防禦+45%',
                     ]
                 }]
+            },
+            {
+                'Name': '制服效果',
+                'CoolDown': '',
+                'Trigger': '',
+                'TargetEffects': [{
+                    'Target': '自身',
+                    'Effects': [
+                        '回復率+15%',
+                        '技能的傷害增加30%,追加傷害增加15%',
+                    ]
+                }]
             }
         ]
     },
