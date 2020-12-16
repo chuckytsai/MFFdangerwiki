@@ -1999,8 +1999,8 @@ var heroDatas = [
     {
         'id': 'SpiderGwenSymbiont',
         'class': 'heroIcon preset women speed humen villain spider symbiont',
-        'url': './Character.html?id=SpiderGwen&uniform=symbiont',
-        'bgImg': 'SpiderGwen/symbiont',
+        'url': './Character.html?id=SpiderGwen&uniform=Symbiont',
+        'bgImg': 'SpiderGwen/Symbiont',
         'name': '女 蜘 蛛 人．關: 猛毒關',
         'gender': 'w',
         'display': 'display:none',
