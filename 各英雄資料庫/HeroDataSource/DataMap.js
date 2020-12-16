@@ -578,6 +578,20 @@ var heroDataMap = [
         'ChainedUniformId': 'GrootGuardiansOfTheGalaxy2'
     },
 
+    // 古魯特(雪花祭典)
+    {
+        'Id': 'GrootParty',
+        'IntroId': 'Groot',
+        'UniformListId': 'GrootSeries',
+        'LevelUpInfo': {
+            'Type': 'CombatNormal',
+            'MaxLevel': 70
+        },
+        'T3Type': 'No',
+        'RelatedUniformId': 'GrootParty',
+        'ChainedUniformId': 'GrootParty'
+    },
+
     // 歌利亞
     {
         'Id': 'GoliathClassic',
@@ -2295,7 +2309,7 @@ var heroDataMap = [
             'Type': 'BlastNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -2461,7 +2475,7 @@ var heroDataMap = [
         'UniformListId': 'GwenpoolSeries',
         'LevelUpInfo': {
             'Type': 'SpeedNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3891,7 +3905,7 @@ var heroDataMap = [
             'Type': 'Great',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'UniverseGreat',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },

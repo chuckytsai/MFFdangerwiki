@@ -475,6 +475,10 @@ var heroUniforms = [
             {
                 'Value': 'GrootTheAvengersInfinityWar',
                 'Name': '復仇者聯盟-無 限 之 戰',
+            },
+            {
+                'Value': 'GrootParty',
+                'Name': '雪 花 慶 典',
             }
         ]
     },
@@ -2292,6 +2296,10 @@ var heroUniforms = [
             {
                 'Value': 'WhiteFoxLife1',
                 'Name': '日 常 風 格 系 列1',
+            },
+            {
+                'Value': 'WhiteFoxLife2',
+                'Name': '日 常 風 格 系 列2',
             }
         ]
     },
