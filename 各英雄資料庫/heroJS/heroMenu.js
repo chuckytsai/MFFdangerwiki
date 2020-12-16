@@ -495,6 +495,16 @@ var heroDatas = [
         'display': 'display:none',
     },
 
+    {
+        'id': 'GrootParty',
+        'class': 'heroIcon men speed et justice',
+        'url': './Character.html?id=Groot&uniform=Party',
+        'bgImg': 'Groot/Party',
+        'name': '古魯特: 雪花祭典 ',
+        'gender': 'm',
+        'display': 'display:none',
+    },
+
 
     {
         'id': 'Goliath',
