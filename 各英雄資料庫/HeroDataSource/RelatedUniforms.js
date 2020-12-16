@@ -2372,8 +2372,8 @@ var heroRelatedUniforms = [{
 
         'Id': 'GrootTheAvengersInfinityWar',
         'Related': [{
-                'Name': '戰爭機器',
-                'From': '水晶:皇室套裝',
+                'Name': '水晶',
+                'From': '皇室套裝',
                 'Icon': 'Crystal/RoyalSuit'
             },
             {
@@ -2395,6 +2395,36 @@ var heroRelatedUniforms = [{
                 'Name': '火箭浣熊',
                 'From': '星際異攻隊2',
                 'Icon': 'RocketRaccoon/GuardiansOfTheGalaxy2',
+            }
+        ]
+    },
+    {
+
+        'Id': 'GrootParty',
+        'Related': [{
+                'Name': '星爵',
+                'From': '擱淺',
+                'Icon': 'StarLord/Stranded'
+            },
+            {
+                'Name': '劍齒虎',
+                'From': '非凡復仇者',
+                'Icon': 'Sabretooth/UncannyAvengers'
+            },
+            {
+                'Name': '石頭人',
+                'From': '未來基礎智團',
+                'Icon': 'Thing/FutureFoundation'
+            },
+            {
+                'Name': '薩諾斯',
+                'From': '復仇者聯盟:終局之戰',
+                'Icon': 'Thanos/TheAvengersEndGame'
+            },
+            {
+                'Name': '小淘氣',
+                'From': '非凡復仇者',
+                'Icon': 'Rogue/UncannyAvengers',
             }
         ]
     },
@@ -4475,6 +4505,37 @@ var heroRelatedUniforms = [{
             }
         ]
     },
+    {
+
+        'Id': 'WhiteFoxLife2',
+        'Related': [{
+                'Name': '浩克(阿爾迪斯)',
+                'From': '強大',
+                'Icon': 'HulkCho/Powerful'
+            },
+            {
+                'Name': '天啟',
+                'From': '彌賽亞情節',
+                'Icon': 'Apocalypse/Messiah'
+            },
+            {
+                'Name': '獨眼龍',
+                'From': '鳳凰五人組',
+                'Icon': 'Cyclops/PhoenixFive'
+            },
+            {
+                'Name': '野獸',
+                'From': '非凡復仇者',
+                'Icon': 'Beast/UncannyXMen'
+            },
+            {
+                'Name': '弦月神女',
+                'From': '日常風格系列1',
+                'Icon': 'Crescent/Life1',
+            }
+        ]
+    },
+
     {
 
         //仿 聲 鳥

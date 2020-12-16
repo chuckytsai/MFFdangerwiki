@@ -21311,7 +21311,7 @@ var heroUniformInfos = [
         'Id': 'GrootParty',
         'Thumbnail': 'Groot/Party',
         'Name': '雪 花 祭 典',
-        'HowToGet': '預 設',
+        'HowToGet': '1750 鑽石',
         'Skills': [{
                 'Name': '嚼樹枝(主動)(電)',
                 'CoolDown': '8 秒',

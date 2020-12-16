@@ -859,7 +859,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '古魯特',
+                'From': '雪花慶典',
+                'Icon': 'Groot/Party',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
 
@@ -2719,17 +2731,30 @@ var heroChainedUniforms = [{
         //天 啟
         'Id': 'ApocalypseMessiah',
         'Chained': [{
-            'Name': '機堡',
-            'From': '炎炎夏日',
-            'Icon': 'Cable/Summer',
-            'Effects': [
-                '物理防禦力',
-                '能量防禦力',
-                '所有防禦力',
-                '迴避率',
-                '移動速度',
-            ]
-        }]
+                'Name': '機堡',
+                'From': '炎炎夏日',
+                'Icon': 'Cable/Summer',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
+            {
+                'Name': '白狐',
+                'From': '日常系列風格2',
+                'Icon': 'WhiteFox/Life2',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
+        ]
     },
     {
         //米 勒 娃
@@ -3566,6 +3591,18 @@ var heroChainedUniforms = [{
                     '所有攻擊力',
                     '暴擊率',
                     '暴擊傷害率',
+                ]
+            },
+            {
+                'Name': '古魯特',
+                'From': '雪花慶典',
+                'Icon': 'Groot/Party',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
                 ]
             },
         ]
@@ -4831,7 +4868,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '古魯特',
+                'From': '雪花慶典',
+                'Icon': 'Groot/Party',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
     {
@@ -5365,7 +5414,7 @@ var heroChainedUniforms = [{
             },
             {
                 'Name': '魅惑魔女',
-                'From': '夏日炎炎 ',
+                'From': '夏日炎炎日常風格系列2',
                 'Icon': 'EnchanTress/Summer',
                 'Effects': [
                     '物理攻擊力',
@@ -5377,7 +5426,7 @@ var heroChainedUniforms = [{
             },
             {
                 'Name': '惡靈戰警',
-                'From': '地獄之王 ',
+                'From': '地獄之王',
                 'Icon': 'GhostRider/HellKing',
                 'Effects': [
                     '物理攻擊力',
@@ -5386,7 +5435,19 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
-            }
+            },
+            {
+                'Name': '白狐',
+                'From': '日常風格系列2',
+                'Icon': 'WhiteFox/Life2',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
         ]
     },
     {
@@ -6730,6 +6791,22 @@ var heroChainedUniforms = [{
         ]
     },
     {
+
+        'Id': 'HulkChoPowerful',
+        'Chained': [{
+            'Name': '白狐',
+            'From': '日常風格系列2',
+            'Icon': 'WhiteFox/Life2',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
+            ]
+        }]
+    },
+    {
         //納 摩
         'Id': 'NamorPhoenixFive',
         'Chained': [{
@@ -6998,7 +7075,19 @@ var heroChainedUniforms = [{
                     '異常狀態時間',
                     '迴避率',
                 ]
-            }
+            },
+            {
+                'Name': '白狐',
+                'From': '日常風格系列2',
+                'Icon': 'White/FoxLife2',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
     {
@@ -8674,7 +8763,19 @@ var heroChainedUniforms = [{
                     'HP',
                     '攻擊速度',
                 ]
-            }
+            },
+            {
+                'Name': '古魯特',
+                'From': '雪花慶典',
+                'Icon': 'Groot/Party',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
         ]
     },
     {
@@ -13994,7 +14095,7 @@ var heroChainedUniforms = [{
             },
             {
                 'Name': '蜘蛛人',
-                'From': '秘密戰爭:延續你的誓約 ',
+                'From': '秘密戰爭:延續你的誓約日常風格系列2',
                 'Icon': 'Spiderman/SecretWars',
                 'Effects': [
                     '回復率',
@@ -14018,7 +14119,7 @@ var heroChainedUniforms = [{
             },
             {
                 'Name': '浩克阿爾迪斯',
-                'From': '未來之戰變體版 ',
+                'From': '未來之戰變體版日常風格系列2',
                 'Icon': 'HulkCho/FutureFight',
                 'Effects': [
                     '物理攻擊力',
@@ -15381,6 +15482,21 @@ var heroChainedUniforms = [{
                 ]
             }
         ]
+    },
+    {
+        'Id': 'StarLordStranded',
+        'Chained': [{
+            'Name': '古魯特',
+            'From': '雪花慶典',
+            'Icon': 'Groot/Party',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
+            ]
+        }, ]
     },
     {
 
@@ -16849,7 +16965,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '白狐',
+                'From': '日常風格系列2',
+                'Icon': 'White/FoxLife2',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
     {
