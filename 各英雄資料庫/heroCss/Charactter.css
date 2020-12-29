@@ -91,7 +91,7 @@
                             @media(max-width:800px) {
                                 .LevelUpTitle {
                                     font-size: 12px;
-                                    margin: 0px;
+                                    margin: 1%;
                                     width: 90%;
                                     height: 120%;
                                 }
@@ -119,7 +119,7 @@
                             @media(max-width:800px) {
                                 .SkinSkillsTitle {
                                     font-size: 12px;
-                                    margin: 0px;
+                                    margin: 1%;
                                     width: 90%;
                                     height: 120%;
                                 }
