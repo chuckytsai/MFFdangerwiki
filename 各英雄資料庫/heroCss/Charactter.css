@@ -81,10 +81,15 @@
                             
                             .LevelUpTitle {
                                 font-size: 15px;
+                                padding: 1% 2%;
                                 width: 15%;
                                 float: left;
                                 color: white;
                                 display: flex;
+                                background-color: darkgrey;
+                                border-radius: 10%;
+                                margin-right: 1%;
+                                cursor: pointer;
                             }
                             /* 升級資訊標題(小於800px時候) */
                             
@@ -92,8 +97,8 @@
                                 .LevelUpTitle {
                                     font-size: 8px;
                                     margin: 1%;
-                                    height: 300px;
-                                    width: 90%;
+                                    height: 120px;
+                                    width: 50%;
                                 }
                             }
                             /* 制服名稱與取得方式 */
@@ -110,9 +115,13 @@
                             
                             .SkinSkillsTitle {
                                 font-size: 15px;
+                                padding: 1% 2%;
                                 width: 15%;
                                 color: white;
                                 display: flex;
+                                background-color: darkgrey;
+                                border-radius: 10%;
+                                cursor: pointer;
                             }
                             /* 制服&技能資訊資訊標題(小於800px時候) */
                             
@@ -120,8 +129,8 @@
                                 .SkinSkillsTitle {
                                     font-size: 8px;
                                     margin: 1%;
-                                    height: 300px;
-                                    width: 90%;
+                                    height: 120px;
+                                    width: 50%;
                                 }
                             }
                             
