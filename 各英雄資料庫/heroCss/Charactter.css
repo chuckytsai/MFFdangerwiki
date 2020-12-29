@@ -90,10 +90,10 @@
                             
                             @media(max-width:800px) {
                                 .LevelUpTitle {
-                                    font-size: 12px;
+                                    font-size: 8px;
                                     margin: 1%;
+                                    height: 90px;
                                     width: 90%;
-                                    height: 120%;
                                 }
                             }
                             /* 制服名稱與取得方式 */
@@ -118,10 +118,10 @@
                             
                             @media(max-width:800px) {
                                 .SkinSkillsTitle {
-                                    font-size: 12px;
+                                    font-size: 8px;
                                     margin: 1%;
+                                    height: 90px;
                                     width: 90%;
-                                    height: 120%;
                                 }
                             }
                             
