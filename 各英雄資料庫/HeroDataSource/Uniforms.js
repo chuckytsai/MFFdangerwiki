@@ -540,9 +540,14 @@ var heroUniforms = [
     {
         'Id': 'ValkyrieSeries',
         'Options': [{
-            'Value': 'ValkyrieRagnarok',
-            'Name': '雷神索爾:諸 神 黃 昏',
-        }]
+                'Value': 'ValkyrieRagnarok',
+                'Name': '雷神索爾:諸 神 黃 昏',
+            },
+            {
+                'Value': 'ValkyrieFearlessDefender',
+                'Name': '無 畏 守 衛 者',
+            }
+        ]
     },
     // 鐵拳俠
     {
@@ -2621,6 +2626,10 @@ var heroUniforms = [
             {
                 'Value': 'ThorTeamUniform',
                 'Name': '復 仇 者 隊 服',
+            },
+            {
+                'Value': 'ThorHeraldOfThunder',
+                'Name': '雷 霆 先 鋒',
             }
         ]
     },
@@ -2960,6 +2969,10 @@ var heroUniforms = [
             {
                 'Value': 'LokiRagnarok',
                 'Name': '雷神索爾-諸 神 黃 昏',
+            },
+            {
+                'Value': 'LokiAsgardAgent',
+                'Name': '阿 斯 嘉 特 工',
             }
         ]
     },

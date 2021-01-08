@@ -178,6 +178,36 @@ var heroRelatedUniforms = [{
         ]
     },
     {
+        'Id': 'LokiAsgardAgent',
+        'Related': [{
+                'Name': '米勒娃',
+                'From': '驚奇隊長電影',
+                'Icon': 'Minnerva/CaptainMarvel'
+            },
+            {
+                'Name': '奇異博士',
+                'From': '復仇者聯盟-無限之戰',
+                'Icon': 'DoctorStrange/TheAvengersInfinityWar'
+            },
+            {
+                'Name': '暴風女',
+                'From': 'X戰警紅隊',
+                'Icon': 'Storm/Red'
+            },
+            {
+                'Name': '紅色守衛者',
+                'From': '漫威黑寡婦',
+                'Icon': 'RedGuardian/BlackWidow'
+            },
+            {
+                'Name': '美國隊長',
+                'From': '九頭蛇至尊',
+                'Icon': 'CaptainAmerica/HydraSupreme',
+            }
+        ]
+    },
+
+    {
 
         //哨 兵 機 器 人
         'Id': 'SentinelNinglu',
@@ -848,6 +878,37 @@ var heroRelatedUniforms = [{
             }
         ]
     },
+    {
+
+        'Id': 'ThorHeraldOfThunder',
+        'Related': [{
+                'Name': '隱形女',
+                'From': '未來基礎智團',
+                'Icon': 'InvisobleWoman/FutureFoundation'
+            },
+            {
+                'Name': '八爪博士',
+                'From': '究極八爪',
+                'Icon': 'DoctorOctopus/Hydra'
+            },
+            {
+                'Name': '鷹眼',
+                'From': '復仇者聯盟-終局之戰',
+                'Icon': 'Hawekeye/TheAvengersEndGame'
+            },
+            {
+                'Name': '死恃',
+                'From': '女死恃',
+                'Icon': 'Deadpool/Girl'
+            },
+            {
+                'Name': '蜘蛛人邁爾斯',
+                'From': '新宇宙',
+                'Icon': 'SpidermanMiles/Universe',
+            }
+        ]
+    },
+
     {
 
         //惡 靈 戰 警
@@ -2128,7 +2189,7 @@ var heroRelatedUniforms = [{
     },
     {
 
-        'Id': 'ShehulkShehulkFant4stic',
+        'Id': 'ShehulkFant4stic',
         'Related': [{
                 'Name': '天使',
                 'From': 'X特攻隊',
@@ -3642,6 +3703,36 @@ var heroRelatedUniforms = [{
                 'Name': '黑貓',
                 'From': '利爪',
                 'Icon': 'Blackcat/Claws',
+            }
+        ]
+    },
+    {
+        //瓦 爾 基 麗
+        'Id': 'ValkyrieFearlessDefender',
+        'Related': [{
+                'Name': '美杜莎',
+                'From': '異人族 VS X戰警',
+                'Icon': 'Medusa/InhumansVsXmen'
+            },
+            {
+                'Name': '女浩克',
+                'From': '復仇者',
+                'Icon': 'Shehulk/TheAvengers'
+            },
+            {
+                'Name': '琴葛雷',
+                'From': '驚奇女孩',
+                'Icon': 'JeanGrey/Marvel'
+            },
+            {
+                'Name': '索爾',
+                'From': '復仇者聯盟-終局之戰',
+                'Icon': 'Thor/TheAvengersEndGame'
+            },
+            {
+                'Name': '白狐',
+                'From': '日常系列風格1',
+                'Icon': 'WhiteFox/Life1',
             }
         ]
     },

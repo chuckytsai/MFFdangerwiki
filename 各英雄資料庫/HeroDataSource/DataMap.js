@@ -375,7 +375,7 @@ var heroDataMap = [
         'UniformListId': 'VolstaggSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -459,7 +459,7 @@ var heroDataMap = [
         'UniformListId': 'SifSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -487,7 +487,7 @@ var heroDataMap = [
         'UniformListId': 'HogunSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -671,7 +671,7 @@ var heroDataMap = [
             'Type': 'CombatNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -1103,7 +1103,7 @@ var heroDataMap = [
         'UniformListId': 'SkurgeSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -1985,7 +1985,7 @@ var heroDataMap = [
         'UniformListId': 'DaisyJohnsonSeries',
         'LevelUpInfo': {
             'Type': 'BlastNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -2265,7 +2265,7 @@ var heroDataMap = [
         'UniformListId': 'MalekithSeries',
         'LevelUpInfo': {
             'Type': 'BlastNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -2811,7 +2811,7 @@ var heroDataMap = [
         'UniformListId': 'FandralSeries',
         'LevelUpInfo': {
             'Type': 'SpeedNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3427,7 +3427,7 @@ var heroDataMap = [
         'UniformListId': 'AngelaSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3469,9 +3469,9 @@ var heroDataMap = [
         'UniformListId': 'HeimdallSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -3483,7 +3483,7 @@ var heroDataMap = [
         'UniformListId': 'ThorJaneSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3667,7 +3667,7 @@ var heroDataMap = [
             'Type': 'UniversalNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Universe',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -3681,7 +3681,7 @@ var heroDataMap = [
             'Type': 'UniversalNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Universe',
         'RelatedUniformId': 'LokiLady',
         'ChainedUniformId': 'LokiLady'
     },
@@ -3819,7 +3819,7 @@ var heroDataMap = [
         'UniformListId': 'HelaSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3917,7 +3917,7 @@ var heroDataMap = [
         'UniformListId': 'DestroverSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',

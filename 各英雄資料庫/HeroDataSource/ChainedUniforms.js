@@ -1220,6 +1220,22 @@ var heroChainedUniforms = [{
         ]
     },
     {
+        //美 杜 莎
+        'Id': 'MedusaInhumansVsXmen',
+        'Chained': [{
+            'Name': '瓦爾基麗',
+            'From': '無畏捍衛者',
+            'Icon': 'Valkyrie/FearlessDefender',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
+            ]
+        }, ]
+    },
+    {
         //索 爾
         'Id': 'ThorTheAvengersAgeofUltron',
         'Chained': [{
@@ -1589,7 +1605,19 @@ var heroChainedUniforms = [{
                     '暴擊率',
                     '暴擊傷害率',
                 ]
-            }
+            },
+            {
+                'Name': '瓦爾基麗',
+                'From': '無畏捍衛者',
+                'Icon': 'Valkyrie/FearlessDefender',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
 
@@ -2595,6 +2623,18 @@ var heroChainedUniforms = [{
                     '暴擊傷害率',
                 ]
             },
+            {
+                'Name': '索爾',
+                'From': '雷霆先鋒',
+                'Icon': 'Thor/HeraldOfThunder',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
         ]
     },
     {
@@ -2818,7 +2858,19 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
-            }
+            },
+            {
+                'Name': '洛基',
+                'From': '阿斯嘉特工',
+                'Icon': 'Loki/AsgardAgent',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
         ]
     },
     {
@@ -3613,7 +3665,6 @@ var heroChainedUniforms = [{
         'Chained': [{
             'Name': '奇異博士',
             'From': '太空戰衣',
-
             'Icon': 'Doctor/StrangeSpace',
             'Effects': [
                 '物理攻擊力',
@@ -3621,6 +3672,22 @@ var heroChainedUniforms = [{
                 '物理防禦力',
                 '能量防禦力',
                 'HP',
+            ]
+        }, ]
+    },
+    {
+        //紅 色 守 衛 者
+        'Id': 'RedGuardianBlackWidow',
+        'Chained': [{
+            'Name': '洛基',
+            'From': '阿斯嘉特工',
+            'Icon': 'Loki/AsgardAgent',
+            'Effects': [
+                '物理防禦力',
+                '能量防禦力',
+                '所有防禦力',
+                '迴避率',
+                '移動速度',
             ]
         }, ]
     },
@@ -3994,7 +4061,7 @@ var heroChainedUniforms = [{
     },
 
     {
-        'Id': 'ShehulkShehulkFant4stic',
+        'Id': 'ShehulkFant4stic',
         'Chained': [{
                 'Name': '尼克福瑞',
                 'From': '驚奇隊長電影',
@@ -4068,6 +4135,22 @@ var heroChainedUniforms = [{
                 ]
             },
         ]
+    },
+
+    {
+        'Id': 'ShehulkTheAvengers',
+        'Chained': [{
+            'Name': '瓦爾基麗',
+            'From': '無畏捍衛者',
+            'Icon': 'Valkyrie/FearlessDefender',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '物理防禦力',
+                '能量防禦力',
+                'HP',
+            ]
+        }, ]
     },
     {
         //反 浩 克 裝 甲
@@ -6319,6 +6402,18 @@ var heroChainedUniforms = [{
                     '技能冷卻',
                     'HP',
                     '攻擊速度',
+                ]
+            },
+            {
+                'Name': '洛基',
+                'From': '阿斯嘉特工',
+                'Icon': 'Loki/AsgardAgent',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
                 ]
             },
         ]
@@ -9225,7 +9320,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '瓦爾基麗',
+                'From': '無畏捍衛者',
+                'Icon': 'Valkyrie/FearlessDefender',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
         ]
     },
     {
@@ -9570,6 +9677,22 @@ var heroChainedUniforms = [{
                 ]
             }
         ]
+    },
+    {
+
+        'Id': 'DeadpoolGirl',
+        'Chained': [{
+            'Name': '索爾',
+            'From': '雷霆先鋒',
+            'Icon': 'Thor/HeraldOfThunder',
+            'Effects': [
+                '物理防禦力',
+                '能量防禦力',
+                '所有防禦力',
+                '迴避率',
+                '移動速度',
+            ]
+        }, ]
     },
     {
         //艾 爾 莎 血 石
@@ -11907,7 +12030,19 @@ var heroChainedUniforms = [{
                     'HP',
                     '攻擊速度',
                 ]
-            }
+            },
+            {
+                'Name': '索爾',
+                'From': '雷霆先鋒',
+                'Icon': 'Thor/HeraldOfThunder',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
         ]
     },
     {
@@ -13126,6 +13261,18 @@ var heroChainedUniforms = [{
                     '物理防禦力',
                     '能量防禦力',
                     'HP',
+                ]
+            },
+            {
+                'Name': '索爾',
+                'From': '雷霆先鋒',
+                'Icon': 'Thor/HeraldOfThunder',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
                 ]
             },
         ]
@@ -15211,7 +15358,19 @@ var heroChainedUniforms = [{
                     '暴擊率',
                     '暴擊傷害率',
                 ]
-            }
+            },
+            {
+                'Name': '洛基',
+                'From': '阿斯嘉特工',
+                'Icon': 'Loki/AsgardAgent',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
         ]
     },
     {
@@ -15869,6 +16028,22 @@ var heroChainedUniforms = [{
         }]
     },
     {
+
+        'Id': 'JeanGreyMarvel',
+        'Chained': [{
+            'Name': '瓦爾基麗',
+            'From': '無畏捍衛者',
+            'Icon': 'Valkyrie/FearlessDefender',
+            'Effects': [
+                '回復率',
+                '無視防禦',
+                '技能冷卻',
+                'HP',
+                '攻擊速度',
+            ]
+        }, ]
+    },
+    {
         //菲 爾 考 森
 
         'Id': 'PhilCoulsonAgentsOfSHIELDS3',
@@ -16236,7 +16411,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '洛基',
+                'From': '阿斯嘉特工',
+                'Icon': 'Loki/AsgardAgent',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
     {
@@ -17476,7 +17663,19 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
-            }
+            },
+            {
+                'Name': '索爾',
+                'From': '雷霆先鋒',
+                'Icon': 'Thor/HeraldOfThunder',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
         ]
     },
     {
