@@ -3161,6 +3161,14 @@ var heroUniforms = [
             'Name': '現 代',
         }]
     },
+    // 努爾
+    {
+        'Id': 'KnullSeries',
+        'Options': [{
+            'Value': 'KnullModern',
+            'Name': '現 代',
+        }]
+    },
     // 毀滅者
     {
         'Id': 'DestroverSeries',

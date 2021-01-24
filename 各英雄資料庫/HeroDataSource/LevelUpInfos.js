@@ -2800,6 +2800,301 @@ var heroLevelUpInfos = [
             }
         ]
     },
+    //大食怪原生T3升級資訊群組
+    {
+        'Type': 'T3',
+        'Infos': [{
+                'MaxLevel': 40,
+                'Desc': '40 等 & 2 星精通',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': 326,
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'TitanRecords_Universe',
+                        'NameCN': '泰坦紀錄書:全宇宙',
+                        'Amount': 1,
+                        'Icon': 'TitanRecords_Universe'
+                    },
+                    {
+                        'Name': 'CosmicCubeFragmentLv2',
+                        'NameCN': '2級階段宇宙魔方碎片',
+                        'Amount': 6,
+                        'Icon': 'CosmicCubeFragmentLv2'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': 1200000,
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 45,
+                'Desc': '45 等 & 3 星精通',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': 407,
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'TitanRecords_Universe',
+                        'NameCN': '泰坦紀錄書:全宇宙',
+                        'Amount': 2,
+                        'Icon': 'TitanRecords_Universe'
+                    },
+                    {
+                        'Name': 'CosmicCubeFragmentLv3',
+                        'NameCN': '3級階段宇宙魔方碎片',
+                        'Amount': 5,
+                        'Icon': 'CosmicCubeFragmentLv3'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': 1800000,
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 50,
+                'Desc': '50 等 & 4 星精通',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': 871,
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'TitanRecords_Universe',
+                        'NameCN': '泰坦紀錄書:全宇宙',
+                        'Amount': 2,
+                        'Icon': 'TitanRecords_Universe'
+                    },
+                    {
+                        'Name': 'CosmicCubeFragmentLv4',
+                        'NameCN': '4級階段宇宙魔方碎片',
+                        'Amount': 5,
+                        'Icon': 'CosmicCubeFragmentLv4'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': 2400000,
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 55,
+                'Desc': '55 等 & 5 星精通',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': 1873,
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'TitanRecords_Universe',
+                        'NameCN': '泰坦紀錄書:全宇宙',
+                        'Amount': 3,
+                        'Icon': 'TitanRecords_Universe'
+                    },
+                    {
+                        'Name': 'CosmicCubeFragmentLv5',
+                        'NameCN': '5級階段宇宙魔方碎片',
+                        'Amount': 3,
+                        'Icon': 'CosmicCubeFragmentLv5'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': 3000000,
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 60,
+                'Desc': '60 等 & 6 星精通',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': 4029,
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'TitanRecords_Universe',
+                        'NameCN': '泰坦紀錄書:全宇宙',
+                        'Amount': 3,
+                        'Icon': 'TitanRecords_Universe'
+                    },
+                    {
+                        'Name': 'CosmicCubeFragmentLv6',
+                        'NameCN': '6級階段宇宙魔方碎片',
+                        'Amount': 2,
+                        'Icon': 'CosmicCubeFragmentLv6'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': 3600000,
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 62,
+                'Desc': '62 等',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': '',
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'Norn Stone of Chaos',
+                        'NameCN': '混沌北歐符石',
+                        'Amount': '',
+                        'Icon': 'NornStone_Chaos'
+                    },
+                    {
+                        'Name': 'Black Anti Matter Rank 0',
+                        'NameCN': '受損的黑暗反物質',
+                        'Amount': '',
+                        'Icon': 'Black_Anti_Matter_Rank0'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': '',
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 64,
+                'Desc': '64 等',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': '',
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'Norn Stone of Chaos',
+                        'NameCN': '混沌北歐符石',
+                        'Amount': '',
+                        'Icon': 'NornStone_Chaos'
+                    },
+                    {
+                        'Name': 'Black Anti Matter Rank 0',
+                        'NameCN': '受損的黑暗反物質',
+                        'Amount': '',
+                        'Icon': 'Black_Anti_Matter_Rank0'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': '',
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 66,
+                'Desc': '66 等',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': '',
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'Norn Stone of Chaos',
+                        'NameCN': '混沌北歐符石',
+                        'Amount': '',
+                        'Icon': 'NornStone_Chaos'
+                    },
+                    {
+                        'Name': 'Black Anti Matter Rank 0',
+                        'NameCN': '受損的黑暗反物質',
+                        'Amount': '',
+                        'Icon': 'Black_Anti_Matter_Rank0'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': '',
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 68,
+                'Desc': '68 等',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': '',
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'Norn Stone of Chaos',
+                        'NameCN': '混沌北歐符石',
+                        'Amount': '',
+                        'Icon': 'NornStone_Chaos'
+                    },
+                    {
+                        'Name': 'Black Anti Matter Rank 0',
+                        'NameCN': '受損的黑暗反物質',
+                        'Amount': '',
+                        'Icon': 'Black_Anti_Matter_Rank0'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': '',
+                        'Icon': 'gold'
+                    }
+                ]
+            },
+            {
+                'MaxLevel': 70,
+                'Desc': '70 等',
+                'Materials': [{
+                        'Name': 'Biometrics',
+                        'NameCN': '生體認證',
+                        'Amount': '',
+                        'Icon': 'budy'
+                    },
+                    {
+                        'Name': 'Norn Stone of Chaos',
+                        'NameCN': '混沌北歐符石',
+                        'Amount': '',
+                        'Icon': 'NornStone_Chaos'
+                    },
+                    {
+                        'Name': 'Black Anti Matter Rank 0',
+                        'NameCN': '受損的黑暗反物質',
+                        'Amount': '',
+                        'Icon': 'Black_Anti_Matter_Rank0'
+                    },
+                    {
+                        'Name': 'Gold',
+                        'NameCN': '金幣',
+                        'Amount': '',
+                        'Icon': 'gold'
+                    }
+                ]
+            }
+        ]
+    },
     //X戰警崛起
     {
         'Type': 'XMenRise',

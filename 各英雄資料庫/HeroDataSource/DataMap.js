@@ -461,7 +461,7 @@ var heroDataMap = [
             'Type': 'CombatNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -2393,7 +2393,7 @@ var heroDataMap = [
             'Type': 'Great',
             'MaxLevel': 70
         },
-        'T3Type': 'SpeedGreat',
+        'T3Type': 'SpeedErip',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -3906,6 +3906,20 @@ var heroDataMap = [
             'MaxLevel': 70
         },
         'T3Type': 'UniverseGreat',
+        'RelatedUniformId': '',
+        'ChainedUniformId': ''
+    },
+
+    // 努爾
+    {
+        'Id': 'KnullModern',
+        'IntroId': 'Knull',
+        'UniformListId': 'KnullSeries',
+        'LevelUpInfo': {
+            'Type': 'T3',
+            'MaxLevel': 70
+        },
+        'T3Type': 'GreatT3',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },

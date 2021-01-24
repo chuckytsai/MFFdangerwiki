@@ -2887,6 +2887,16 @@ var heroDatas = [
     },
 
     {
+        'id': 'Knull',
+        'class': 'heroIcon preset men universal et villain symbiont',
+        'url': './Character.html?id=Knull&uniform=Modern',
+        'bgImg': 'Knull/Modern',
+        'name': '努 爾 ',
+        'gender': 'm',
+        'display': '',
+    },
+
+    {
         'id': 'Destrover',
         'class': 'heroIcon preset no universal biological neutral',
         'url': './Character.html?id=Destrover&uniform=Classic',

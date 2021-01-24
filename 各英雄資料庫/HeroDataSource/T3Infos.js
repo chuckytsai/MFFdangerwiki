@@ -483,6 +483,35 @@ var heroT3Infos = [
             }
         ]
     },
+    // 原生T3
+    {
+        'Type': 'GreatT3',
+        'Materials': [{
+                'Name': '',
+                'NameCN': '',
+                'Amount': '',
+                'Icon': ''
+            },
+            {
+                'Name': '',
+                'NameCN': '',
+                'Amount': '',
+                'Icon': '',
+            },
+            {
+                'Name': '',
+                'NameCN': '',
+                'Amount': '',
+                'Icon': '',
+            },
+            {
+                'Name': '',
+                'NameCN': '',
+                'Amount': '',
+                'Icon': '',
+            }
+        ]
+    },
     // 史詩覺醒
     {
         'Type': 'AwakeErip',
