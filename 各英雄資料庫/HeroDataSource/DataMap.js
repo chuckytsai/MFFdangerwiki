@@ -2596,9 +2596,9 @@ var heroDataMap = [
 
     // 地獄貓
     {
-        'Id': 'HellCatAllNewAllDifferent',
-        'IntroId': 'HellCat',
-        'UniformListId': 'HellCatSeries',
+        'Id': 'HellcatAllNewAllDifferent',
+        'IntroId': 'Hellcat',
+        'UniformListId': 'HellcatSeries',
         'LevelUpInfo': {
             'Type': 'SpeedNormal',
             'MaxLevel': 60
