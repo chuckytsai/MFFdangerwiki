@@ -4872,6 +4872,66 @@ var heroRelatedUniforms = [{
     },
     {
 
+        'Id': 'DeadpoolDeadpool30YearBlack',
+        'Related': [{
+                'Name': '浩克(阿爾迪斯)',
+                'From': '強大',
+                'Icon': 'HulkCho/Powerful'
+            },
+            {
+                'Name': '黑霹雷',
+                'From': 'Marvel X',
+                'Icon': 'BlackBolt/MarvelX'
+            },
+            {
+                'Name': '薩諾斯',
+                'From': '秘密戰爭-無限',
+                'Icon': 'Thanos/SecretWars'
+            },
+            {
+                'Name': '機堡',
+                'From': '機堡與死恃',
+                'Icon': 'Cable/Deadpool'
+            },
+            {
+                'Name': '模仿大師',
+                'From': '漫威黑寡婦',
+                'Icon': 'TaskMaster/BlackWidow',
+            }
+        ]
+    },
+    {
+
+        'Id': 'DeadpoolDeadpool30YearWWhite',
+        'Related': [{
+                'Name': '浩克(阿爾迪斯)',
+                'From': '強大',
+                'Icon': 'HulkCho/Powerful'
+            },
+            {
+                'Name': '黑霹雷',
+                'From': 'Marvel X',
+                'Icon': 'BlackBolt/MarvelX'
+            },
+            {
+                'Name': '薩諾斯',
+                'From': '秘密戰爭-無限',
+                'Icon': 'Thanos/SecretWars'
+            },
+            {
+                'Name': '機堡',
+                'From': '機堡與死恃',
+                'Icon': 'Cable/Deadpool'
+            },
+            {
+                'Name': '模仿大師',
+                'From': '漫威黑寡婦',
+                'Icon': 'TaskMaster/BlackWidow',
+            }
+        ]
+    },
+    {
+
         //艾 爾 莎 血 石
         'Id': 'ElsaBloodstoneSecretWars',
         'Related': [{
@@ -5009,7 +5069,7 @@ var heroRelatedUniforms = [{
             {
                 'Name': '卡爾奈克',
                 'From': '全新全異',
-                'Icon': '卡爾奈克/全新全異'
+                'Icon': 'Karnak/AllNewAllDifferent'
             },
             {
                 'Name': '地獄火',
@@ -5020,6 +5080,36 @@ var heroRelatedUniforms = [{
                 'Name': '葛摩拉',
                 'From': '星際異攻隊2',
                 'Icon': 'Gamora/GuardiansOfTheGalaxy2',
+            }
+        ]
+    },
+    {
+
+        'Id': 'NightcrawlerClassic',
+        'Related': [{
+                'Name': '萬磁王',
+                'From': 'X皇室',
+                'Icon': 'Magneto/XKing'
+            },
+            {
+                'Name': '冰月花雪',
+                'From': '安達美朵套裝',
+                'Icon': 'LunaSnow/Andromeda'
+            },
+            {
+                'Name': '雪倫羅傑斯',
+                'From': '星夜盔甲',
+                'Icon': 'SharonRogers/Starnight'
+            },
+            {
+                'Name': '太陽神',
+                'From': '經典',
+                'Icon': 'Hyperion/Classic'
+            },
+            {
+                'Name': '月光騎士',
+                'From': '騎士先生',
+                'Icon': 'MoonKight/Kight',
             }
         ]
     },
@@ -8241,6 +8331,36 @@ var heroRelatedUniforms = [{
     },
     {
 
+        'Id': 'CableXOfSword',
+        'Related': [{
+                'Name': '羅南',
+                'From': '驚奇隊長電影',
+                'Icon': 'Ronan/CaptainMarvel'
+            },
+            {
+                'Name': '死恃',
+                'From': 'X特攻隊',
+                'Icon': 'Deadpool/Xforce'
+            },
+            {
+                'Name': '幻視',
+                'From': '非凡復仇者',
+                'Icon': 'Vision/UncannyAvengers'
+            },
+            {
+                'Name': '制裁者',
+                'From': '宇宙惡靈戰警',
+                'Icon': 'Punisher/GhostRider'
+            },
+            {
+                'Name': '緋紅女巫',
+                'From': '全新全異',
+                'Icon': 'ScarletWitch/AllNewAllDifferent',
+            }
+        ]
+    },
+    {
+
         //獨 眼 龍
         'Id': 'CyclopsAgeOfApocalypse',
         'Related': [{
@@ -8568,6 +8688,36 @@ var heroRelatedUniforms = [{
                 'Name': '猛毒特工',
                 'From': '反猛毒特工',
                 'Icon': 'AgentVenom/AntiVenom',
+            }
+        ]
+    },
+    {
+        //金 牌 手
+        'Id': 'GambitExcalibur',
+        'Related': [{
+                'Name': '驚奇女士',
+                'From': '異人族-阿提蘭崛起',
+                'Icon': 'KamalaKhan/Inhumans'
+            },
+            {
+                'Name': '小淘氣',
+                'From': '非凡復仇者',
+                'Icon': 'Rogue/UncannyAvengers'
+            },
+            {
+                'Name': '蜘蛛人2099',
+                'From': '全新全異',
+                'Icon': 'Spider2099/AllNewAllDifferent'
+            },
+            {
+                'Name': '多米諾',
+                'From': 'Marvel Now',
+                'Icon': 'Domind/MarvelNow'
+            },
+            {
+                'Name': '惡靈戰警',
+                'From': '地獄之王',
+                'Icon': 'GhostRider/HellKing',
             }
         ]
     },

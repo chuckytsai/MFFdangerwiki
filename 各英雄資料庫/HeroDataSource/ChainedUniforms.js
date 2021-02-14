@@ -872,6 +872,30 @@ var heroChainedUniforms = [{
                     '移動速度',
                 ]
             },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念黑版本',
+                'Icon': 'Deadpool/Deadpool30YearBlack',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念白白版本',
+                'Icon': 'Deadpool/Deadpool30YearWhite',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
 
@@ -1069,7 +1093,19 @@ var heroChainedUniforms = [{
                     '異常狀態時間',
                     '迴避率',
                 ]
-            }
+            },
+            {
+                'Name': '機堡',
+                'From': 'X之劍',
+                'Icon': 'Cable/XOfSword',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
         ]
     },
 
@@ -1086,6 +1122,17 @@ var heroChainedUniforms = [{
                 '技能冷卻',
                 'HP',
                 '攻擊速度',
+            ]
+        }, {
+            'Name': '驚奇女士',
+            'From': '異人族-阿提蘭崛起',
+            'Icon': 'KamalaKhan/Inhumans',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
             ]
         }, ]
     },
@@ -1139,7 +1186,19 @@ var heroChainedUniforms = [{
                     '暴擊率',
                     '暴擊傷害率',
                 ]
-            }
+            },
+            {
+                'Name': '夜行者',
+                'From': '經典',
+                'Icon': 'Nightcrawler/Classic',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
     {
@@ -1840,6 +1899,21 @@ var heroChainedUniforms = [{
         ]
     },
     {
+        'Id': 'GhostRiderInhumans',
+        'Chained': [{
+            'Name': '金牌手',
+            'From': '聖劍聯盟',
+            'Icon': 'Gambit/Excalibur',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
+            ]
+        }, ]
+    },
+    {
         //黑 霹 雷
         'Id': 'BlackBoltAllNewAllDifferent',
         'Chained': [{
@@ -2028,6 +2102,32 @@ var heroChainedUniforms = [{
                 ]
             }
         ]
+    },
+    {
+        'Id': 'BlackBoltMarvelX',
+        'Chained': [{
+            'Name': '死恃',
+            'From': '30周年紀念黑版本',
+            'Icon': 'Deadpool/Deadpool30YearBlack',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
+            ]
+        }, {
+            'Name': '死恃',
+            'From': '30周年紀念白白版本',
+            'Icon': 'Deadpool/Deadpool30YearWhite',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
+            ]
+        }, ]
     },
     {
         //撒 旦 娜
@@ -3663,17 +3763,41 @@ var heroChainedUniforms = [{
         //模 仿 大 師
         'Id': 'TaskMasterBlackWidow',
         'Chained': [{
-            'Name': '奇異博士',
-            'From': '太空戰衣',
-            'Icon': 'Doctor/StrangeSpace',
-            'Effects': [
-                '物理攻擊力',
-                '能量攻擊力',
-                '物理防禦力',
-                '能量防禦力',
-                'HP',
-            ]
-        }, ]
+                'Name': '奇異博士',
+                'From': '太空戰衣',
+                'Icon': 'Doctor/StrangeSpace',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            }, {
+                'Name': '死恃',
+                'From': '30周年紀念黑版本',
+                'Icon': 'Deadpool/Deadpool30YearBlack',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念白白版本',
+                'Icon': 'Deadpool/Deadpool30YearWhite',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
+        ]
     },
     {
         //紅 色 守 衛 者
@@ -4430,6 +4554,22 @@ var heroChainedUniforms = [{
                 ]
             }
         ]
+    },
+    {
+        //月 光 騎 士
+        'Id': 'MoonKightKight',
+        'Chained': [{
+            'Name': '夜行者',
+            'From': '經典',
+            'Icon': 'Nightcrawler/Classic',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
+            ]
+        }, ]
     },
     {
         //古 魯 特
@@ -5477,6 +5617,17 @@ var heroChainedUniforms = [{
                 '物理防禦力',
                 '能量防禦力',
                 'HP',
+            ]
+        }, {
+            'Name': '機堡',
+            'From': 'X之劍',
+            'Icon': 'Cable/XOfSword',
+            'Effects': [
+                '物理防禦力',
+                '能量防禦力',
+                '所有防禦力',
+                '迴避率',
+                '移動速度',
             ]
         }, ]
     },
@@ -6889,17 +7040,42 @@ var heroChainedUniforms = [{
 
         'Id': 'HulkChoPowerful',
         'Chained': [{
-            'Name': '白狐',
-            'From': '日常風格系列2',
-            'Icon': 'WhiteFox/Life2',
-            'Effects': [
-                '攻擊速度',
-                '移動速度',
-                '技能冷卻',
-                '異常狀態時間',
-                '迴避率',
-            ]
-        }]
+                'Name': '白狐',
+                'From': '日常風格系列2',
+                'Icon': 'WhiteFox/Life2',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念黑版本',
+                'Icon': 'DeadpoolDeadpool30YearBlack',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念白版本',
+                'Icon': 'DeadpoolDeadpool30YearWhite',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            }
+        ]
     },
     {
         //納 摩
@@ -7975,6 +8151,21 @@ var heroChainedUniforms = [{
         ]
     },
     {
+        'Id': 'KamalaKhanInhumans',
+        'Chained': [{
+            'Name': '金牌手',
+            'From': '聖劍聯盟',
+            'Icon': 'Gambit/Excalibur',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
+            ]
+        }, ]
+    },
+    {
         //驚 奇 先 生
         'Id': 'MisterFantasticFutureFoundation',
         'Chained': [{
@@ -8871,6 +9062,18 @@ var heroChainedUniforms = [{
                     '暴擊傷害率',
                 ]
             },
+            {
+                'Name': '金牌手',
+                'From': '聖劍聯盟',
+                'Icon': 'Gambit/Excalibur',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
         ]
     },
     {
@@ -9563,7 +9766,19 @@ var heroChainedUniforms = [{
                     '暴擊率',
                     '暴擊傷害率',
                 ]
-            }
+            },
+            {
+                'Name': '夜行者',
+                'From': '經典',
+                'Icon': 'Nightcrawler/Classic',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
 
@@ -9675,7 +9890,19 @@ var heroChainedUniforms = [{
                     '迴避率',
                     '移動速度',
                 ]
-            }
+            },
+            {
+                'Name': '機堡',
+                'From': 'X之劍',
+                'Icon': 'Cable/XOfSword',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
         ]
     },
     {
@@ -12095,7 +12322,19 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
-            }
+            },
+            {
+                'Name': '金牌手',
+                'From': '聖劍聯盟',
+                'Icon': 'Gambit/Excalibur',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
         ]
     },
     {
@@ -13899,7 +14138,19 @@ var heroChainedUniforms = [{
             {
                 'Name': '猛毒',
                 'From': '十界之戰',
-                'Icon': 'enom/WarOfTheRealms',
+                'Icon': 'Venom/WarOfTheRealms',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
+            },
+            {
+                'Name': '夜行者',
+                'From': '經典',
+                'Icon': 'Nightcrawler/Classic',
                 'Effects': [
                     '攻擊速度',
                     '移動速度',
@@ -14429,7 +14680,19 @@ var heroChainedUniforms = [{
                     '異常狀態時間',
                     '迴避率',
                 ]
-            }
+            },
+            {
+                'Name': '機堡',
+                'From': 'X之劍',
+                'Icon': 'Cable/XOfSword',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
     {
@@ -16007,7 +16270,19 @@ var heroChainedUniforms = [{
                     '暴擊率',
                     '暴擊傷害率',
                 ]
-            }
+            },
+            {
+                'Name': '夜行者',
+                'From': '經典',
+                'Icon': 'Nightcrawler/Classic',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
         ]
     },
     {
@@ -16356,6 +16631,22 @@ var heroChainedUniforms = [{
                 '所有防禦力',
                 '迴避率',
                 '移動速度',
+            ]
+        }, ]
+    },
+    {
+
+        'Id': 'ScarletWitchAllNewAllDifferent',
+        'Chained': [{
+            'Name': '機堡',
+            'From': 'X之劍',
+            'Icon': 'Cable/XOfSword',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
             ]
         }, ]
     },
@@ -16911,17 +17202,42 @@ var heroChainedUniforms = [{
     {
         'Id': 'CableDeadpool',
         'Chained': [{
-            'Name': '奧丁',
-            'From': '眾神之父',
-            'Icon': 'Odin/GodFather',
-            'Effects': [
-                '物理攻擊力',
-                '能量攻擊力',
-                '所有攻擊力',
-                '暴擊率',
-                '暴擊傷害率',
-            ]
-        }]
+                'Name': '奧丁',
+                'From': '眾神之父',
+                'Icon': 'Odin/GodFather',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念黑版本',
+                'Icon': 'Deadpool/Deadpool30YearBlack',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
+            {
+                'Name': '死恃',
+                'From': '30周年紀念白白版本',
+                'Icon': 'Deadpool/Deadpool30YearWhite',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            },
+        ]
     },
     {
         //獨 眼 龍

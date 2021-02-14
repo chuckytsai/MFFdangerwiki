@@ -1064,7 +1064,11 @@ var heroUniforms = [
             {
                 'Value': 'CableSummer',
                 'Name': '炎 炎 夏 日',
-            }
+            },
+            {
+                'Value': 'CableXOfSword',
+                'Name': 'X 之 劍',
+            },
         ]
     },
     // 獨眼龍
@@ -1453,9 +1457,14 @@ var heroUniforms = [
     {
         'Id': 'GambitSeries',
         'Options': [{
-            'Value': 'GambitModern',
-            'Name': '現 代',
-        }]
+                'Value': 'GambitModern',
+                'Name': '現 代',
+            },
+            {
+                'Value': 'GambitExcalibur',
+                'Name': '聖 劍 聯 盟',
+            }
+        ]
     },
     // 鋼鐵心
     {
@@ -1969,7 +1978,15 @@ var heroUniforms = [
             {
                 'Value': 'DeadpoolParty',
                 'Name': '節 日 派 對',
-            }
+            },
+            {
+                'Value': 'DeadpoolDeadpool30YearBlack',
+                'Name': '30周年紀念黑版本',
+            },
+            {
+                'Value': 'DeadpoolDeadpool30YearWhite',
+                'Name': '30周年紀念白版本',
+            },
         ]
     },
     // 多米諾
@@ -2147,7 +2164,11 @@ var heroUniforms = [
             {
                 'Value': 'NightcrawlerXForce',
                 'Name': 'X 特 攻 隊',
-            }
+            },
+            {
+                'Value': 'NightcrawlerClassic',
+                'Name': '經 典',
+            },
         ]
     },
     // 夜魔俠

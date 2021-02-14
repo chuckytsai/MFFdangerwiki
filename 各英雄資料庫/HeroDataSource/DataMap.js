@@ -248,7 +248,7 @@ var heroDataMap = [
         'UniformListId': 'AmericaChavezSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -613,7 +613,7 @@ var heroDataMap = [
         'UniformListId': 'DeathlokSeries',
         'LevelUpInfo': {
             'Type': 'CombatNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -1371,7 +1371,7 @@ var heroDataMap = [
             'Type': 'XmenGreat',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'BlastErip',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -1635,7 +1635,7 @@ var heroDataMap = [
         'UniformListId': 'LincolnCampbellSeries',
         'LevelUpInfo': {
             'Type': 'BlastNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -1889,7 +1889,7 @@ var heroDataMap = [
             'Type': 'XmenNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -2195,7 +2195,7 @@ var heroDataMap = [
         'UniformListId': 'LashSeries',
         'LevelUpInfo': {
             'Type': 'BlastNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -2596,9 +2596,9 @@ var heroDataMap = [
 
     // 地獄貓
     {
-        'Id': 'HellcatAllNewAllDifferent',
-        'IntroId': 'Hellcat',
-        'UniformListId': 'HellcatSeries',
+        'Id': 'HellCatAllNewAllDifferent',
+        'IntroId': 'HellCat',
+        'UniformListId': 'HellCatSeries',
         'LevelUpInfo': {
             'Type': 'SpeedNormal',
             'MaxLevel': 60
@@ -2617,7 +2617,7 @@ var heroDataMap = [
             'Type': 'XmenNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -3511,7 +3511,7 @@ var heroDataMap = [
         'UniformListId': 'BlueMarvelSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3553,7 +3553,7 @@ var heroDataMap = [
         'UniformListId': 'QuasarSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
@@ -3693,7 +3693,7 @@ var heroDataMap = [
         'UniformListId': 'AntimanSeries',
         'LevelUpInfo': {
             'Type': 'UniversalNormal',
-            'MaxLevel': 60
+            'MaxLevel': 70
         },
         'T3Type': 'No',
         'RelatedUniformId': '',
