@@ -2533,10 +2533,23 @@ var heroDataMap = [
             'Type': 'XmenNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
+    {
+        'Id': 'X23AllNewWolverine',
+        'IntroId': 'X23',
+        'UniformListId': 'X23Series',
+        'LevelUpInfo': {
+            'Type': 'XmenNormal',
+            'MaxLevel': 70
+        },
+        'T3Type': 'Awake',
+        'RelatedUniformId': '',
+        'ChainedUniformId': ''
+    },
+
 
     // 仿聲鳥
     {
@@ -2687,7 +2700,7 @@ var heroDataMap = [
             'Type': 'XmenNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Speed',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },
@@ -2967,7 +2980,7 @@ var heroDataMap = [
             'Type': 'SpeedNormal',
             'MaxLevel': 70
         },
-        'T3Type': 'No',
+        'T3Type': 'Awake',
         'RelatedUniformId': '',
         'ChainedUniformId': ''
     },

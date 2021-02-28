@@ -2088,6 +2088,10 @@ var heroUniforms = [
             {
                 'Value': 'X23XForce',
                 'Name': 'X 特 攻 隊',
+            },
+            {
+                'Value': 'X23AllNewWolverine',
+                'Name': '全 新 金 鋼 狼',
             }
         ]
     },
@@ -2232,7 +2236,11 @@ var heroUniforms = [
             {
                 'Value': 'RogueUncannyAvengers',
                 'Name': '非 凡 復 仇 者',
-            }
+            },
+            {
+                'Value': 'RogueExcalibur',
+                'Name': '聖 劍 聯 盟',
+            },
         ]
     },
     // 幻影殺手

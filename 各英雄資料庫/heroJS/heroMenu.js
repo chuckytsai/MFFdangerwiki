@@ -1905,6 +1905,15 @@ var heroDatas = [
         'gender': 'w',
         'display': '',
     },
+    {
+        'id': 'X23',
+        'class': 'heroIcon preset women combat xmen justice',
+        'url': './Character.html?id=X23&uniform=AllNewWolverine',
+        'bgImg': 'X23/AllNewWolverine',
+        'name': 'X 23 ',
+        'gender': 'w',
+        'display': 'display:none',
+    },
 
     {
         'id': 'Mockingbird',

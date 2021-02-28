@@ -1709,6 +1709,22 @@ var heroChainedUniforms = [{
         ]
     },
     {
+        //奧 丁
+        'Id': 'OdinGodFather',
+        'Chained': [{
+            'Name': '奧丁',
+            'From': '眾神之父',
+            'Icon': 'Odin/GodFather',
+            'Effects': [
+                '物理防禦力',
+                '能量防禦力',
+                '所有防禦力',
+                '迴避率',
+                '移動速度',
+            ]
+        }, ]
+    },
+    {
         //惡 靈 戰 警
         'Id': 'GhostRiderClassical70s',
         'Chained': [{
@@ -3903,6 +3919,22 @@ var heroChainedUniforms = [{
                 ]
             }
         ]
+    },
+    {
+
+        'Id': 'BladeTheAvengers',
+        'Chained': [{
+            'Name': 'X23',
+            'From': '全新金鋼狼',
+            'Icon': 'X23/AllNewWolverine',
+            'Effects': [
+                '攻擊速度',
+                '移動速度',
+                '技能冷卻',
+                '異常狀態時間',
+                '迴避率',
+            ]
+        }, ]
     },
     {
         //力 量 人
@@ -7767,6 +7799,18 @@ var heroChainedUniforms = [{
                     'HP',
                     '攻擊速度',
                 ]
+            },
+            {
+                'Name': '小淘氣',
+                'From': '聖劍聯盟',
+                'Icon': 'Rogue/Excalibur',
+                'Effects': [
+                    '攻擊速度',
+                    '移動速度',
+                    '技能冷卻',
+                    '異常狀態時間',
+                    '迴避率',
+                ]
             }
         ]
     },
@@ -8582,17 +8626,30 @@ var heroChainedUniforms = [{
 
         'Id': 'YelenaIce',
         'Chained': [{
-            'Name': '月光騎士',
-            'From': '騎士先生',
-            'Icon': 'MoonKight/Kight',
-            'Effects': [
-                '回復率',
-                '無視防禦',
-                '技能冷卻',
-                'HP',
-                '攻擊速度',
-            ]
-        }]
+                'Name': '月光騎士',
+                'From': '騎士先生',
+                'Icon': 'MoonKight/Kight',
+                'Effects': [
+                    '回復率',
+                    '無視防禦',
+                    '技能冷卻',
+                    'HP',
+                    '攻擊速度',
+                ]
+            },
+            {
+                'Name': 'X23',
+                'From': '全新金鋼狼',
+                'Icon': 'X23/AllNewWolverine',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            }
+        ]
     },
     {
         //綠 惡 魔
@@ -11487,6 +11544,17 @@ var heroChainedUniforms = [{
                 '異常狀態時間',
                 '迴避率',
             ]
+        }, {
+            'Name': '小淘氣',
+            'From': '聖劍聯盟',
+            'Icon': 'Rogue/Excalibur',
+            'Effects': [
+                '物理攻擊力',
+                '能量攻擊力',
+                '所有攻擊力',
+                '暴擊率',
+                '暴擊傷害率',
+            ]
         }, ]
     },
 
@@ -12038,6 +12106,18 @@ var heroChainedUniforms = [{
                 'Name': '艾瑪佛斯特',
                 'From': '鳳凰5人組',
                 'Icon': 'EmmaFrost/PhoenixFive',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '物理防禦力',
+                    '能量防禦力',
+                    'HP',
+                ]
+            },
+            {
+                'Name': '小淘氣',
+                'From': '聖劍聯盟',
+                'Icon': 'Rogue/Excalibur',
                 'Effects': [
                     '物理攻擊力',
                     '能量攻擊力',
@@ -13785,7 +13865,18 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
-            },
+            }, {
+                'Name': 'X23',
+                'From': '全新金鋼狼',
+                'Icon': 'X23/AllNewWolverine',
+                'Effects': [
+                    '物理防禦力',
+                    '能量防禦力',
+                    '所有防禦力',
+                    '迴避率',
+                    '移動速度',
+                ]
+            }
         ]
     },
     {
@@ -15491,6 +15582,18 @@ var heroChainedUniforms = [{
                     '能量防禦力',
                     'HP',
                 ]
+            },
+            {
+                'Name': 'X23',
+                'From': '全新金鋼狼',
+                'Icon': 'X23/AllNewWolverine',
+                'Effects': [
+                    '物理攻擊力',
+                    '能量攻擊力',
+                    '所有攻擊力',
+                    '暴擊率',
+                    '暴擊傷害率',
+                ]
             }
         ]
     },
@@ -15918,7 +16021,18 @@ var heroChainedUniforms = [{
                 '異常狀態時間',
                 '迴避率',
             ]
-        }, ]
+        }, {
+            'Name': 'X23',
+            'From': '全新金鋼狼',
+            'Icon': 'X23/AllNewWolverine',
+            'Effects': [
+                '回復率',
+                '無視防禦',
+                '技能冷卻',
+                'HP',
+                '攻擊速度',
+            ]
+        }]
     },
     {
 
@@ -16716,6 +16830,22 @@ var heroChainedUniforms = [{
                 ]
             },
         ]
+    },
+    {
+
+        'Id': 'StormInhumansVsXmen',
+        'Chained': [{
+            'Name': '小淘氣',
+            'From': '聖劍聯盟',
+            'Icon': 'Rogue/Excalibur',
+            'Effects': [
+                '回復率',
+                '無視防禦',
+                '技能冷卻',
+                'HP',
+                '攻擊速度',
+            ]
+        }, ]
     },
     {
         //戰 爭 機 器

@@ -4292,37 +4292,6 @@ var heroRelatedUniforms = [{
     },
     {
 
-        //小 淘 氣
-        'Id': 'RogueAgeOfApocalypse',
-        'Related': [{
-                'Name': '美國隊長',
-                'From': '美國隊長:英雄內戰',
-                'Icon': 'CaptainAmerica/CaptainAmericaCivilWar'
-            },
-            {
-                'Name': '反浩克裝甲',
-                'From': '超重裝甲',
-                'Icon': 'Hulkbuster/OverweightArmor'
-            },
-            {
-                'Name': '13號特工',
-                'From': '美國隊長:英雄內戰',
-                'Icon': 'Agent13/CaptainAmericaCivilWar'
-            },
-            {
-                'Name': '戰爭機器',
-                'From': '復仇者:行動',
-                'Icon': 'WarMachine/Action'
-            },
-            {
-                'Name': '黃蜂女',
-                'From': '全新全異',
-                'Icon': 'Wasp/AllNewAllDifferent',
-            }
-        ]
-    },
-    {
-
         'Id': 'SpiderGwenSymbiont',
         'Related': [{
                 'Name': '幻視',
@@ -4409,6 +4378,36 @@ var heroRelatedUniforms = [{
                 'Name': '幽靈',
                 'From': '蟻人與黃蜂女',
                 'Icon': 'Ghost/AntmanAndTheWasp',
+            }
+        ]
+    },
+    {
+
+        'Id': 'RogueExcalibur',
+        'Related': [{
+                'Name': '鋼人',
+                'From': '鳳凰5人組',
+                'Icon': 'Colossus/PhoenixFive'
+            },
+            {
+                'Name': '蜘蛛人',
+                'From': '離家日',
+                'Icon': 'Spiderman/FarFromHome'
+            },
+            {
+                'Name': '暴風女',
+                'From': '異人族 VS Xmen',
+                'Icon': 'Storm/InhumansVsXmen'
+            },
+            {
+                'Name': '奧丁',
+                'From': '眾神之父',
+                'Icon': 'Odin/GodFather'
+            },
+            {
+                'Name': '黑寡婦',
+                'From': '黑寡婦-冰雪戰衣',
+                'Icon': 'Black/WidowIce',
             }
         ]
     },
@@ -6553,6 +6552,36 @@ var heroRelatedUniforms = [{
                 'Name': '鐵拳俠',
                 'From': '鐵拳俠',
                 'Icon': 'Ironfist/Ironfist',
+            }
+        ]
+    },
+    {
+
+        'Id': 'X23AllNewWolverine',
+        'Related': [{
+                'Name': '刀鋒戰士',
+                'From': '復仇者',
+                'Icon': 'Blade/TheAvengers'
+            },
+            {
+                'Name': '葉蓮娜',
+                'From': '黑寡婦-冰雪戰衣',
+                'Icon': 'Yelena/Ice'
+            },
+            {
+                'Name': '星爵',
+                'From': '擱淺',
+                'Icon': 'StarLord/Stranded'
+            },
+            {
+                'Name': '神秘法師',
+                'From': '蜘蛛人:離家日',
+                'Icon': 'Mysterio/FarFromHome'
+            },
+            {
+                'Name': '艾瑪佛斯特',
+                'From': '鳳凰5人組',
+                'Icon': 'EmmaFrost/PhoenixFive',
             }
         ]
     },
